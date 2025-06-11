@@ -541,6 +541,20 @@
 		)
 		(uuid d8a608aa-d710-4d73-9273-2b52adac6230)
 	)
+	(text "Page 6"
+		(exclude_from_sim no)
+		(at 163.322 101.092 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 49 70 1)
+			)
+			(justify right bottom)
+			(href "#6")
+		)
+		(uuid "1922956f-3f91-4ebe-8ca1-58fcbd88de7f")
+	)
 	(text "Page 4"
 		(exclude_from_sim no)
 		(at 236.22 66.04 0)
@@ -1040,6 +1054,48 @@
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 83.82)
+		(size 25.4 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f0b96cfe-068a-45fa-bc41-bcde35a89043")
+		(property "Sheetname" "NASDrives"
+			(at 138.43 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NASDrives.kicad_sch"
+			(at 138.43 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "6")
 				)
 			)
 		)

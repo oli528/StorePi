@@ -699,7 +699,7 @@
 		)
 		(uuid "29f18459-3b0c-4e53-a96d-cae677d37f45")
 	)
-	(text_box "Page 8"
+	(text_box "Page 6"
 		(exclude_from_sim no)
 		(at 302.006 97.028 0)
 		(size 17.78 5.08)
@@ -720,7 +720,7 @@
 				(color 0 0 0 1)
 			)
 			(justify left top)
-			(href "#8")
+			(href "#6")
 		)
 		(uuid "2c748904-640a-4790-9cd3-81e6145a1f3e")
 	)
@@ -979,6 +979,31 @@
 		)
 		(uuid "68649da4-f68d-4ed5-8365-8f0b566e83f2")
 	)
+	(text_box "Page 5"
+		(exclude_from_sim no)
+		(at 157.48 78.74 0)
+		(size 24.765 5.08)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#5")
+		)
+		(uuid "6e541971-bcb9-4068-a9d3-38fe469fd6b9")
+	)
 	(text_box "PCIE > x2 M.2"
 		(exclude_from_sim no)
 		(at 302.006 111.633 0)
@@ -1165,6 +1190,30 @@
 			(justify left top)
 		)
 		(uuid "95b75913-46be-4d10-99cf-a43e95aedcc0")
+	)
+	(text_box "Page 4"
+		(exclude_from_sim no)
+		(at 157.48 73.66 0)
+		(size 24.765 5.08)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "96a68205-fb2f-420b-ad5e-03d567bd8384")
 	)
 	(text_box "Page 6"
 		(exclude_from_sim no)
