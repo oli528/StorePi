@@ -10462,6 +10462,19 @@
 		(uuid 9c11a7d3-7abd-4b44-8eb1-7d61dfd2c8bb)
 	)
 	(rectangle
+		(start 29.21 179.07)
+		(end 66.04 203.2)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a111e009-9da6-4736-89fd-59918086b4d6)
+	)
+	(rectangle
 		(start 166.37 106.68)
 		(end 222.25 142.24)
 		(stroke
@@ -10475,8 +10488,21 @@
 		(uuid c8559d3e-5518-4d0b-8050-b583a0329f03)
 	)
 	(rectangle
-		(start 100.33 213.36)
-		(end 149.86 221.615)
+		(start 69.85 179.07)
+		(end 92.71 203.2)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c957646a-924a-4482-a6b1-20cc1953cfa4)
+	)
+	(rectangle
+		(start 99.06 179.07)
+		(end 135.89 210.82)
 		(stroke
 			(width 1)
 			(type default)
@@ -10519,6 +10545,7 @@
 		(at 206.375 110.49 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 				(color 162 22 34 1)
 			)
@@ -10550,29 +10577,19 @@
 		)
 		(uuid "4e4c5887-7bd1-486e-be64-d5d1672b7713")
 	)
-	(text "CM5Lite SDCARD I/F"
+	(text "POWER BUTTON"
 		(exclude_from_sim no)
-		(at 260.35 109.22 0)
+		(at 44.704 183.388 0)
 		(effects
 			(font
-				(size 2.007 2.007)
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(bold yes)
 				(color 162 22 34 1)
 			)
 			(justify left bottom)
 		)
-		(uuid "6bccb805-eac4-49a2-b30b-955eaf052c41")
-	)
-	(text "GPIO Voltage select\n"
-		(exclude_from_sim no)
-		(at 220.98 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 162 22 34 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "702b01ac-2ddd-4c8a-9d56-09f0936b4a4f")
+		(uuid "74aefd09-9f9e-452b-8f61-102a1e2ffbbd")
 	)
 	(text "Ethernet POE\nProtection"
 		(exclude_from_sim no)
@@ -10586,24 +10603,14 @@
 		)
 		(uuid "76fd4399-eac7-4748-8798-e672cd69caa8")
 	)
-	(text "40Way GPIO Header"
-		(exclude_from_sim no)
-		(at 196.85 19.05 0)
-		(effects
-			(font
-				(size 2.007 2.007)
-				(color 162 22 34 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "92e1e362-004f-43e2-8e83-84311ab629f3")
-	)
 	(text "FAN connector\n"
 		(exclude_from_sim no)
-		(at 113.792 184.15 0)
+		(at 109.474 182.88 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(bold yes)
 				(color 162 22 34 1)
 			)
 			(justify left bottom)
@@ -10637,6 +10644,20 @@
 		)
 		(uuid "d549cbdd-cfe8-45ff-b625-d2d385434643")
 	)
+	(text "RTC BAT"
+		(exclude_from_sim no)
+		(at 75.946 183.642 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6403506-aa9e-4547-aa72-cbce89f85da8")
+	)
 	(text "Flexible I/O source configuration"
 		(exclude_from_sim no)
 		(at 265.43 256.54 0)
@@ -10650,6 +10671,52 @@
 			(href "https://jpieper.com/2022/06/28/flexible-i-o-source-configuration/")
 		)
 		(uuid "ff128f57-01dd-404e-9bb2-8208299d438c")
+	)
+	(text_box "GPIO Voltage Select"
+		(exclude_from_sim no)
+		(at 129.54 79.375 0)
+		(size 167.64 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "20ca51ca-62a8-4abd-9e4d-c014cccd425a")
+	)
+	(text_box "CM5Lite SDCARD I/F"
+		(exclude_from_sim no)
+		(at 254 99.695 0)
+		(size 40.64 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "32587ad6-a623-4f11-8115-0aec663c8478")
 	)
 	(text_box "CM5 GPIO"
 		(exclude_from_sim no)
@@ -10698,10 +10765,33 @@
 		)
 		(uuid "4639b2a7-6441-436d-9518-193c42594b2b")
 	)
+	(text_box "40Way GPIO Header"
+		(exclude_from_sim no)
+		(at 190.5 12.065 0)
+		(size 43.18 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "501976db-7dc9-493a-890a-c27e1b99a885")
+	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
-		(at 110.49 11.43 0)
-		(size 96.52 12.7)
+		(at 127 11.43 0)
+		(size 71.12 12.7)
 		(margins 5.9999 5.9999 5.9999 5.9999)
 		(stroke
 			(width -0.0001)
@@ -10737,8 +10827,7 @@
 			(font
 				(face "Times New Roman")
 				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
+				(thickness 0.3175)
 				(color 162 22 34 1)
 			)
 			(justify bottom)
@@ -11081,7 +11170,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 186.69) (xy 43.18 186.69)
+			(xy 31.75 185.42) (xy 38.1 185.42)
 		)
 		(stroke
 			(width 0)
@@ -11881,16 +11970,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 148.59) (xy 40.64 148.59)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "4c031b31-0c51-46a7-8451-278939c61fe4")
-	)
-	(wire
-		(pts
 			(xy 39.37 54.61) (xy 39.37 67.31)
 		)
 		(stroke
@@ -12138,16 +12217,6 @@
 			(type solid)
 		)
 		(uuid "5e9e38cc-e135-48d5-a677-246af3f2b14a")
-	)
-	(wire
-		(pts
-			(xy 26.67 146.05) (xy 40.64 146.05)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "5f5477dc-b6f7-42a4-83da-83ba175e0bed")
 	)
 	(wire
 		(pts
@@ -13889,16 +13958,6 @@
 		)
 		(uuid "04f96eaf-aebd-4073-a9a7-d6ecd6666c09")
 	)
-	(label "CC2"
-		(at 29.21 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0538ccec-4812-43b0-870d-6cf504f139d1")
-	)
 	(label "GPIO25"
 		(at 228.6 49.53 180)
 		(effects
@@ -14829,16 +14888,6 @@
 		)
 		(uuid "a5887c11-387a-47ea-9509-0dce6188e22a")
 	)
-	(label "CC1"
-		(at 29.21 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a5cd1ce2-3ce8-44a6-b821-e937375fd60c")
-	)
 	(label "GPIO15"
 		(at 228.6 34.29 180)
 		(effects
@@ -15140,7 +15189,7 @@
 		(uuid "d27ebd75-3627-4bf2-adb9-c1791a401be6")
 	)
 	(label "PWR_BUT"
-		(at 36.83 186.69 0)
+		(at 31.75 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15379,17 +15428,6 @@
 		)
 		(uuid "fd965729-126a-4f1c-85e4-4646c9601021")
 	)
-	(hierarchical_label "CC2"
-		(shape output)
-		(at 26.67 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "00dfb77a-f987-4eb0-819a-877d9723c1fa")
-	)
 	(hierarchical_label "ID_SD"
 		(shape output)
 		(at 25.4 72.39 180)
@@ -15400,17 +15438,6 @@
 			(justify right)
 		)
 		(uuid "3d2b9c98-ab4e-40ed-8a35-ac43d9bcf10a")
-	)
-	(hierarchical_label "CC1"
-		(shape output)
-		(at 26.67 146.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46f27eed-1d1b-404d-a5f4-66aaefb831a8")
 	)
 	(hierarchical_label "SDA0"
 		(shape output)
@@ -19348,7 +19375,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 43.18 191.77 270)
+		(at 38.1 190.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19356,7 +19383,7 @@
 		(dnp no)
 		(uuid "6d6b7ec1-ac41-45c8-9cb4-3895d23e2861")
 		(property "Reference" "SW1"
-			(at 46.99 190.4999 90)
+			(at 41.91 189.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19365,7 +19392,7 @@
 			)
 		)
 		(property "Value" "Right angle Tact button"
-			(at 46.99 193.294 90)
+			(at 41.91 192.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19374,7 +19401,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
-			(at 48.26 191.77 0)
+			(at 43.18 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19383,7 +19410,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/240/Littelfuse-3050591.pdf"
-			(at 48.26 191.77 0)
+			(at 43.18 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19392,7 +19419,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 43.18 191.77 0)
+			(at 38.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19401,7 +19428,7 @@
 			)
 		)
 		(property "Field5" "PTS645VH58-2LFS"
-			(at 43.18 191.77 0)
+			(at 38.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19410,7 +19437,7 @@
 			)
 		)
 		(property "Field6" "PTS645VH58-2LFS"
-			(at 43.18 191.77 0)
+			(at 38.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19419,7 +19446,7 @@
 			)
 		)
 		(property "Field7" "CK"
-			(at 43.18 191.77 0)
+			(at 38.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19428,7 +19455,7 @@
 			)
 		)
 		(property "Part Description" "Right angle through hole Tact switch"
-			(at 43.18 191.77 0)
+			(at 38.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20333,7 +20360,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 196.85 0)
+		(at 38.1 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20341,7 +20368,7 @@
 		(dnp no)
 		(uuid "f06f18a3-c0e2-4ed0-947a-3f143345d5ab")
 		(property "Reference" "#PWR030"
-			(at 43.18 203.2 0)
+			(at 38.1 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20350,7 +20377,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.307 201.2442 0)
+			(at 38.227 199.9742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20358,7 +20385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 196.85 0)
+			(at 38.1 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20367,7 +20394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 196.85 0)
+			(at 38.1 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20376,7 +20403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 196.85 0)
+			(at 38.1 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

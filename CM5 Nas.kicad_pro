@@ -517,7 +517,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -674,6 +673,10 @@
     [
       "e6015f1e-cbce-46f4-85e1-3d5463a17dc1",
       "CM5_GPIO"
+    ],
+    [
+      "3838f96b-aabd-4e80-8b25-6301712882d2",
+      "Drives"
     ],
     [
       "e7c91631-be85-488a-af7a-f2a810f3fbfe",

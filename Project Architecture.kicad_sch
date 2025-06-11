@@ -11,6 +11,302 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -436,24 +732,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(arc
-		(start 243.86 96.5)
-		(mid 244.2349 95.6049)
-		(end 245.13 95.23)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 055071ba-7216-47dc-af92-e615f4e56e85)
-	)
-	(arc
-		(start 195.58 55.88)
-		(mid 195.2051 56.7751)
-		(end 194.31 57.15)
+		(start 35.56 27.94)
+		(mid 35.1851 28.8351)
+		(end 34.29 29.21)
 		(stroke
 			(width 0)
 			(type default)
@@ -464,22 +931,9 @@
 		(uuid 463357f7-f9d2-46fa-b0b6-a6251e6ce150)
 	)
 	(arc
-		(start 241.32 82.53)
-		(mid 243.1102 83.2798)
-		(end 243.86 85.07)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 73f6865c-4f24-4b13-a9e7-cf8bfa00ee32)
-	)
-	(arc
-		(start 194.31 57.15)
-		(mid 195.2051 57.5249)
-		(end 195.58 58.42)
+		(start 34.29 29.21)
+		(mid 35.1851 29.5849)
+		(end 35.56 30.48)
 		(stroke
 			(width 0)
 			(type default)
@@ -490,35 +944,9 @@
 		(uuid a134b516-cfaf-437e-b6e0-fd4fe5086d29)
 	)
 	(arc
-		(start 243.86 105.39)
-		(mid 243.1161 107.1861)
-		(end 241.32 107.93)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a8227c96-ad98-472e-856e-98a46a3c9121)
-	)
-	(arc
-		(start 245.13 95.23)
-		(mid 244.2349 94.8551)
-		(end 243.86 93.96)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid cc4cf7fb-4bd9-4be9-81d7-4f1f2d80469e)
-	)
-	(arc
-		(start 195.58 44.45)
-		(mid 196.3239 42.6539)
-		(end 198.12 41.91)
+		(start 35.56 16.51)
+		(mid 36.3039 14.7139)
+		(end 38.1 13.97)
 		(stroke
 			(width 0)
 			(type default)
@@ -529,9 +957,9 @@
 		(uuid d1fe5f0f-24cb-4f3d-baf1-1b36c0a6f68e)
 	)
 	(arc
-		(start 198.12 72.39)
-		(mid 196.3298 71.6402)
-		(end 195.58 69.85)
+		(start 38.1 44.45)
+		(mid 36.3098 43.7002)
+		(end 35.56 41.91)
 		(stroke
 			(width 0)
 			(type default)
@@ -543,7 +971,7 @@
 	)
 	(text "Page 4"
 		(exclude_from_sim no)
-		(at 236.22 66.04 0)
+		(at 229.362 160.02 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -557,7 +985,7 @@
 	)
 	(text "Page 5"
 		(exclude_from_sim no)
-		(at 236.22 104.14 0)
+		(at 230.378 239.014 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -571,7 +999,7 @@
 	)
 	(text_box "Description"
 		(exclude_from_sim no)
-		(at 176.53 54.61 0)
+		(at 16.51 26.67 0)
 		(size 17.145 5.08)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -594,7 +1022,7 @@
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
-		(at 144.78 20.32 0)
+		(at 144.78 16.51 0)
 		(size 130.81 12.7)
 		(margins 5.9999 5.9999 5.9999 5.9999)
 		(stroke
@@ -615,32 +1043,245 @@
 		)
 		(uuid "7fa5cc40-6c97-487c-9cc7-412504f68533")
 	)
-	(text_box "Description"
-		(exclude_from_sim no)
-		(at 245.11 92.71 0)
-		(size 26.015 5.1)
-		(margins 1.4287 1.4287 1.4287 1.4287)
+	(junction
+		(at 95.25 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0037be32-ed00-46e6-9811-2d503d5f3929")
+	)
+	(junction
+		(at 125.73 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1947321a-0859-47ef-a37f-7fa0af9dcfae")
+	)
+	(junction
+		(at 115.57 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ab1cac9-d2ac-4f2b-8fee-5205f3e0c9b6")
+	)
+	(junction
+		(at 105.41 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1edbc712-80bd-4a63-ba46-27a1f6674c9c")
+	)
+	(junction
+		(at 115.57 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24fcd262-8882-4dd2-9625-200eb9c851ba")
+	)
+	(junction
+		(at 85.09 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31a5e5e5-d791-4d01-bd78-5d2e9ef9fd61")
+	)
+	(junction
+		(at 52.07 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39ce6cec-0dcd-4ab6-b878-665f3472d94f")
+	)
+	(junction
+		(at 105.41 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b362793-5bd1-4bc1-ba94-1f7e7b4b7506")
+	)
+	(junction
+		(at 85.09 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b717beb-d999-4d9e-87fb-e390cb4ca3c2")
+	)
+	(junction
+		(at 63.5 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "520f2e01-4f5b-4ec7-b0c2-9f35d64c42f6")
+	)
+	(junction
+		(at 115.57 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "586df78c-b51e-44ee-9705-eb4eee3ec4f2")
+	)
+	(junction
+		(at 34.29 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66d97ac5-7281-46ac-8879-8a0e524c8e43")
+	)
+	(junction
+		(at 74.93 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69985e77-1ae9-4f00-b358-cf79069d19c1")
+	)
+	(junction
+		(at 95.25 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e3e26f7-4add-4305-a513-2d71970aea66")
+	)
+	(junction
+		(at 63.5 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f01b7ce-304b-4f95-ad50-47186fdfb879")
+	)
+	(junction
+		(at 95.25 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70591f12-533c-41b2-8994-69b26ee25780")
+	)
+	(junction
+		(at 85.09 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "714041c7-4c9c-4734-be2a-5e497c5a548f")
+	)
+	(junction
+		(at 63.5 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7952b4e9-f4d4-414f-8fa6-a833a36f5344")
+	)
+	(junction
+		(at 115.57 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a2966b6-2723-468e-8756-fe422441c261")
+	)
+	(junction
+		(at 125.73 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7df77833-f4fa-4171-83d0-a741474e1afc")
+	)
+	(junction
+		(at 63.5 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f9f5d4b-120a-492c-bf50-3bcb685d1b39")
+	)
+	(junction
+		(at 74.93 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d0cc4b9-9a41-4856-885a-fa592fc38d5a")
+	)
+	(junction
+		(at 52.07 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a267b895-1e7a-4cb3-9009-00adf778aa3a")
+	)
+	(junction
+		(at 105.41 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acbb1d33-0ddf-47dc-8d8e-04515b080bda")
+	)
+	(junction
+		(at 125.73 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad80fac5-4813-494a-ba47-397c4e6cd4a1")
+	)
+	(junction
+		(at 95.25 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b35ea0f0-b1cf-4051-930a-fe96ca27e025")
+	)
+	(junction
+		(at 105.41 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba741135-3c97-4254-a450-8c7b838c081f")
+	)
+	(junction
+		(at 74.93 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd44bf2e-d44c-4663-a836-2417858ae39e")
+	)
+	(junction
+		(at 125.73 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd9f3faa-6e17-4de5-a73b-13e10b7b5325")
+	)
+	(junction
+		(at 85.09 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f484048f-ae1e-4287-8861-eb00aaf55641")
+	)
+	(junction
+		(at 74.93 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5ab15d5-99f4-4266-9ea2-48f1524cb6a7")
+	)
+	(wire
+		(pts
+			(xy 52.07 63.5) (xy 63.5 63.5)
+		)
 		(stroke
-			(width -0.0001)
+			(width 0)
 			(type default)
 		)
-		(fill
-			(type none)
+		(uuid "04eb379e-b8ae-48ad-b3e4-6382be955787")
+	)
+	(wire
+		(pts
+			(xy 125.73 71.12) (xy 115.57 71.12)
 		)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.381)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "ea2adac5-d133-46b2-a7ff-14a70e2ad344")
+		(uuid "0a6c19b2-3554-4e36-8312-f4fc05d15cb2")
+	)
+	(wire
+		(pts
+			(xy 125.73 63.5) (xy 135.89 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116f4feb-8161-4ea1-a929-56b62ed5ce1b")
+	)
+	(wire
+		(pts
+			(xy 189.23 161.29) (xy 189.23 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126f9a71-f98c-4700-8a4e-4aa264a967b9")
+	)
+	(wire
+		(pts
+			(xy 287.02 68.58) (xy 297.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15045ef8-e55a-45f6-8c69-2e4856964125")
 	)
 	(polyline
 		(pts
-			(xy 195.58 58.42) (xy 195.58 69.85)
+			(xy 35.56 30.48) (xy 35.56 41.91)
 		)
 		(stroke
 			(width 0)
@@ -648,9 +1289,59 @@
 		)
 		(uuid "1e3c70a2-22df-46ef-a52f-0f821498dc0c")
 	)
+	(wire
+		(pts
+			(xy 46.99 71.12) (xy 52.07 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2194025c-1a43-4119-81f0-ca98026dc01c")
+	)
+	(wire
+		(pts
+			(xy 85.09 63.5) (xy 95.25 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee613d9-b0ef-4191-ad55-1b265905ad79")
+	)
+	(wire
+		(pts
+			(xy 85.09 63.5) (xy 74.93 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f6f3d7e-0170-44e0-9089-c3fbb2fa8dea")
+	)
+	(wire
+		(pts
+			(xy 231.14 67.31) (xy 259.08 67.31)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "30402fc6-90e0-49e1-9320-2fe31b7e9f35")
+	)
+	(wire
+		(pts
+			(xy 137.795 146.05) (xy 151.13 146.05)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "3862f27c-3700-4206-88d5-a10627de3c47")
+	)
 	(polyline
 		(pts
-			(xy 195.58 55.88) (xy 195.58 44.45)
+			(xy 35.56 27.94) (xy 35.56 16.51)
 		)
 		(stroke
 			(width 0)
@@ -658,54 +1349,716 @@
 		)
 		(uuid "41045457-e885-4cf4-93f2-cdba80791e7b")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 243.84 85.09) (xy 243.84 93.98)
+			(xy 231.14 71.12) (xy 259.08 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f799f7d-3b4c-429a-be80-1688600486e9")
+		(uuid "41bcdab0-c76c-4fd8-8e7f-3e49a674ad2a")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 243.84 96.52) (xy 243.84 105.41)
+			(xy 52.07 71.12) (xy 63.5 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f890bb63-7be7-434c-9d54-8102b0d37829")
+		(uuid "42db5343-1e98-4e36-b814-da0137c2de21")
+	)
+	(wire
+		(pts
+			(xy 125.73 55.88) (xy 135.89 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b79883-f797-40d5-8c56-6af7502f533f")
+	)
+	(wire
+		(pts
+			(xy 231.14 41.91) (xy 259.08 41.91)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4bbc87ac-fe53-444c-a080-a1ce403a4f0e")
+	)
+	(wire
+		(pts
+			(xy 231.14 49.53) (xy 259.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5a5e1740-6032-4052-a90d-3501a2509145")
+	)
+	(wire
+		(pts
+			(xy 177.8 161.29) (xy 177.8 176.53)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6062c01b-6344-4b7c-8059-9c761fdfd38c")
+	)
+	(wire
+		(pts
+			(xy 105.41 71.12) (xy 95.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678bc568-df85-4802-b509-e132a6896006")
+	)
+	(wire
+		(pts
+			(xy 231.14 203.2) (xy 240.03 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a350ce3-de25-477a-b2a4-deb225edd9cf")
+	)
+	(wire
+		(pts
+			(xy 85.09 55.88) (xy 74.93 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6cf675-2a5c-4d74-b82b-ed3660e7d348")
+	)
+	(wire
+		(pts
+			(xy 137.795 142.24) (xy 151.13 142.24)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6cd80ccd-053e-4c6f-9235-625a14b66367")
+	)
+	(wire
+		(pts
+			(xy 105.41 78.74) (xy 115.57 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7096350a-be49-420c-b209-4ac1ad7e30b2")
+	)
+	(wire
+		(pts
+			(xy 125.73 55.88) (xy 115.57 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f6663d-df9c-42ad-a95b-3952a7a8fe1b")
+	)
+	(wire
+		(pts
+			(xy 30.48 59.69) (xy 30.48 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "823b1813-31e4-4072-a56e-89e1e64b5f7e")
+	)
+	(wire
+		(pts
+			(xy 95.25 55.88) (xy 85.09 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87fd9355-40a4-47fd-8647-950fb2ef2e37")
+	)
+	(wire
+		(pts
+			(xy 74.93 78.74) (xy 63.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887f5bc5-bea1-49dc-ada4-1c1565dbf80d")
+	)
+	(wire
+		(pts
+			(xy 194.31 161.29) (xy 194.31 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc2dab7-8170-4b31-bc21-dbd55a693a17")
+	)
+	(wire
+		(pts
+			(xy 231.14 44.45) (xy 259.08 44.45)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "921e902f-efd7-41bb-a636-25db87bdffd9")
+	)
+	(wire
+		(pts
+			(xy 85.09 71.12) (xy 74.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92aed083-56e8-411e-98ae-2c982a9f7b80")
+	)
+	(wire
+		(pts
+			(xy 231.14 55.88) (xy 259.08 55.88)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "9450dbfd-e033-4c20-807b-a56d9e6a3b03")
+	)
+	(wire
+		(pts
+			(xy 85.09 78.74) (xy 74.93 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9601bc86-ac42-4302-bfd3-a398dd4f8f58")
+	)
+	(wire
+		(pts
+			(xy 46.99 55.88) (xy 52.07 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9762a740-9f6f-4044-ae30-5cd8cdb51e7f")
+	)
+	(wire
+		(pts
+			(xy 30.48 64.77) (xy 36.83 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b5488d-eacd-4849-bd52-ea2d71fc3afd")
+	)
+	(wire
+		(pts
+			(xy 115.57 63.5) (xy 125.73 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ad4c05-bfc8-407f-b888-98484b369155")
+	)
+	(wire
+		(pts
+			(xy 63.5 71.12) (xy 74.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99917533-e227-4b54-8153-038467da4a92")
+	)
+	(wire
+		(pts
+			(xy 135.89 71.12) (xy 125.73 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef60b79-fcd6-4f8a-874b-863a8ccc4e87")
+	)
+	(wire
+		(pts
+			(xy 34.29 62.23) (xy 34.29 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a39f4247-2d4a-45c0-9cfe-88e9f8d66af9")
+	)
+	(wire
+		(pts
+			(xy 212.09 161.29) (xy 212.09 176.53)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a4d83ba4-7071-4eb5-9c53-045b1f5e0fc6")
+	)
+	(wire
+		(pts
+			(xy 287.02 63.5) (xy 297.18 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e81b73-6bd6-4787-95dd-5f28ea81fa64")
+	)
+	(wire
+		(pts
+			(xy 115.57 78.74) (xy 125.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79ed48f-1a7e-4b63-806f-be2761da7710")
+	)
+	(wire
+		(pts
+			(xy 231.14 208.28) (xy 240.03 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8dd8a6a-c2a6-4c09-bcef-aa9b8a904e41")
+	)
+	(wire
+		(pts
+			(xy 30.48 55.88) (xy 39.37 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae1b1494-5432-45b4-b7c9-7b420338a1ce")
+	)
+	(wire
+		(pts
+			(xy 52.07 55.88) (xy 63.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee99a68-081b-443b-af7a-f2a9d3c0e2b7")
+	)
+	(wire
+		(pts
+			(xy 95.25 63.5) (xy 105.41 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afff9c66-346c-4b3f-9a98-ed19ffc48233")
+	)
+	(wire
+		(pts
+			(xy 34.29 67.31) (xy 34.29 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00639ae-a05a-4dcf-83de-271ce4c42f25")
+	)
+	(wire
+		(pts
+			(xy 181.61 161.29) (xy 181.61 176.53)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b06094cd-4395-4ed5-bb7a-7c1b5559e075")
+	)
+	(wire
+		(pts
+			(xy 231.14 52.07) (xy 259.08 52.07)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b09a3185-7f3e-4285-9d3f-5744e61f3178")
+	)
+	(wire
+		(pts
+			(xy 231.14 74.93) (xy 259.08 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc84a7e6-558d-4175-8392-5d97f9168270")
+	)
+	(wire
+		(pts
+			(xy 30.48 62.23) (xy 34.29 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be586336-ed42-4b67-8595-0bbe76c043e6")
+	)
+	(wire
+		(pts
+			(xy 95.25 71.12) (xy 85.09 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2842422-3b21-4270-b906-29337b22bd02")
+	)
+	(wire
+		(pts
+			(xy 231.14 58.42) (xy 259.08 58.42)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "c591dedd-139f-4c76-9da0-769a46cceb4c")
+	)
+	(wire
+		(pts
+			(xy 166.37 161.29) (xy 166.37 176.53)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "c72e6230-b65a-426a-ad65-6684221021a0")
+	)
+	(wire
+		(pts
+			(xy 36.83 64.77) (xy 36.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5caea28-85ee-4116-8289-6ff61fed3cf3")
+	)
+	(wire
+		(pts
+			(xy 231.14 199.39) (xy 240.03 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70fb989-957e-4cb8-b450-64a5d07aa3e0")
+	)
+	(wire
+		(pts
+			(xy 63.5 55.88) (xy 74.93 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dccdf85d-866c-4eaa-ae1c-850562c8d821")
+	)
+	(wire
+		(pts
+			(xy 170.18 161.29) (xy 170.18 176.53)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e15332c2-3143-40a5-8fc4-182c922dfe34")
+	)
+	(wire
+		(pts
+			(xy 105.41 63.5) (xy 115.57 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4df2960-4214-4bcd-a2c7-8ffbad3ca05e")
+	)
+	(wire
+		(pts
+			(xy 74.93 63.5) (xy 63.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ec2f1a-ec5a-44df-9cdd-12df74aec28d")
+	)
+	(wire
+		(pts
+			(xy 105.41 55.88) (xy 95.25 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55af700-5564-4005-b893-26e25b5a1df3")
+	)
+	(wire
+		(pts
+			(xy 52.07 78.74) (xy 63.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a03825-9159-45f3-9bc5-fe47776840b2")
+	)
+	(wire
+		(pts
+			(xy 231.14 63.5) (xy 259.08 63.5)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e7432431-8e16-4969-8f05-1de0067f7b2f")
+	)
+	(wire
+		(pts
+			(xy 125.73 78.74) (xy 135.89 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7589ba5-4b5a-4e25-b642-c94f0a2cacf4")
+	)
+	(wire
+		(pts
+			(xy 115.57 71.12) (xy 105.41 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f8d463-ad8c-4fd6-ba79-b54bb754fac1")
+	)
+	(wire
+		(pts
+			(xy 30.48 67.31) (xy 34.29 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9ec94d-e95d-4a07-a78f-b3069465b8f8")
+	)
+	(wire
+		(pts
+			(xy 36.83 71.12) (xy 39.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecee6ba6-9eba-422f-aa38-53f9ac467910")
+	)
+	(wire
+		(pts
+			(xy 201.93 161.29) (xy 201.93 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f910c1a0-9c97-4d80-835d-5e8d9acb1dbe")
+	)
+	(wire
+		(pts
+			(xy 115.57 55.88) (xy 105.41 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c1301f-8bf8-4166-b388-895ad7cb8955")
+	)
+	(wire
+		(pts
+			(xy 85.09 78.74) (xy 95.25 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3c10d7-4b0d-48aa-b1f3-4792f53e7a25")
+	)
+	(wire
+		(pts
+			(xy 95.25 78.74) (xy 105.41 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc1ef4a-114a-40e6-8341-09559c220b94")
+	)
+	(label "+5v"
+		(at 292.1 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f68ab50-9809-4c1a-b0e3-345bd7ea0e2b")
+	)
+	(label "CM5+5v"
+		(at 233.68 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3377ff7c-58e1-44b8-8aa5-fc023d9d9d68")
+	)
+	(label "+5v"
+		(at 142.24 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f4823cf-e27e-4242-855b-daa1467d84a1")
+	)
+	(label "+3.3v"
+		(at 233.68 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45743f8c-fc64-4e32-b7f3-7a8cebd87184")
+	)
+	(label "+5v"
+		(at 233.68 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48668356-5b59-45a7-b6d9-df22771acffc")
+	)
+	(label "+12v"
+		(at 292.1 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6db8c8f0-4ff6-4ba7-95f4-1ae2cfaff29e")
+	)
+	(label "+5v"
+		(at 135.89 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a55fa125-51a4-4fba-87fd-5cb3d665ffd3")
+	)
+	(label "+12v"
+		(at 135.89 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b24352b6-f8e9-449d-91da-7a5243ae46d1")
+	)
+	(label "+3.3v"
+		(at 142.24 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efed65e8-8b44-442b-a308-ffce427f4171")
+	)
+	(hierarchical_label "+12v"
+		(shape input)
+		(at 287.02 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8053f30-3c01-45fb-9b82-54dd4598ed68")
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 82.55 69.85 90)
+		(lib_id "Mechanical:MountingHole")
+		(at 16.51 280.67 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8624993d-150d-4f90-90c6-217c213bd267")
-		(property "Reference" "F1"
-			(at 82.55 63.5 90)
+		(dnp yes)
+		(uuid "00000000-0000-0000-0000-00005e3b1a1d")
+		(property "Reference" "H4"
+			(at 19.05 279.527 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 82.55 66.04 90)
+		(property "Value" "MountingHole"
+			(at 19.05 281.813 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 82.55 71.628 90)
+		(property "Footprint" "CM5IO:MountingHole_2.7mm_M2.5_DIN965"
+			(at 16.51 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,7 +2067,869 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 69.85 0)
+			(at 16.51 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 16.51 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" "nf"
+			(at 16.51 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "nf"
+			(at 16.51 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "nf"
+			(at 16.51 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "nf"
+			(at 16.51 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "M2.5 mounting hole"
+			(at 16.51 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 16.51 275.59 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "00000000-0000-0000-0000-00005e3b25a9")
+		(property "Reference" "H3"
+			(at 19.05 274.447 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 19.05 276.733 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CM5IO:MountingHole_2.7mm_M2.5_DIN965"
+			(at 16.51 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 16.51 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" "nf"
+			(at 16.51 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "nf"
+			(at 16.51 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "nf"
+			(at 16.51 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "nf"
+			(at 16.51 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "M2.5 mounting hole"
+			(at 16.51 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 16.51 270.51 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "00000000-0000-0000-0000-00005e3b2cb2")
+		(property "Reference" "H2"
+			(at 19.05 269.367 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 19.05 271.653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CM5IO:MountingHole_2.7mm_M2.5_DIN965"
+			(at 16.51 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 16.51 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" "nf"
+			(at 16.51 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "nf"
+			(at 16.51 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "nf"
+			(at 16.51 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "nf"
+			(at 16.51 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "M2.5 mounting hole"
+			(at 16.51 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 16.51 265.43 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "00000000-0000-0000-0000-00005e3b2f75")
+		(property "Reference" "H1"
+			(at 19.05 264.287 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 19.05 266.573 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CM5IO:MountingHole_2.7mm_M2.5_DIN965"
+			(at 16.51 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 16.51 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" "nf"
+			(at 16.51 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "nf"
+			(at 16.51 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "nf"
+			(at 16.51 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "nf"
+			(at 16.51 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "M2.5 mounting hole"
+			(at 16.51 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 37.465 265.43 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "00000000-0000-0000-0000-00005e3b32fa")
+		(property "Reference" "H5"
+			(at 40.005 264.287 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 40.005 266.573 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CM5IO:MountingHole_2.7mm_M2.5_DIN965"
+			(at 37.465 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 37.465 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 37.465 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" "nf"
+			(at 37.465 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "nf"
+			(at 37.465 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "nf"
+			(at 37.465 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "nf"
+			(at 37.465 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "M2.5 mounting hole"
+			(at 37.465 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 37.465 280.67 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "00000000-0000-0000-0000-00005e3b330c")
+		(property "Reference" "H8"
+			(at 40.005 279.527 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 40.005 281.813 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CM5IO:MountingHole_2.7mm_M2.5_DIN965"
+			(at 37.465 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 37.465 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 37.465 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" "nf"
+			(at 37.465 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "nf"
+			(at 37.465 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "nf"
+			(at 37.465 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "nf"
+			(at 37.465 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "M2.5 mounting hole"
+			(at 37.465 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 37.465 275.59 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "00000000-0000-0000-0000-00005e3b331e")
+		(property "Reference" "H7"
+			(at 40.005 274.447 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 40.005 276.733 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CM5IO:MountingHole_2.7mm_M2.5_DIN965"
+			(at 37.465 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 37.465 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 37.465 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" "nf"
+			(at 37.465 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "nf"
+			(at 37.465 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "nf"
+			(at 37.465 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "nf"
+			(at 37.465 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "M2.5 mounting hole"
+			(at 37.465 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 37.465 270.51 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "00000000-0000-0000-0000-00005e3b3330")
+		(property "Reference" "H6"
+			(at 40.005 269.367 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 40.005 271.653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CM5IO:MountingHole_2.7mm_M2.5_DIN965"
+			(at 37.465 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 37.465 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 37.465 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" "nf"
+			(at 37.465 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "nf"
+			(at 37.465 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "nf"
+			(at 37.465 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "nf"
+			(at 37.465 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "M2.5 mounting hole"
+			(at 37.465 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 43.18 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0adba810-970c-40bd-9faf-30d3e503f6e4")
+		(property "Reference" "F2"
+			(at 43.18 51.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 43.18 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +2938,695 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 82.55 69.85 0)
+			(at 43.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86eb48fc-a83a-4a65-abd6-a31b67b79684")
+		)
+		(pin "2"
+			(uuid "97f3a51c-d5fb-429b-afea-1f60a02fb6a3")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bafd847-ff46-4289-8090-f0078e880dbd")
+		(property "Reference" "C22"
+			(at 139.7 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 139.7 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 136.8552 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.89 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df3ea3fa-164a-48f6-a2cf-6ee76dee7eb4")
+		)
+		(pin "1"
+			(uuid "d2fbfe57-f2e0-427d-a9fd-336a7177fe01")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 63.5 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "315e8fc6-7e25-435c-a2ab-ab6d53db6401")
+		(property "Reference" "C4"
+			(at 67.31 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000n"
+			(at 66.294 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.4652 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 63.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8ea9122-6623-42bb-a6df-c4d9bf0d81f6")
+		)
+		(pin "1"
+			(uuid "8568db19-d3ff-4fd2-8921-258b8f3f33d7")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3518bd99-925e-4ad8-a1d5-83da7de7ede7")
+		(property "Reference" "C14"
+			(at 129.54 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 129.54 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 126.6952 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "67999b08-4fb9-4726-a32b-cc344f22bd6e")
+		)
+		(pin "1"
+			(uuid "d59dfcd4-c86d-40e0-bf16-c4318f9b2316")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3db2f246-641b-4517-8cb4-aebb13bd4e62")
+		(property "Reference" "#PWR03"
+			(at 95.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "131c21c6-471e-4aca-90b4-08e87b275b9a")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5096d8a2-66c0-4023-86a0-b12b21b8e0e0")
+		(property "Reference" "C16"
+			(at 88.9 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 88.9 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.0552 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f26a4f1-6fa3-4091-a336-499e1fc693bc")
+		)
+		(pin "1"
+			(uuid "0a22db40-ce56-486b-bc3f-821bb0790bda")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b96134b-6fd0-45d3-b60f-13fce3ba412c")
+		(property "Reference" "C15"
+			(at 139.7 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 139.7 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 136.8552 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bfbd58f8-e9e8-4a76-9645-9bf6f0fe9248")
+		)
+		(pin "1"
+			(uuid "da7d7e98-276a-4e05-ba19-a981d80af399")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f147bcf-0da4-40c6-9c4e-57e6a3f52b67")
+		(property "Reference" "C7"
+			(at 88.9 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 88.9 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.0552 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c35c8b9-c75c-4498-b114-497fe736138d")
+		)
+		(pin "1"
+			(uuid "dda397db-7cfc-4ac7-8fdc-f98b9b2ab0f6")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "708787ed-a8d1-4f48-8cfa-7eb9d2264410")
+		(property "Reference" "#PWR01"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eed23f85-7f25-4138-aba0-4aaa4f302edb")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.41 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "739f4f7c-8e76-47e9-9891-91be1e084205")
+		(property "Reference" "C19"
+			(at 109.22 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 109.22 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.3752 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 105.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a79ed74-ce9d-4be7-8b09-a25ca0cfe5e2")
+		)
+		(pin "1"
+			(uuid "bcb779ed-b68b-4c0c-8af2-2ed74ec6f825")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 43.18 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8624993d-150d-4f90-90c6-217c213bd267")
+		(property "Reference" "F1"
+			(at 43.18 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 43.18 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 43.18 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -748,16 +3651,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 102.87 73.66 0)
+		(at 63.5 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8a74c123-aba0-42ea-90b6-3024abff6181")
 		(property "Reference" "C2"
-			(at 106.68 72.3899 0)
+			(at 67.31 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,8 +3667,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 106.68 74.9299 0)
+		(property "Value" "1000n"
+			(at 66.294 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -775,7 +3677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 103.8352 77.47 0)
+			(at 64.4652 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -784,7 +3686,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 73.66 0)
+			(at 63.5 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -793,7 +3695,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 102.87 73.66 0)
+			(at 63.5 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,35 +3719,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 91.44 73.66 90)
+		(lib_id "Device:C")
+		(at 115.57 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e5e2186a-5c3f-41d6-8a3b-76a39098e587")
-		(property "Reference" "D3"
-			(at 93.98 72.3899 90)
+		(uuid "8c3b52d2-d3de-4aa5-b73a-f33a843479a8")
+		(property "Reference" "C11"
+			(at 119.38 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D_TVS"
-			(at 93.98 74.9299 90)
+		(property "Value" "10u"
+			(at 119.38 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 73.66 0)
+			(at 116.5352 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -854,7 +3756,353 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 73.66 0)
+			(at 115.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 115.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0dd693a-ce20-4743-9e65-88ab0bb11ba4")
+		)
+		(pin "1"
+			(uuid "8b384224-4a19-4bb8-b1ed-6f62bb111346")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2096ece-5702-46d1-8b67-ad109a483147")
+		(property "Reference" "C17"
+			(at 99.06 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 99.06 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.2152 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc95f619-bf33-4077-ac9b-59c724ee6fff")
+		)
+		(pin "1"
+			(uuid "90fc4d4d-8ae2-43ec-a848-a20e459ec6be")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 115.57 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4c53303-bd75-4091-bbbd-a1ab16399659")
+		(property "Reference" "C20"
+			(at 119.38 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 119.38 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.5352 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 115.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33a9c552-06ac-440b-bd50-113cab252ebf")
+		)
+		(pin "1"
+			(uuid "c643658d-287b-4277-9e68-4373c02d8da2")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b81041a4-48ef-4581-bdfd-e16e7816b98a")
+		(property "Reference" "C8"
+			(at 99.06 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 99.06 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.2152 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6247c760-7b55-494d-912a-dd16c52a67dc")
+		)
+		(pin "1"
+			(uuid "6f8ded61-2f8b-4181-aca5-c0c85f914ec0")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b936b309-1a91-459b-90d5-df68db8c4380")
+		(property "Reference" "#PWR02"
+			(at 34.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d354369-5449-4450-88b1-fcb13a5917dc")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 52.07 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb4842b5-de87-4b06-8d41-8257462cfc4e")
+		(property "Reference" "D4"
+			(at 54.61 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 54.61 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +4111,360 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 91.44 73.66 0)
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d84ab68-3728-403b-a030-87c025da5469")
+		)
+		(pin "2"
+			(uuid "f2e6e0cc-51d3-4fac-953a-cad7b642cdc1")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.41 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c44a403e-e9d3-4525-92b6-abeb5cfc0637")
+		(property "Reference" "C10"
+			(at 109.22 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 109.22 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.3752 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 105.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42266c9c-f94f-4193-a55c-76423dc691e9")
+		)
+		(pin "1"
+			(uuid "1a9aee0b-6c7f-4a01-8151-a5d4a828126a")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 74.93 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c86a0216-ea5f-4e84-a3af-5ee9c4763711")
+		(property "Reference" "C6"
+			(at 78.74 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000u"
+			(at 76.708 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 75.8952 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 74.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bcdac29c-2f7c-4f0f-8e82-5a1fdce9c7a0")
+		)
+		(pin "1"
+			(uuid "7c51b55f-b74c-4d09-8990-7bf774e2356c")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbde6080-2bd8-441d-ac29-765e0b30a410")
+		(property "Reference" "C21"
+			(at 129.54 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 129.54 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 126.6952 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8744bf4-76c9-4ae8-bafc-12d70601c9af")
+		)
+		(pin "1"
+			(uuid "a6b32158-a10a-47e0-ada9-fe024ed379f6")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 25.4 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd5f4f88-b3ae-4378-873f-045781393d56")
+		(property "Reference" "J1"
+			(at 25.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 22.86 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 25.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99e31faa-0ade-4977-9c78-ffc8186dd432")
+		)
+		(pin "2"
+			(uuid "3500573a-920a-4000-a7e7-de7c622bd9cf")
+		)
+		(pin "3"
+			(uuid "0a6f431b-cb59-466f-81e5-1143ef824e01")
+		)
+		(pin "4"
+			(uuid "6c890943-e011-4d2a-9338-f54008924b4b")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 52.07 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5e2186a-5c3f-41d6-8a3b-76a39098e587")
+		(property "Reference" "D3"
+			(at 54.61 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 54.61 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 52.07 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -888,16 +4489,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 113.03 73.66 0)
+		(at 74.93 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f18668c3-daf0-4ed8-bdb6-7c6fed9fd2b0")
 		(property "Reference" "C3"
-			(at 116.84 72.3899 0)
+			(at 78.74 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -905,8 +4505,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 116.84 74.9299 0)
+		(property "Value" "1000u"
+			(at 76.708 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -915,7 +4515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.9952 77.47 0)
+			(at 75.8952 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -924,7 +4524,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 73.66 0)
+			(at 74.93 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -933,7 +4533,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 113.03 73.66 0)
+			(at 74.93 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -957,13 +4557,55 @@
 		)
 	)
 	(sheet
-		(at 200.66 46.99)
-		(size 36.83 20.32)
+		(at 259.08 33.02)
+		(size 27.94 52.07)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(stroke
+			(width 0.152)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "3838f96b-aabd-4e80-8b25-6301712882d2")
+		(property "Sheetname" "Drives"
+			(at 259.08 32.3086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Drives.kicad_sch"
+			(at 259.08 85.6744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 38.1)
+		(size 80.01 123.19)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -973,7 +4615,7 @@
 		)
 		(uuid "7d5a1283-086b-46b0-8df7-a9850521fb5e")
 		(property "Sheetname" "CM5_High Speed IO"
-			(at 200.66 45.9609 0)
+			(at 151.13 35.052 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -983,7 +4625,7 @@
 			)
 		)
 		(property "Sheetfile" "Section A - Title A.kicad_sch"
-			(at 200.66 67.8946 0)
+			(at 151.384 36.322 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1001,13 +4643,12 @@
 		)
 	)
 	(sheet
-		(at 200.66 85.09)
-		(size 36.83 20.32)
+		(at 151.13 176.53)
+		(size 80.01 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1017,7 +4658,7 @@
 		)
 		(uuid "e6015f1e-cbce-46f4-85e1-3d5463a17dc1")
 		(property "Sheetname" "CM5_GPIO"
-			(at 200.66 84.0609 0)
+			(at 150.876 244.094 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1027,7 +4668,7 @@
 			)
 		)
 		(property "Sheetfile" "Section B - TItle B.kicad_sch"
-			(at 200.66 105.9946 0)
+			(at 151.13 245.11 0)
 			(effects
 				(font
 					(face "Arial")
