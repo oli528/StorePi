@@ -1,9 +1,0 @@
-Manufacturer=Amphenol Communications Solutions
-PartNumber=SAT3M3232042TR
-PartCategory=Connector
-PackageCategory=Other
-PinCount=9
-Version=4.2
-Released=2022-08-24 08:16:58
-Downloaded=2025-06-11 18:26:20
-3D=Y

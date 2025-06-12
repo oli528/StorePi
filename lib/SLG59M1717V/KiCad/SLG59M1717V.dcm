@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP SLG59M1717V
-D Operating from a 2.5V to 5.5V power supply and fully specified over the -40Cto85C Industrial temperature range, the SLG59M1717V is a highperformance 4m, 5A singlechannel nFET load switch designed for all 0.8V to 5.5V power rail applications. The SLG59M1717V features adjustable inrush current control which is achieved by adjusting the VOUT slew rate with an external capacitor. Using a proprietary MOSFET design, the SLG59M1717V achieves a stable 4m RDSON across a wide input/supply voltage ran
-K
-F https://www.renesas.com/us/en/products/power-power-management/power-supply-support/hot-swap-ideal-diodeoring-fet-controllers/load-switches/slg59m1717v-greenfet-single-n-channel-load-switch
-$ENDCMP
-#
-#End Doc Library

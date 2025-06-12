@@ -1,9 +1,0 @@
-Manufacturer=Texas Instruments
-PartNumber=TUSB9261IPVP
-PartCategory=Undefined or Miscellaneous
-PackageCategory=Quad Flat Packages
-PinCount=65
-Version=2.1
-Released=2019-02-14 04:51:20
-Downloaded=2025-06-12 07:51:07
-3D=Y

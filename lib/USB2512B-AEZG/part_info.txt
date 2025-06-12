@@ -1,9 +1,0 @@
-Manufacturer=Microchip
-PartNumber=USB2512B-AEZG
-PartCategory=Integrated Circuit
-PackageCategory=Quad Flat No-Lead
-PinCount=37
-Version=1.1
-Released=2017-07-05 11:51:30
-Downloaded=2025-06-12 07:55:30
-3D=Y

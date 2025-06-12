@@ -1,9 +1,0 @@
-Manufacturer=Diodes Incorporated
-PartNumber=PI7C9X2G404ELZXAE
-PartCategory=Integrated Circuit
-PackageCategory=Other
-PinCount=156
-Version=5.7
-Released=2022-02-18 13:44:31
-Downloaded=2025-06-11 22:26:07
-3D=Y

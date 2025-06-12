@@ -1,4 +1,12 @@
 (fp_lib_table
   (version 7)
   (lib (name "AP62800SJ7")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/AP62800SJ7")(options "")(descr ""))
+  (lib (name "0039281063")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0039281063")(options "")(descr ""))
+  (lib (name "AOZ2255EQI-30")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/AOZ2255EQI-30")(options "")(descr ""))
+  (lib (name "HD3SS3412RUAT")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/HD3SS3412RUAT")(options "")(descr ""))
+  (lib (name "PI7C9X2G404ELZXAE")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/PI7C9X2G404ELZXAE")(options "")(descr ""))
+  (lib (name "SAT3M3232042TR")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/SAT3M3232042TR")(options "")(descr ""))
+  (lib (name "SLG59M1717V")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/SLG59M1717V")(options "")(descr ""))
+  (lib (name "TUSB9261IPVP")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/TUSB9261IPVP")(options "")(descr ""))
+  (lib (name "USB2512B-AEZG")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/USB2512B-AEZG")(options "")(descr ""))
 )

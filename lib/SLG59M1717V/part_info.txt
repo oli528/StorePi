@@ -1,9 +1,0 @@
-Manufacturer=Renesas Electronics
-PartNumber=SLG59M1717V
-PartCategory=Integrated Circuit
-PackageCategory=Other
-PinCount=10
-Version=3.3
-Released=2022-07-18 10:25:27
-Downloaded=2025-06-11 18:15:15
-3D=Y

@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP PI7C9X2G404ELZXAE
-D PCI Interface IC 4Port 4 Lane PCIe2.0 Packet Switch 136AQFN
-K
-F https://www.diodes.com//assets/Datasheets/PI7C9X2G404EL.pdf
-$ENDCMP
-#
-#End Doc Library
