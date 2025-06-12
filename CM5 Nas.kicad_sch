@@ -279,9 +279,9 @@
 		)
 		(uuid "547bb3ec-bec4-4b68-a38e-2ac56be29bd3")
 	)
-	(text "..........................................."
+	(text "Drives"
 		(exclude_from_sim no)
-		(at 45.974 119.634 0)
+		(at 45.974 121.92 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -289,7 +289,7 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#27")
+			(href "#6")
 		)
 		(uuid "598c6218-39d7-40a8-878a-842531c6a754")
 	)

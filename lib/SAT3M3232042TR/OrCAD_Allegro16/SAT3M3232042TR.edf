@@ -1,0 +1,173 @@
+
+(EDIF
+  (rename &SAT3M3232042TR "SAT3M3232042TR")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 06 11 18 26 20)
+      (dataOrigin "16135848/1553295/2.50/9/2/Connector")
+      (program "SamacSys ECAD Model SAT3M3232042TR"
+        (version "4.2"))))
+  (library
+  (rename &SAT3M3232042TR "SAT3M3232042TR")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &SAT3M3232042TR "SAT3M3232042TR")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "J")
+          (property (rename PACKAGENAME "PackageName") (string "SAT3M3232042TR"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "SAT3M3232042TR"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Amphenol Communications Solutions"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "SAT3M3232042TR"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "523-SAT3M3232042TR"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/SAT3M3232042TR?qs=vLWxofP3U2zYTvrDpHb8Yw%3D%3D"))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string "SAT3M3232042TR"))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string "https://www.arrow.com/en/products/sat3m3232042tr/amphenol-fci?utm_currency=USD&region=europe"))
+          (property (rename &Description "Description") (string "SATA Connectors, Storage & Server System, Plug, Surface Mount, 7 Positions."))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/sat3m323203xxx.pdf"))
+          (property (rename &Height "Height") (string "8.55 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "SAT3M3232042TR"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &3 "3")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &4 "4")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &5 "5")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &6 "6")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &7 "7")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (port
+            (rename &MH1 "MH1")
+            (designator "MH1")
+            (property (rename ORDER "Order") (string "7") (owner "OrCAD"))
+          )
+          (port
+            (rename &MH2 "MH2")
+            (designator "MH2")
+            (property (rename ORDER "Order") (string "8") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -200) (pt 800 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -200))))
+            )
+            (portImplementation
+              (name &2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -300) (pt 800 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -300))))
+            )
+            (portImplementation
+              (name &3 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -400) (pt 800 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -400))))
+            )
+            (portImplementation
+              (name &4 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -500) (pt 800 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -500))))
+            )
+            (portImplementation
+              (name &5 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -600) (pt 800 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -600))))
+            )
+            (portImplementation
+              (name &6 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -700) (pt 800 -700))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -700))))
+            )
+            (portImplementation
+              (name &7 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -800) (pt 800 -800))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -800))))
+            )
+            (portImplementation
+              (name &MH1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -100) (pt 800 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -100))))
+            )
+            (portImplementation
+              (name &MH2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 600 0)
+                  (pt 600 -900)
+                  (pt 0 -900)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 650 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 650 30))))
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Alpha & Omega Semiconductors
+PartNumber=AOZ2255EQI-30
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=24
+Version=1.3
+Released=2022-09-29 06:26:53
+Downloaded=2025-06-12 08:04:40
+3D=Y

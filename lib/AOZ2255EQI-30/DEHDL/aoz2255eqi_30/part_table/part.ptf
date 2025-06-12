@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AOZ2255EQI_30'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Alpha & Omega Semiconductors", "AOZ2255EQI-30" (!) = "", "AOZ2255EQI30", "Other", "", "", "AOZ2255EQI-30", "https://www.arrow.com/en/products/aoz2255eqi-30/alpha-and-omega-semiconductor", "Synchronous DC to DC Buck Regulator", "http://www.aosmd.com/res/data_sheets/AOZ2255EQI-30.pdf", "1.05 mm"
+END_PART
+
+END.

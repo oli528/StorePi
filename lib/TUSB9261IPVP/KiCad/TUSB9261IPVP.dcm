@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TUSB9261IPVP
+D USB 3.0 5 Gbps to SATA Bridge
+K
+F http://www.ti.com/lit/gpn/tusb9261
+$ENDCMP
+#
+#End Doc Library

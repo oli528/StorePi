@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=0039281063
+PartCategory=Connector
+PackageCategory=Header, Shrouded - Straight PTH Box
+PinCount=6
+Version=2.1
+Released=2018-08-17 10:30:20
+Downloaded=2025-06-11 18:48:59
+3D=Y

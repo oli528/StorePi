@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Test")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/Test.kicad_sym")(options "")(descr ""))
   (lib (name "RD-125A")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/RD-125A.kicad_sym")(options "")(descr ""))
+  (lib (name "AP62800SJ-7")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/AP62800SJ-7.kicad_sym")(options "")(descr ""))
 )

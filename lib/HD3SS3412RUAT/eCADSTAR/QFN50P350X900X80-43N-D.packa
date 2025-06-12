@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "HD3SS3412RUAT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-05-19-07:15:40)
+    (mountForm default
+        (footprintRef "QFN50P350X900X80-43N-D")
+        (spec "System")
+    )
+)

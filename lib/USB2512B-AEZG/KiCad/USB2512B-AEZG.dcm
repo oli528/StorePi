@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP USB2512B-AEZG
+D USB 2.0 Hub Controller 2-Port BC QFN36 Microchip USB2512B-AEZG, USB Controller, 480MBps, USB 2.0, 3.3 V, 36-Pin QFN
+K
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562310
+$ENDCMP
+#
+#End Doc Library

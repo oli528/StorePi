@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AOZ2255EQI-30
+D Synchronous DC to DC Buck Regulator
+K
+F http://www.aosmd.com/res/data_sheets/AOZ2255EQI-30.pdf
+$ENDCMP
+#
+#End Doc Library
