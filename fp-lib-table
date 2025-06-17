@@ -9,4 +9,5 @@
   (lib (name "SLG59M1717V")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/SLG59M1717V")(options "")(descr ""))
   (lib (name "TUSB9261IPVP")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/TUSB9261IPVP")(options "")(descr ""))
   (lib (name "USB2512B-AEZG")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/USB2512B-AEZG")(options "")(descr ""))
+  (lib (name "ASM1352R")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/ASM1352R")(options "")(descr ""))
 )
