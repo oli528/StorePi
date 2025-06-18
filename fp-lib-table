@@ -10,4 +10,6 @@
   (lib (name "TUSB9261IPVP")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/TUSB9261IPVP")(options "")(descr ""))
   (lib (name "USB2512B-AEZG")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/USB2512B-AEZG")(options "")(descr ""))
   (lib (name "ASM1352R")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/ASM1352R")(options "")(descr ""))
+  (lib (name "TPS65251-1RHAR")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/TPS65251-1RHAR")(options "")(descr ""))
+  (lib (name "TPS62420DRCTG4")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/TPS62420DRCTG4")(options "")(descr ""))
 )

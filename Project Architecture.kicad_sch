@@ -1279,16 +1279,6 @@
 		)
 		(uuid "126f9a71-f98c-4700-8a4e-4aa264a967b9")
 	)
-	(wire
-		(pts
-			(xy 287.02 68.58) (xy 297.18 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15045ef8-e55a-45f6-8c69-2e4856964125")
-	)
 	(polyline
 		(pts
 			(xy 35.56 30.48) (xy 35.56 41.91)
@@ -1308,6 +1298,16 @@
 			(type default)
 		)
 		(uuid "2194025c-1a43-4119-81f0-ca98026dc01c")
+	)
+	(wire
+		(pts
+			(xy 287.02 88.9) (xy 298.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2720a5f9-6994-4f46-9a98-ef6cdf44504c")
 	)
 	(wire
 		(pts
@@ -1408,6 +1408,16 @@
 			(type solid)
 		)
 		(uuid "5a5e1740-6032-4052-a90d-3501a2509145")
+	)
+	(wire
+		(pts
+			(xy 287.02 82.55) (xy 298.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d44a785-8ac7-441d-9406-8376cd51d3d2")
 	)
 	(wire
 		(pts
@@ -1628,16 +1638,6 @@
 			(type solid)
 		)
 		(uuid "a4d83ba4-7071-4eb5-9c53-045b1f5e0fc6")
-	)
-	(wire
-		(pts
-			(xy 287.02 63.5) (xy 297.18 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4e81b73-6bd6-4787-95dd-5f28ea81fa64")
 	)
 	(wire
 		(pts
@@ -1949,16 +1949,6 @@
 		)
 		(uuid "fcc1ef4a-114a-40e6-8341-09559c220b94")
 	)
-	(label "+5v"
-		(at 292.1 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f68ab50-9809-4c1a-b0e3-345bd7ea0e2b")
-	)
 	(label "CM5+5v"
 		(at 233.68 199.39 0)
 		(effects
@@ -1999,16 +1989,6 @@
 		)
 		(uuid "48668356-5b59-45a7-b6d9-df22771acffc")
 	)
-	(label "+12v"
-		(at 292.1 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6db8c8f0-4ff6-4ba7-95f4-1ae2cfaff29e")
-	)
 	(label "+5v"
 		(at 135.89 71.12 0)
 		(effects
@@ -2038,17 +2018,6 @@
 			(justify left bottom)
 		)
 		(uuid "efed65e8-8b44-442b-a308-ffce427f4171")
-	)
-	(hierarchical_label "+12v"
-		(shape input)
-		(at 287.02 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b8053f30-3c01-45fb-9b82-54dd4598ed68")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -4578,7 +4547,7 @@
 	)
 	(sheet
 		(at 259.08 33.02)
-		(size 27.94 52.07)
+		(size 27.94 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4593,7 +4562,7 @@
 			(color 255 255 255 0.0000)
 		)
 		(uuid "3838f96b-aabd-4e80-8b25-6301712882d2")
-		(property "Sheetname" "Drives"
+		(property "Sheetname" "M.2 Drives"
 			(at 259.08 32.3086 0)
 			(effects
 				(font
@@ -4602,8 +4571,50 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Drives.kicad_sch"
-			(at 259.08 85.6744 0)
+		(property "Sheetfile" "Drives_M.2.kicad_sch"
+			(at 259.08 92.0244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 298.45 76.2)
+		(size 36.83 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "588cd356-21c7-4636-b12c-e09ccb478c44")
+		(property "Sheetname" "Power"
+			(at 298.45 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 298.45 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,8 +4674,8 @@
 		)
 	)
 	(sheet
-		(at 259.08 92.71)
-		(size 27.94 68.58)
+		(at 259.08 97.79)
+		(size 27.94 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4679,7 +4690,7 @@
 		)
 		(uuid "a72edad3-d792-4f36-af8a-632fcfbc9d26")
 		(property "Sheetname" "Sata Drives"
-			(at 259.08 91.9984 0)
+			(at 259.08 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
