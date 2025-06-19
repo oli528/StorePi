@@ -40,20 +40,6 @@
 		(uuid 18d023c4-e3f0-46c9-87ca-5d30d9cdf2c3)
 	)
 	(rectangle
-		(start 241.3 130.81)
-		(end 255.27 139.7)
-		(stroke
-			(width 0)
-			(type default)
-			(color 26 179 18 1)
-		)
-		(fill
-			(type color)
-			(color 26 179 18 1)
-		)
-		(uuid 39c3df59-f9d6-4c44-9610-c14f06418e27)
-	)
-	(rectangle
 		(start 267.97 154.94)
 		(end 281.94 180.34)
 		(stroke
@@ -150,6 +136,20 @@
 			(color 198 71 194 1)
 		)
 		(uuid 5ce36d2b-b753-4d4d-b2c0-01a15c72c9aa)
+	)
+	(rectangle
+		(start 241.3 138.43)
+		(end 256.54 139.7)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 26 179 18 1)
+		)
+		(fill
+			(type color)
+			(color 26 179 18 1)
+		)
+		(uuid 66d0528b-35de-4dbd-b6f5-4b9c9e10d38f)
 	)
 	(rectangle
 		(start 156.845 98.679)
