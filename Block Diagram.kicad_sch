@@ -931,7 +931,7 @@
 		)
 		(uuid "5a2e6555-9060-4d4a-9a34-a05560ac30d8")
 	)
-	(text_box "USB 3 > SADA"
+	(text_box "USB 3 > x2 SADA"
 		(exclude_from_sim no)
 		(at 302.006 134.493 0)
 		(size 34.29 10.16)
@@ -979,7 +979,7 @@
 		)
 		(uuid "68649da4-f68d-4ed5-8365-8f0b566e83f2")
 	)
-	(text_box "PCIE > x2 M.2"
+	(text_box "PCIE > x4 M.2"
 		(exclude_from_sim no)
 		(at 302.006 111.633 0)
 		(size 34.29 10.16)
@@ -1397,7 +1397,7 @@
 		)
 		(uuid "ce8d5aa2-32fa-41ab-879e-c8a14b311e71")
 	)
-	(text_box "USB 3 > SADA"
+	(text_box "USB 2 > x2"
 		(exclude_from_sim no)
 		(at 302.006 145.923 0)
 		(size 34.29 10.16)
@@ -1634,7 +1634,7 @@
 		)
 		(uuid "f73ecd5d-28d4-4dc6-ad8d-2c156959b733")
 	)
-	(text_box "USB 3 > SADA"
+	(text_box "USB 3 > x2 SADA"
 		(exclude_from_sim no)
 		(at 302.006 123.063 0)
 		(size 34.29 10.16)
