@@ -4991,6 +4991,12 @@
 		(uuid "15cc7300-571a-4638-ad70-5092f321bafa")
 	)
 	(junction
+		(at 124.46 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15d738ae-ad77-4f8d-b273-9277a46e3dd2")
+	)
+	(junction
 		(at 143.51 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5019,6 +5025,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "225aa899-ad03-40d3-af88-a395b16297b0")
+	)
+	(junction
+		(at 144.78 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22b52c19-fba7-43a5-a021-262224b74e86")
 	)
 	(junction
 		(at 294.64 22.86)
@@ -5151,6 +5163,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50861a18-829d-4c00-881e-8ce8b91cc3a4")
+	)
+	(junction
+		(at 128.27 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5096f029-02e5-4379-bbc4-7e1f3f3998c2")
 	)
 	(junction
 		(at 74.93 215.9)
@@ -5499,6 +5517,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da2746d5-60c6-4c04-b0c3-194f80dd11bc")
+	)
+	(junction
+		(at 132.08 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbbab70b-5428-4519-b955-f21d33408e5c")
 	)
 	(junction
 		(at 308.61 116.84)
@@ -6414,6 +6438,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 111.76) (xy 128.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346906bb-8fa4-49c8-9b45-edb259bbe592")
+	)
+	(wire
+		(pts
 			(xy 129.54 76.2) (xy 129.54 72.39)
 		)
 		(stroke
@@ -6611,6 +6645,16 @@
 			(type solid)
 		)
 		(uuid "44807348-16dc-476e-b8f8-877abbf3ea19")
+	)
+	(wire
+		(pts
+			(xy 132.08 111.76) (xy 135.89 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "460bc4c4-9e5f-41e7-b93f-e9b429457f80")
 	)
 	(wire
 		(pts
@@ -6841,6 +6885,16 @@
 			(type default)
 		)
 		(uuid "57378be9-1e61-4afb-ae6f-c72ff3e45dd1")
+	)
+	(wire
+		(pts
+			(xy 147.32 119.38) (xy 144.78 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582ee5f1-c143-4a14-9e13-100b576b58ea")
 	)
 	(wire
 		(pts
@@ -7094,6 +7148,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 113.03) (xy 128.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa99aef-d985-4d0a-b497-c85319ed3e18")
+	)
+	(wire
+		(pts
 			(xy 124.46 88.9) (xy 124.46 104.14)
 		)
 		(stroke
@@ -7121,6 +7185,16 @@
 			(type default)
 		)
 		(uuid "6b524815-cb62-471e-b444-31db08abafc7")
+	)
+	(wire
+		(pts
+			(xy 120.65 111.76) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5efd73-4668-405d-a446-0e7ce4e1ed94")
 	)
 	(wire
 		(pts
@@ -8314,6 +8388,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 118.11) (xy 147.32 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a7d8e9-7db0-40f9-b1dd-096bcbd06773")
+	)
+	(wire
+		(pts
 			(xy 246.38 110.49) (xy 257.81 110.49)
 		)
 		(stroke
@@ -8341,6 +8425,16 @@
 			(type default)
 		)
 		(uuid "c6486cc0-3672-4ccb-8e05-25a8a2e715e4")
+	)
+	(wire
+		(pts
+			(xy 142.24 119.38) (xy 142.24 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65f90b4-2445-44df-a77b-c91a08374cdf")
 	)
 	(wire
 		(pts
@@ -8484,6 +8578,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 111.76) (xy 132.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0aa6a05-bd86-4a5e-9b4e-6f6d6559c8d9")
+	)
+	(wire
+		(pts
 			(xy 87.63 90.17) (xy 87.63 92.71)
 		)
 		(stroke
@@ -8601,6 +8705,16 @@
 			(type solid)
 		)
 		(uuid "dbb0e04d-e66b-4987-8d68-7a518ffa2cea")
+	)
+	(wire
+		(pts
+			(xy 144.78 119.38) (xy 142.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbcf182d-cf2b-4588-a371-2fda63e95b33")
 	)
 	(wire
 		(pts
@@ -9852,7 +9966,7 @@
 			)
 		)
 		(property "Value" "12.1K"
-			(at 135.89 120.65 0)
+			(at 135.89 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10054,7 +10168,7 @@
 			)
 		)
 		(property "Value" "12.1K"
-			(at 149.86 118.11 0)
+			(at 149.098 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10230,70 +10344,6 @@
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d396973-5a08-4121-bca5-eb4b26c9bf88")
-		(property "Reference" "#PWR045"
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c717aad-4ea3-4ba1-8416-4e02eafdfe27")
-		)
-		(instances
-			(project "CM5 Nas"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -11061,7 +11111,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 111.76 0)
+		(at 128.27 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11069,7 +11119,7 @@
 		(dnp no)
 		(uuid "224163dd-b2e5-4cfa-a582-64206272c99e")
 		(property "Reference" "#PWR039"
-			(at 132.08 118.11 0)
+			(at 128.27 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11078,7 +11128,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 116.84 0)
+			(at 129.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11086,7 +11136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 111.76 0)
+			(at 128.27 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11095,7 +11145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 111.76 0)
+			(at 128.27 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11104,7 +11154,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 111.76 0)
+			(at 128.27 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12936,70 +12986,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 120.65 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c72118a-2c1a-420e-b121-f21a102fbd5c")
-		(property "Reference" "#PWR037"
-			(at 120.65 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80de20ee-b72b-4ee1-872b-92b8ce261e90")
-		)
-		(instances
-			(project "CM5 Nas"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V2")
 		(at 74.93 62.23 0)
 		(unit 1)
@@ -14107,70 +14093,6 @@
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72af04e5-a772-4c29-9a85-37adde966b41")
-		(property "Reference" "#PWR040"
-			(at 135.89 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6d2569be-76dd-44ac-98d5-8d3fc52d0ee6")
-		)
-		(instances
-			(project "CM5 Nas"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -15457,70 +15379,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a03fa8ba-3bdf-4952-9a2b-295a72010a3f")
-		(property "Reference" "#PWR038"
-			(at 124.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e678092a-55d9-4db6-b190-19212aaef257")
-		)
-		(instances
-			(project "CM5 Nas"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 143.51 254 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16611,7 +16469,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 118.11 0)
+		(at 144.78 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16619,7 +16477,7 @@
 		(dnp no)
 		(uuid "caf3d6e6-5fe9-43eb-9521-1c8498c23474")
 		(property "Reference" "#PWR042"
-			(at 142.24 124.46 0)
+			(at 144.78 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16628,7 +16486,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 123.19 0)
+			(at 146.05 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16636,7 +16494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 118.11 0)
+			(at 144.78 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16645,7 +16503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 118.11 0)
+			(at 144.78 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16654,7 +16512,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 118.11 0)
+			(at 144.78 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
