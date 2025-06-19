@@ -14,4 +14,5 @@
   (lib (name "ASM1352R")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/ASM1352R.kicad_sym")(options "")(descr ""))
   (lib (name "TPS65251-1RHAR")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/TPS65251-1RHAR.kicad_sym")(options "")(descr ""))
   (lib (name "TPS62420DRCTG4")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/TPS62420DRCTG4.kicad_sym")(options "")(descr ""))
+  (lib (name "LM61480Q3RPHRQ1")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/LM61480Q3RPHRQ1.kicad_sym")(options "")(descr ""))
 )
