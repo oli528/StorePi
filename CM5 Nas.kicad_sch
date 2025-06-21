@@ -279,7 +279,7 @@
 		)
 		(uuid "547bb3ec-bec4-4b68-a38e-2ac56be29bd3")
 	)
-	(text "Drives"
+	(text "Power"
 		(exclude_from_sim no)
 		(at 45.974 121.92 0)
 		(effects
@@ -450,9 +450,9 @@
 		)
 		(uuid "9008c96f-82fa-4b3f-88a3-9ae35f59090b")
 	)
-	(text "..........................................."
+	(text "Sata Drives"
 		(exclude_from_sim no)
-		(at 45.974 134.874 0)
+		(at 45.466 136.652 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -460,7 +460,7 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#29")
+			(href "#8")
 		)
 		(uuid "93713c73-3aba-4b0b-9f3c-b37ab3721f94")
 	)
@@ -520,9 +520,9 @@
 		)
 		(uuid "a2bb1bed-8e4e-4038-8b4e-99f9457f4c30")
 	)
-	(text "..........................................."
+	(text "M.2 Drives"
 		(exclude_from_sim no)
-		(at 45.974 127.254 0)
+		(at 45.72 129.54 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -530,7 +530,7 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#28")
+			(href "#7")
 		)
 		(uuid "ad40278e-f3e6-4c25-8fa4-1f4e3918f822")
 	)

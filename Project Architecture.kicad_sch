@@ -4276,7 +4276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7203776f-33aa-433c-881a-6b1dbd989000")
-		(property "Reference" "R29"
+		(property "Reference" "R1"
 			(at 370.84 151.1299 0)
 			(effects
 				(font
@@ -4330,7 +4330,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(reference "R29")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4416,7 +4416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fe764fd-0f7e-48dc-9aa7-32af2dafed77")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR04"
 			(at 373.38 151.13 0)
 			(effects
 				(font
@@ -4466,7 +4466,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(reference "#PWR053")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4966,7 +4966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c14f2710-e5f0-4d93-98fd-a564eea00a64")
-		(property "Reference" "C62"
+		(property "Reference" "C17"
 			(at 375.412 162.052 0)
 			(effects
 				(font
@@ -5020,7 +5020,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(reference "C62")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -5174,7 +5174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca77334e-3ffd-4e92-ba82-3db038a60090")
-		(property "Reference" "U9"
+		(property "Reference" "U1"
 			(at 355.854 155.194 0)
 			(effects
 				(font
@@ -5240,7 +5240,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(reference "U9")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5399,7 +5399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3b57059-5f0e-46ba-802a-d255d4a2117e")
-		(property "Reference" "F?"
+		(property "Reference" "F1"
 			(at 43.18 49.53 90)
 			(effects
 				(font
@@ -5452,7 +5452,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(reference "F?")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -5537,7 +5537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee8f5667-63a3-4af7-94bd-54fe7ef655ed")
-		(property "Reference" "F?"
+		(property "Reference" "F2"
 			(at 43.18 64.77 90)
 			(effects
 				(font
@@ -5590,7 +5590,7 @@
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(reference "F?")
+					(reference "F2")
 					(unit 1)
 				)
 			)
