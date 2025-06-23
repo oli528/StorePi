@@ -5109,12 +5109,6 @@
 		(uuid "5443d3be-21e6-4df1-a9fc-dab473ca66fb")
 	)
 	(junction
-		(at 29.21 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54d4349d-e43d-4ba8-af57-64c9fa450a3a")
-	)
-	(junction
 		(at 97.79 59.69)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -5373,6 +5367,12 @@
 		(uuid "93229258-353a-485d-b6a0-9b4eb1309e62")
 	)
 	(junction
+		(at 29.21 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95429e53-cf53-4589-bcc2-57c08f3a9962")
+	)
+	(junction
 		(at 176.53 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5575,12 +5575,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb80f111-cf30-4868-b28c-cdf87ce1f311")
-	)
-	(junction
-		(at 195.58 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc419370-de24-4621-8416-07aece763a17")
 	)
 	(junction
 		(at 36.83 45.72)
@@ -6234,6 +6228,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 20.32) (xy 41.91 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ed5c91-241a-4311-8a22-a8b5541e9fc1")
+	)
+	(wire
+		(pts
 			(xy 83.82 81.28) (xy 104.14 81.28)
 		)
 		(stroke
@@ -6401,6 +6405,16 @@
 			(type default)
 		)
 		(uuid "120c848d-23f9-4049-8ab6-e1fdf35d28f3")
+	)
+	(wire
+		(pts
+			(xy 25.4 20.32) (xy 25.4 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12651c43-d582-4b95-b823-f09289a5fec9")
 	)
 	(wire
 		(pts
@@ -7874,16 +7888,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 80.01) (xy 190.5 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "601f048b-1179-4091-8002-52871fdd310b")
-	)
-	(wire
-		(pts
 			(xy 137.16 31.75) (xy 168.91 31.75)
 		)
 		(stroke
@@ -7951,16 +7955,6 @@
 			(type default)
 		)
 		(uuid "6415b720-cacf-4cba-82cb-a5029fc0ff13")
-	)
-	(wire
-		(pts
-			(xy 190.5 78.74) (xy 195.58 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "643a79b6-95fe-4e67-966b-e00660e60115")
 	)
 	(wire
 		(pts
@@ -8051,16 +8045,6 @@
 			(type default)
 		)
 		(uuid "66186545-2905-44bc-9184-d7e90586c5da")
-	)
-	(wire
-		(pts
-			(xy 29.21 87.63) (xy 31.75 87.63)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "674ef7bd-3441-4560-b099-7500e37b6b08")
 	)
 	(wire
 		(pts
@@ -8884,6 +8868,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 87.63) (xy 31.75 87.63)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "8f7c2bea-9bb2-4c0f-9332-cd4ff955a5c2")
+	)
+	(wire
+		(pts
 			(xy 219.71 81.28) (xy 223.52 81.28)
 		)
 		(stroke
@@ -8921,6 +8915,16 @@
 			(type solid)
 		)
 		(uuid "9071fff4-a9d3-4787-a51d-fdd743ffc902")
+	)
+	(wire
+		(pts
+			(xy 41.91 20.32) (xy 41.91 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b370ff-5220-4e0d-87e2-6dd65967956e")
 	)
 	(wire
 		(pts
@@ -9891,6 +9895,16 @@
 			(type default)
 		)
 		(uuid "c4a7d8e9-7db0-40f9-b1dd-096bcbd06773")
+	)
+	(wire
+		(pts
+			(xy 20.32 20.32) (xy 25.4 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55084df-eebc-4c54-a02c-20e233348313")
 	)
 	(wire
 		(pts
@@ -10894,16 +10908,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 78.74) (xy 195.58 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6425fc4-1f48-4bf8-bbbd-a14b83b30349")
-	)
-	(wire
-		(pts
 			(xy 137.16 49.53) (xy 168.91 49.53)
 		)
 		(stroke
@@ -11727,6 +11731,17 @@
 		)
 		(uuid "185d4a7d-19cf-4f92-9c6a-5aebad07b11f")
 	)
+	(hierarchical_label "+3V3A"
+		(shape input)
+		(at 38.1 20.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19e92676-a4f6-4d10-a406-790d7e81184d")
+	)
 	(hierarchical_label "PCIE_nCLKREQ"
 		(shape output)
 		(at 322.58 140.97 180)
@@ -11891,6 +11906,17 @@
 			(justify left)
 		)
 		(uuid "fc1ca571-77e8-42f3-b02d-099ee2966650")
+	)
+	(hierarchical_label "+1V2"
+		(shape input)
+		(at 20.32 20.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff770f3c-6d93-433e-a47a-6054fd76d50f")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -13896,71 +13922,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 76.2 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ea6681b-f298-4e54-8236-95b94c549aa6")
-		(property "Reference" "#PWR066"
-			(at 76.2 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 76.2 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b7fedf90-73c0-4e9c-8ce1-79ffe7dfc7eb")
-		)
-		(instances
-			(project "CM5 Nas"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 41.91 93.98 0)
 		(unit 1)
@@ -15009,8 +14970,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bf2aac8-2998-44ec-b1ae-8a48edacedfd")
+		(uuid "3a452807-066e-4742-943e-e5e5ede18f00")
 		(property "Reference" "#PWR062"
 			(at 29.21 91.44 0)
 			(effects
@@ -15020,12 +14980,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VA"
-			(at 29.21 82.55 0)
+		(property "Value" "+3V3A"
+			(at 25.908 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -15055,7 +15016,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba379063-4407-4ee3-9e14-0e84222f116b")
+			(uuid "71fbf58e-cfa2-4842-9574-cb9d6d75758a")
 		)
 		(instances
 			(project "CM5 Nas"
@@ -15184,6 +15145,70 @@
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V2")
+		(at 25.4 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4033a6d8-d4a4-43aa-b969-5a7343d87e14")
+		(property "Reference" "#PWR080"
+			(at 25.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V2"
+			(at 26.67 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d10a03d-9e4e-40b5-b02e-e766614eecc4")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -20106,13 +20131,77 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
+		(at 76.2 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e312d4cf-58ff-44df-bfec-ccd71ae253a6")
+		(property "Reference" "#PWR066"
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3A"
+			(at 72.898 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1b8a367-a022-4cc7-bfb1-44adb093c94b")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
 		(at 90.17 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e313ce11-e70d-430a-8fbd-898a36d2281a")
 		(property "Reference" "#PWR069"
 			(at 90.17 58.42 0)
@@ -20123,12 +20212,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VA"
-			(at 90.17 49.53 0)
+		(property "Value" "+3V3A"
+			(at 86.868 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -20857,6 +20947,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3VA")
+		(at 41.91 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f55ef88c-8286-4cd2-99f8-ce452745e8fb")
+		(property "Reference" "#PWR081"
+			(at 41.91 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3A"
+			(at 41.91 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e24a502d-eee0-4b25-95e2-ba9b1c524eaa")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LM61480Q3RPHRQ1:LM61480Q3RPHRQ1")
 		(at 223.52 83.82 0)
 		(unit 1)
@@ -21044,72 +21199,6 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
 					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 190.5 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbe5cecd-8a04-4245-b1fa-e9df642f42c0")
-		(property "Reference" "#PWR072"
-			(at 190.5 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fffb0d1e-ca4d-4781-b5fc-ddde29d498de")
-		)
-		(instances
-			(project "CM5 Nas"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
-					(reference "#PWR072")
 					(unit 1)
 				)
 			)

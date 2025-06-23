@@ -2041,7 +2041,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 88.9) (xy 298.45 88.9)
+			(xy 287.02 73.66) (xy 298.45 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2171,7 +2171,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 82.55) (xy 298.45 82.55)
+			(xy 287.02 67.31) (xy 298.45 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5709,7 +5709,7 @@
 		)
 	)
 	(sheet
-		(at 298.45 76.2)
+		(at 298.45 55.88)
 		(size 36.83 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5725,7 +5725,7 @@
 		)
 		(uuid "588cd356-21c7-4636-b12c-e09ccb478c44")
 		(property "Sheetname" "Power"
-			(at 298.45 75.4884 0)
+			(at 298.45 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5734,7 +5734,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 298.45 112.3446 0)
+			(at 298.45 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
