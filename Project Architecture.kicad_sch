@@ -3943,7 +3943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 95.25 68.58 0)
 			(effects
 				(font
@@ -4219,7 +4219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 95.25 83.82 0)
 			(effects
 				(font
@@ -4840,7 +4840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 34.29 83.82 0)
 			(effects
 				(font
@@ -5709,13 +5709,55 @@
 		)
 	)
 	(sheet
+		(at 241.3 132.08)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 168 218 255 1)
+		)
+		(fill
+			(color 177 187 255 1.0000)
+		)
+		(uuid "39c281b2-2608-4942-ba08-2308e06d446a")
+		(property "Sheetname" "Sata Drives 2"
+			(at 241.3 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sata_Drives2.kicad_sch"
+			(at 241.3 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 298.45 55.88)
 		(size 36.83 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -5734,7 +5776,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 298.45 92.0246 0)
+			(at 309.372 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,8 +5878,8 @@
 		)
 	)
 	(sheet
-		(at 259.08 97.79)
-		(size 27.94 63.5)
+		(at 241.3 101.6)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5852,8 +5894,8 @@
 			(color 168 218 255 1.0000)
 		)
 		(uuid "a72edad3-d792-4f36-af8a-632fcfbc9d26")
-		(property "Sheetname" "Sata Drives"
-			(at 259.08 97.0784 0)
+		(property "Sheetname" "Sata Drives 1"
+			(at 241.3 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5862,7 +5904,7 @@
 			)
 		)
 		(property "Sheetfile" "Sata_Drives.kicad_sch"
-			(at 259.08 161.8746 0)
+			(at 241.3 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

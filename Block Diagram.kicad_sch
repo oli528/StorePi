@@ -165,20 +165,6 @@
 		)
 		(uuid 71a7bc8d-71ba-4784-b706-1c489dd4699b)
 	)
-	(circle
-		(center 350.012 125.73)
-		(radius 1.016)
-		(stroke
-			(width 0)
-			(type default)
-			(color 198 71 194 1)
-		)
-		(fill
-			(type color)
-			(color 198 71 194 1)
-		)
-		(uuid 73e2bab7-d1ff-4c48-92c5-5867c50c9caa)
-	)
 	(rectangle
 		(start 241.3 120.65)
 		(end 255.27 123.19)
@@ -192,20 +178,6 @@
 			(color 26 179 18 1)
 		)
 		(uuid 7b3048d9-9f27-43c5-89d8-687bf1563aee)
-	)
-	(circle
-		(center 350.012 137.16)
-		(radius 1.016)
-		(stroke
-			(width 0)
-			(type default)
-			(color 198 71 194 1)
-		)
-		(fill
-			(type color)
-			(color 198 71 194 1)
-		)
-		(uuid 81814ec4-8061-4f89-b6de-11442b690bce)
 	)
 	(rectangle
 		(start 281.94 84.455)
@@ -432,9 +404,9 @@
 		)
 		(uuid "0dba65be-4dbc-4f35-b38d-7aae15950791")
 	)
-	(text "+5v"
+	(text "+230v"
 		(exclude_from_sim no)
-		(at 53.594 89.154 0)
+		(at 54.864 89.154 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1106,7 +1078,7 @@
 		)
 		(uuid "8f602d65-403f-4ff5-b704-d33255654b4f")
 	)
-	(text_box "\nL\n\n\nN\n\n\n\n\n\nGND"
+	(text_box "\nL\n\n\nN\n\n\n\n\n\n"
 		(exclude_from_sim no)
 		(at 67.31 93.98 0)
 		(size 13.97 52.07)
@@ -1453,29 +1425,6 @@
 			)
 		)
 		(uuid "d95aa69c-63fb-4b5d-9978-ffe4aa9ad079")
-	)
-	(text_box "DESIGN NOTE:\nVoltage must be set for correctly for Drive sada SSD 5V and HDD 12V"
-		(exclude_from_sim no)
-		(at 343.662 70.358 0)
-		(size 30.48 20.32)
-		(margins 2 2 2 2)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "debe43d0-035d-4f6d-8150-009a80bd4084")
 	)
 	(text_box "PSU RD_125A"
 		(exclude_from_sim no)
@@ -2185,17 +2134,6 @@
 	)
 	(polyline
 		(pts
-			(xy 336.042 125.73) (xy 350.012 125.73)
-		)
-		(stroke
-			(width 1.016)
-			(type solid)
-			(color 198 71 194 1)
-		)
-		(uuid "b4f544e0-9e89-4bbe-b04b-dc5f136f7f88")
-	)
-	(polyline
-		(pts
 			(xy 367.792 142.24) (xy 367.792 139.7)
 		)
 		(stroke
@@ -2402,17 +2340,6 @@
 			(color 212 0 32 1)
 		)
 		(uuid "f0475215-4f8e-48d4-a708-cdb796e84418")
-	)
-	(polyline
-		(pts
-			(xy 336.042 137.16) (xy 350.012 137.16)
-		)
-		(stroke
-			(width 1.016)
-			(type solid)
-			(color 198 71 194 1)
-		)
-		(uuid "f18c1e71-842d-4e9d-a748-d1d87a91a617")
 	)
 	(polyline
 		(pts

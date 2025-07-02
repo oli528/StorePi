@@ -11819,7 +11819,7 @@
 		)
 		(uuid "80322131-87dc-41bd-a2cf-d7876f71a873")
 	)
-	(hierarchical_label "+5v"
+	(hierarchical_label "+5v_S1"
 		(shape input)
 		(at 182.88 86.36 180)
 		(effects
@@ -11907,7 +11907,7 @@
 		)
 		(uuid "fc1ca571-77e8-42f3-b02d-099ee2966650")
 	)
-	(hierarchical_label "+1V2"
+	(hierarchical_label "+1V2D"
 		(shape input)
 		(at 20.32 21.59 180)
 		(effects
@@ -11936,7 +11936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 29.21 50.8 0)
 			(effects
 				(font
@@ -12068,7 +12068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 30.48 105.41 0)
 			(effects
 				(font
@@ -12401,7 +12401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 29.21 77.47 0)
 			(effects
 				(font
@@ -13419,7 +13419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 68.58 115.57 0)
 			(effects
 				(font
@@ -13870,7 +13870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 45.847 241.8842 0)
 			(effects
 				(font
@@ -16346,7 +16346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 143.637 241.8842 0)
 			(effects
 				(font
@@ -17586,7 +17586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 246.507 240.6142 0)
 			(effects
 				(font
@@ -18701,7 +18701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 340.487 235.5342 0)
 			(effects
 				(font
@@ -18950,7 +18950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 151.13 124.46 0)
 			(effects
 				(font
@@ -19080,7 +19080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 85.09 121.92 0)
 			(effects
 				(font
@@ -19210,7 +19210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 240.157 48.8442 0)
 			(effects
 				(font
@@ -20343,7 +20343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 209.677 41.2242 0)
 			(effects
 				(font
@@ -20621,7 +20621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 267.97 127 0)
 			(effects
 				(font
@@ -21355,7 +21355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 217.17 127 0)
 			(effects
 				(font

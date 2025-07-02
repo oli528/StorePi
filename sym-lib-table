@@ -16,4 +16,7 @@
   (lib (name "TPS62420DRCTG4")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/TPS62420DRCTG4.kicad_sym")(options "")(descr ""))
   (lib (name "LM61480Q3RPHRQ1")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/LM61480Q3RPHRQ1.kicad_sym")(options "")(descr ""))
   (lib (name "RJMG212S21130ER")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/RJMG212S21130ER.kicad_sym")(options "")(descr ""))
+  (lib (name "JMS561")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/JMS561.kicad_sym")(options "")(descr ""))
+  (lib (name "47018-2000")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/47018-2000.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX20008AFOC_VY+T")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/MAX20008AFOC_VY+T.kicad_sym")(options "")(descr ""))
 )

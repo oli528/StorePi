@@ -9265,7 +9265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 242.697 108.5342 0)
 			(effects
 				(font
@@ -9330,7 +9330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 104.267 164.4142 0)
 			(effects
 				(font
@@ -9395,7 +9395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 38.227 164.4142 0)
 			(effects
 				(font
@@ -9460,7 +9460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 179.197 163.1442 0)
 			(effects
 				(font
@@ -10501,7 +10501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 257.937 145.3642 0)
 			(effects
 				(font
@@ -10566,7 +10566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 224.917 145.3642 0)
 			(effects
 				(font
@@ -10631,7 +10631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 236.347 145.3642 0)
 			(effects
 				(font

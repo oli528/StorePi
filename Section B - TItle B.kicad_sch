@@ -10783,7 +10783,7 @@
 		)
 		(uuid "17c18f1c-673d-41be-a235-7f83f962d85c")
 	)
-	(label "gnd"
+	(label ""
 		(at 148.59 101.6 180)
 		(effects
 			(font
@@ -10913,7 +10913,7 @@
 		)
 		(uuid "348932e7-4e03-437a-9dd0-60beec92cfbb")
 	)
-	(label "gnd"
+	(label ""
 		(at 148.59 91.44 180)
 		(effects
 			(font
@@ -10943,7 +10943,7 @@
 		)
 		(uuid "3d1f21f4-d897-4e9b-991d-b0d792fc1edd")
 	)
-	(label "gnd"
+	(label ""
 		(at 148.59 96.52 180)
 		(effects
 			(font
@@ -11163,7 +11163,7 @@
 		)
 		(uuid "7cfe6e2d-5193-4e13-87c5-7057d9efcacb")
 	)
-	(label "gnd"
+	(label ""
 		(at 148.59 104.14 180)
 		(effects
 			(font
@@ -11273,7 +11273,7 @@
 		)
 		(uuid "8761bd53-fb67-4588-8e51-44daafd99567")
 	)
-	(label "gnd"
+	(label ""
 		(at 148.59 99.06 180)
 		(effects
 			(font
@@ -11413,7 +11413,7 @@
 		)
 		(uuid "b509cc96-eed1-4cda-a21b-6c32087fbb80")
 	)
-	(label "gnd"
+	(label ""
 		(at 148.59 106.68 180)
 		(effects
 			(font
@@ -11733,7 +11733,7 @@
 		)
 		(uuid "f4e90f78-5e13-4076-858d-6318e1419667")
 	)
-	(label "gnd"
+	(label ""
 		(at 148.59 93.98 180)
 		(effects
 			(font
@@ -12294,7 +12294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "gnd"
+		(property "Value" "~"
 			(at 279.4 77.47 0)
 			(effects
 				(font
@@ -12717,7 +12717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "gnd"
+		(property "Value" "~"
 			(at 314.96 160.02 0)
 			(effects
 				(font
@@ -12782,7 +12782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "gnd"
+		(property "Value" "~"
 			(at 299.72 160.02 0)
 			(effects
 				(font
@@ -12847,7 +12847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "gnd"
+		(property "Value" "~"
 			(at 39.37 162.56 0)
 			(effects
 				(font
@@ -12912,7 +12912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "gnd"
+		(property "Value" "~"
 			(at 102.87 162.56 0)
 			(effects
 				(font
@@ -13223,7 +13223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "gnd"
+		(property "Value" "~"
 			(at 162.56 67.31 0)
 			(effects
 				(font
@@ -14013,7 +14013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "gnd"
+		(property "Value" "~"
 			(at 255.27 53.34 0)
 			(effects
 				(font
@@ -14078,7 +14078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "gnd"
+		(property "Value" "~"
 			(at 322.58 67.31 0)
 			(effects
 				(font
@@ -14405,7 +14405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "gnd"
+		(property "Value" "~"
 			(at 143.51 111.76 0)
 			(effects
 				(font
@@ -14470,7 +14470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "gnd"
+		(property "Value" "~"
 			(at 245.11 162.56 0)
 			(effects
 				(font
@@ -15575,7 +15575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "gnd"
+		(property "Value" "~"
 			(at 203.2 154.94 0)
 			(effects
 				(font
@@ -15640,7 +15640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "gnd"
+		(property "Value" "~"
 			(at 166.37 154.94 0)
 			(effects
 				(font
