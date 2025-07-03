@@ -4683,6 +4683,84 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 196.85 16.51)
+		(end 257.81 52.07)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 320272d3-a0f0-49a9-8b77-1aa7580b2984)
+	)
+	(rectangle
+		(start 265.43 13.97)
+		(end 406.4 68.58)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 73f967cd-7c7c-4612-88fc-6f85486b09f1)
+	)
+	(rectangle
+		(start 16.51 129.54)
+		(end 406.4 241.3)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 953d5e47-0b50-4e69-a168-f4a07e06fdc5)
+	)
+	(rectangle
+		(start 54.61 13.97)
+		(end 172.72 129.54)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid af97a13a-1599-4bf8-bde6-9ffefd7e4fe7)
+	)
+	(rectangle
+		(start 12.7 13.97)
+		(end 49.53 102.87)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c9de400a-f4ee-4eff-acc0-27e4a5874589)
+	)
+	(rectangle
+		(start 180.34 68.58)
+		(end 332.74 125.73)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f378043f-770a-4741-9070-0769ea242fb6)
+	)
 	(text "Activity LED"
 		(exclude_from_sim no)
 		(at 208.28 159.512 0)
@@ -4718,7 +4796,7 @@
 	)
 	(text "Activity LED"
 		(exclude_from_sim no)
-		(at 395.605 168.275 0)
+		(at 393.954 171.704 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4750,12 +4828,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03acba21-150a-4663-b849-12f0c723216e")
-	)
-	(junction
-		(at 386.08 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06b0b71d-066e-4a76-be8a-117e49203098")
 	)
 	(junction
 		(at 91.44 227.33)
@@ -4846,12 +4918,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15da2273-4c1b-4bd7-b818-0252e48a5960")
-	)
-	(junction
-		(at 386.08 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16062335-b2ee-48c1-ad18-7a3341e7fcdb")
 	)
 	(junction
 		(at 259.08 234.95)
@@ -5022,7 +5088,7 @@
 		(uuid "2f4ad4fa-2fd4-4327-8413-742323c53768")
 	)
 	(junction
-		(at 369.57 129.54)
+		(at 369.57 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "341fb7f0-6e5d-434d-ba2c-40d9f83cef27")
@@ -5046,6 +5112,12 @@
 		(uuid "393b3df9-0b01-4f5a-9d03-9135bf97f3f3")
 	)
 	(junction
+		(at 386.08 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39b0f8e9-ea9f-4841-8ac1-d1282e43a3d1")
+	)
+	(junction
 		(at 64.77 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5064,13 +5136,19 @@
 		(uuid "3f8ef01c-54c6-4956-858a-9a609a5105fd")
 	)
 	(junction
+		(at 368.3 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f964ac5-9de1-487b-87cc-eeda3e1d22be")
+	)
+	(junction
 		(at 26.67 72.39)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "40ba3e29-feda-4ff5-bb60-6618880d57f1")
 	)
 	(junction
-		(at 372.11 129.54)
+		(at 372.11 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42440d6b-9152-405a-9f1b-d9e2e207526c")
@@ -5080,12 +5158,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "433cf09c-d0b1-4e6f-a385-2831fcba164d")
-	)
-	(junction
-		(at 386.08 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44407b1e-e901-49ba-b081-e23bd2463597")
 	)
 	(junction
 		(at 154.94 135.89)
@@ -5100,7 +5172,7 @@
 		(uuid "46a34309-ee7c-4727-b42a-d71cf40870a6")
 	)
 	(junction
-		(at 367.03 129.54)
+		(at 367.03 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46e52bc8-466f-4676-80d3-9c384f83f705")
@@ -5166,6 +5238,12 @@
 		(uuid "4fe19f5b-7e85-4cfa-ab59-e458d962dc0d")
 	)
 	(junction
+		(at 386.08 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fed150e-44f4-4973-9219-448c7cb3a02c")
+	)
+	(junction
 		(at 67.31 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5184,7 +5262,7 @@
 		(uuid "551d9d0b-5595-423a-ae7c-cfefa17d8073")
 	)
 	(junction
-		(at 360.68 229.87)
+		(at 360.68 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5797c520-c7d6-4a4d-b6ca-3a36cdd48ec3")
@@ -5226,10 +5304,16 @@
 		(uuid "6489c549-074f-47e7-9e02-b9030b8d0d8f")
 	)
 	(junction
-		(at 359.41 129.54)
+		(at 359.41 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64f8155a-c6fc-43b6-ae2e-fa7d2b39b0ba")
+	)
+	(junction
+		(at 386.08 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66dc3369-2733-4069-a764-6aa4fcb4679f")
 	)
 	(junction
 		(at 97.79 62.23)
@@ -5304,12 +5388,6 @@
 		(uuid "79d3aa44-08f0-4b8d-8885-8ee9bdd998f9")
 	)
 	(junction
-		(at 386.08 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b87f20f-0db4-41e8-9862-9feb0fd8f64b")
-	)
-	(junction
 		(at 97.79 64.77)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -5352,7 +5430,7 @@
 		(uuid "84f220e4-fbc4-4e51-8b04-f94f5cc93d4d")
 	)
 	(junction
-		(at 355.6 229.87)
+		(at 355.6 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "866d08a1-2750-4741-b34c-53267c5c7259")
@@ -5364,7 +5442,7 @@
 		(uuid "888d5613-181c-4bbf-b809-1c9e3c2c709a")
 	)
 	(junction
-		(at 358.14 229.87)
+		(at 358.14 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a1d7378-d53e-4b52-8937-a665f34892ac")
@@ -5430,7 +5508,7 @@
 		(uuid "9af6cbb7-e047-4f0d-831c-6c3450e5d39d")
 	)
 	(junction
-		(at 354.33 129.54)
+		(at 354.33 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b3e6c4b-0745-4be4-a7ea-ce33d7ea68b0")
@@ -5472,13 +5550,7 @@
 		(uuid "ab6ad01e-6fdf-49b1-8dd4-5c3935c92817")
 	)
 	(junction
-		(at 368.3 229.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae8dcf2e-9e52-401d-9b25-f2831763021d")
-	)
-	(junction
-		(at 364.49 129.54)
+		(at 364.49 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0a8a1b1-bccb-4be6-b39e-48149511fa37")
@@ -5520,7 +5592,7 @@
 		(uuid "b768b3fd-c5bb-439b-b1d3-c5c7d0b079a7")
 	)
 	(junction
-		(at 361.95 129.54)
+		(at 361.95 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9648f23-ef62-4154-8744-e1ad9d0b6d4c")
@@ -5544,13 +5616,13 @@
 		(uuid "bcbede1e-043d-442e-a752-02ff521bc28a")
 	)
 	(junction
-		(at 356.87 129.54)
+		(at 356.87 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "befb9598-97f9-4309-925f-0b02d0370ab3")
 	)
 	(junction
-		(at 363.22 229.87)
+		(at 363.22 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0bf728e-16b9-4229-88a6-3a0490ae75f0")
@@ -5560,6 +5632,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "c2eaf7fa-13c9-458d-9b12-871a77cd6c67")
+	)
+	(junction
+		(at 386.08 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4268961-92a2-4c76-8435-38590fb6357d")
 	)
 	(junction
 		(at 97.79 54.61)
@@ -5586,13 +5664,7 @@
 		(uuid "c6b54dad-936c-45a3-a232-0a8743611354")
 	)
 	(junction
-		(at 386.08 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7b3ef3d-ea44-441d-9cd3-7f9f1540c9e0")
-	)
-	(junction
-		(at 340.36 229.87)
+		(at 340.36 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8c9e9b6-d264-4c0f-99fd-f722161de07d")
@@ -5646,7 +5718,7 @@
 		(uuid "cf936463-79ef-4b8c-b419-bea78c355703")
 	)
 	(junction
-		(at 345.44 229.87)
+		(at 345.44 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d01ab972-eacc-416b-888f-ff02afe4eb7b")
@@ -5748,7 +5820,13 @@
 		(uuid "df977ec1-55c7-4f1c-8317-3491d2326b0f")
 	)
 	(junction
-		(at 365.76 229.87)
+		(at 386.08 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df9f8ed9-a990-40f3-a9b0-a8b5844d2dd6")
+	)
+	(junction
+		(at 365.76 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e05a0a57-aef2-4cf3-a845-600ebd1a53c8")
@@ -5760,13 +5838,13 @@
 		(uuid "e328a1a6-28a4-4734-b3a1-8004ec132a1c")
 	)
 	(junction
-		(at 342.9 229.87)
+		(at 342.9 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3304b50-d2ec-4638-a877-580fd30ee875")
 	)
 	(junction
-		(at 347.98 229.87)
+		(at 347.98 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e34d9f80-794c-4605-a978-88672471234c")
@@ -5778,13 +5856,13 @@
 		(uuid "e3cb75b9-02bc-4f87-b214-06c8b718bdaf")
 	)
 	(junction
-		(at 353.06 229.87)
+		(at 353.06 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5999aed-2eb8-4c8e-b0c9-e75aab74fbc9")
 	)
 	(junction
-		(at 351.79 129.54)
+		(at 351.79 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e65b15c5-06c7-47a0-812d-89df4323b3d1")
@@ -5820,6 +5898,12 @@
 		(uuid "eb3b7993-0333-47bc-a387-82d5dc9ba988")
 	)
 	(junction
+		(at 386.08 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb7ef1e6-7967-4d4e-a7b1-edd79601c61e")
+	)
+	(junction
 		(at 48.26 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5838,7 +5922,7 @@
 		(uuid "f1776a62-c457-40e7-b0b0-afe90a36045c")
 	)
 	(junction
-		(at 350.52 229.87)
+		(at 350.52 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1fbfe4d-e708-457c-b1d2-595281fdc589")
@@ -5892,7 +5976,7 @@
 		(uuid "076feb3b-73f6-41b8-96b0-4df80ab0053c")
 	)
 	(no_connect
-		(at 386.08 201.93)
+		(at 386.08 205.74)
 		(uuid "0c177525-4de0-4693-bf16-0d41d0a19f3b")
 	)
 	(no_connect
@@ -5900,7 +5984,7 @@
 		(uuid "0c1da60c-b19b-46f3-bb30-4bf7834aa422")
 	)
 	(no_connect
-		(at 335.28 186.69)
+		(at 335.28 190.5)
 		(uuid "0c574573-b1df-4b54-8c3d-7aea4c8b82fd")
 	)
 	(no_connect
@@ -5912,7 +5996,7 @@
 		(uuid "0fb44954-f37b-45ec-9772-44915236ba0c")
 	)
 	(no_connect
-		(at 335.28 204.47)
+		(at 335.28 208.28)
 		(uuid "15ba657e-5397-4862-a22c-232e03a5d8a9")
 	)
 	(no_connect
@@ -5944,7 +6028,7 @@
 		(uuid "4788d87a-f5d9-4daa-846a-eed55cedda7a")
 	)
 	(no_connect
-		(at 335.28 181.61)
+		(at 335.28 185.42)
 		(uuid "518579fa-889a-4fde-9624-85003657e555")
 	)
 	(no_connect
@@ -5964,7 +6048,7 @@
 		(uuid "65863a1f-42e0-4c88-b08b-6f504379c983")
 	)
 	(no_connect
-		(at 335.28 166.37)
+		(at 335.28 170.18)
 		(uuid "6a771f77-6226-4599-a8dc-ba7616f61a75")
 	)
 	(no_connect
@@ -6008,7 +6092,7 @@
 		(uuid "80f16b79-8098-44b5-a4f7-e5b9613800f4")
 	)
 	(no_connect
-		(at 335.28 184.15)
+		(at 335.28 187.96)
 		(uuid "84006fdb-6f57-49cb-ba2f-85f7a9629b6b")
 	)
 	(no_connect
@@ -6032,15 +6116,15 @@
 		(uuid "987a8b14-6179-47dc-8a04-be3418a35348")
 	)
 	(no_connect
-		(at 335.28 163.83)
+		(at 335.28 167.64)
 		(uuid "a2b52692-6d4b-4ebd-8ad8-e55ba5aa4d3d")
 	)
 	(no_connect
-		(at 335.28 179.07)
+		(at 335.28 182.88)
 		(uuid "a46a1957-2fd5-4a9a-9f85-5831565d3b72")
 	)
 	(no_connect
-		(at 335.28 158.75)
+		(at 335.28 162.56)
 		(uuid "ad603d66-1db7-487a-9995-e49dd3521544")
 	)
 	(no_connect
@@ -6064,11 +6148,11 @@
 		(uuid "bf170ad1-00f9-4b97-9cf8-beaa01ff8a56")
 	)
 	(no_connect
-		(at 335.28 161.29)
+		(at 335.28 165.1)
 		(uuid "c4d2f029-d92b-450f-9623-287c34c30461")
 	)
 	(no_connect
-		(at 335.28 176.53)
+		(at 335.28 180.34)
 		(uuid "cdb7506e-0f7f-400c-a8ee-7ea55ec46dcc")
 	)
 	(no_connect
@@ -6088,15 +6172,15 @@
 		(uuid "e42d052f-384f-4119-ae9c-492f87854883")
 	)
 	(no_connect
-		(at 335.28 168.91)
+		(at 335.28 172.72)
 		(uuid "e56131e0-8438-495c-a163-432e38285d53")
 	)
 	(no_connect
-		(at 335.28 173.99)
+		(at 335.28 177.8)
 		(uuid "e86d7b86-bcd9-4ee4-88c1-3223ed9fd308")
 	)
 	(no_connect
-		(at 335.28 171.45)
+		(at 335.28 175.26)
 		(uuid "f681025b-d097-4cb9-8094-c3e3a248a9dc")
 	)
 	(no_connect
@@ -6145,7 +6229,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 129.54) (xy 372.11 129.54)
+			(xy 369.57 133.35) (xy 372.11 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6155,7 +6239,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 148.59) (xy 335.28 148.59)
+			(xy 322.58 152.4) (xy 335.28 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6175,7 +6259,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 110.49) (xy 93.98 124.46)
+			(xy 93.98 110.49) (xy 93.98 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6205,7 +6289,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 209.55) (xy 397.51 209.55)
+			(xy 386.08 213.36) (xy 397.51 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6455,7 +6539,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 129.54) (xy 351.79 129.54)
+			(xy 344.17 133.35) (xy 351.79 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6535,7 +6619,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 229.87) (xy 342.9 229.87)
+			(xy 345.44 233.68) (xy 342.9 233.68)
 		)
 		(stroke
 			(width 0)
@@ -6625,7 +6709,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 129.54) (xy 364.49 133.35)
+			(xy 364.49 133.35) (xy 364.49 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6725,7 +6809,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 151.13) (xy 335.28 151.13)
+			(xy 322.58 154.94) (xy 335.28 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6905,7 +6989,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 156.21) (xy 335.28 156.21)
+			(xy 322.58 160.02) (xy 335.28 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6942,6 +7026,16 @@
 			(type solid)
 		)
 		(uuid "2e1c94f9-b958-4f82-9b9e-f5bfdbfec550")
+	)
+	(wire
+		(pts
+			(xy 373.38 233.68) (xy 373.38 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed177be-5565-498e-a492-528393f1d192")
 	)
 	(wire
 		(pts
@@ -6992,16 +7086,6 @@
 			(type default)
 		)
 		(uuid "30607cb0-a486-436e-b6b9-27e8b70b8916")
-	)
-	(wire
-		(pts
-			(xy 386.08 223.52) (xy 386.08 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "308a1533-54ba-42b4-8f5b-9bb3cc2f289e")
 	)
 	(wire
 		(pts
@@ -7065,7 +7149,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 129.54) (xy 354.33 133.35)
+			(xy 354.33 133.35) (xy 354.33 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7145,7 +7229,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 129.54) (xy 361.95 133.35)
+			(xy 361.95 133.35) (xy 361.95 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7155,7 +7239,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 129.54) (xy 359.41 133.35)
+			(xy 359.41 133.35) (xy 359.41 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7175,7 +7259,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 229.87) (xy 350.52 229.87)
+			(xy 347.98 233.68) (xy 350.52 233.68)
 		)
 		(stroke
 			(width 0)
@@ -7245,7 +7329,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 229.87) (xy 347.98 229.87)
+			(xy 345.44 233.68) (xy 347.98 233.68)
 		)
 		(stroke
 			(width 0)
@@ -7282,6 +7366,16 @@
 			(type default)
 		)
 		(uuid "3ffaec28-9180-40b0-a98a-9b324d92e9ea")
+	)
+	(wire
+		(pts
+			(xy 370.84 233.68) (xy 370.84 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40791168-7947-43ba-8369-1e0d5c3d80ec")
 	)
 	(wire
 		(pts
@@ -7345,7 +7439,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 129.54) (xy 372.11 133.35)
+			(xy 372.11 133.35) (xy 372.11 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7405,7 +7499,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 129.54) (xy 356.87 129.54)
+			(xy 354.33 133.35) (xy 356.87 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7415,7 +7509,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 153.67) (xy 335.28 153.67)
+			(xy 322.58 157.48) (xy 335.28 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7472,16 +7566,6 @@
 			(type solid)
 		)
 		(uuid "4b913279-b5db-4f38-9b54-22740298d334")
-	)
-	(wire
-		(pts
-			(xy 386.08 218.44) (xy 386.08 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bda9bff-cc40-4df8-a7b4-d860655455d9")
 	)
 	(wire
 		(pts
@@ -7605,7 +7689,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 129.54) (xy 351.79 133.35)
+			(xy 351.79 133.35) (xy 351.79 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7655,13 +7739,33 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 129.54) (xy 367.03 129.54)
+			(xy 364.49 133.35) (xy 367.03 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "523fda17-e2a3-43fc-8d22-849dd52eaba7")
+	)
+	(wire
+		(pts
+			(xy 368.3 233.68) (xy 368.3 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526a9711-5699-4d7e-9147-d100f117a476")
+	)
+	(wire
+		(pts
+			(xy 386.08 224.79) (xy 386.08 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f89a33-0dea-48d8-b5f0-254afe62d194")
 	)
 	(wire
 		(pts
@@ -7785,7 +7889,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 129.54) (xy 354.33 129.54)
+			(xy 351.79 133.35) (xy 354.33 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7855,7 +7959,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 129.54) (xy 392.43 166.37)
+			(xy 392.43 133.35) (xy 392.43 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7902,16 +8006,6 @@
 			(type default)
 		)
 		(uuid "5d9e2509-48aa-47e4-8833-853a55b08b55")
-	)
-	(wire
-		(pts
-			(xy 386.08 215.9) (xy 386.08 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ddb5559-3d7e-478c-9278-fd5e67dd4668")
 	)
 	(wire
 		(pts
@@ -8012,6 +8106,16 @@
 			(type default)
 		)
 		(uuid "6415b720-cacf-4cba-82cb-a5029fc0ff13")
+	)
+	(wire
+		(pts
+			(xy 386.08 217.17) (xy 386.08 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644e8a4b-1978-4baf-8143-06c5c2a49217")
 	)
 	(wire
 		(pts
@@ -8355,7 +8459,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 217.17) (xy 335.28 217.17)
+			(xy 321.31 220.98) (xy 335.28 220.98)
 		)
 		(stroke
 			(width 0)
@@ -8365,7 +8469,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 129.54) (xy 369.57 133.35)
+			(xy 369.57 133.35) (xy 369.57 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8395,7 +8499,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 229.87) (xy 353.06 229.87)
+			(xy 355.6 233.68) (xy 353.06 233.68)
 		)
 		(stroke
 			(width 0)
@@ -8435,7 +8539,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 140.97) (xy 335.28 140.97)
+			(xy 322.58 144.78) (xy 335.28 144.78)
 		)
 		(stroke
 			(width 0)
@@ -8445,7 +8549,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 191.77) (xy 392.43 191.77)
+			(xy 386.08 195.58) (xy 392.43 195.58)
 		)
 		(stroke
 			(width 0)
@@ -8555,6 +8659,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 222.25) (xy 386.08 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc0ab46-b6f2-46b7-953f-42b6a65fef73")
+	)
+	(wire
+		(pts
 			(xy 76.2 69.85) (xy 76.2 73.66)
 		)
 		(stroke
@@ -8592,6 +8706,16 @@
 			(type default)
 		)
 		(uuid "8185d3e1-2b0a-424f-8a74-81e26f2a6b59")
+	)
+	(wire
+		(pts
+			(xy 386.08 229.87) (xy 386.08 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818b7026-3ef0-4071-8396-50754732762f")
 	)
 	(wire
 		(pts
@@ -8635,7 +8759,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 229.87) (xy 342.9 229.87)
+			(xy 340.36 233.68) (xy 342.9 233.68)
 		)
 		(stroke
 			(width 0)
@@ -8745,7 +8869,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 147.32) (xy 40.64 147.32)
+			(xy 35.56 147.32) (xy 40.64 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8825,7 +8949,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 213.36) (xy 386.08 215.9)
+			(xy 386.08 217.17) (xy 386.08 215.9)
 		)
 		(stroke
 			(width 0)
@@ -8885,7 +9009,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 149.86) (xy 40.64 149.86)
+			(xy 35.56 149.86) (xy 40.64 149.86)
 		)
 		(stroke
 			(width 0)
@@ -9155,7 +9279,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 229.87) (xy 360.68 229.87)
+			(xy 363.22 233.68) (xy 360.68 233.68)
 		)
 		(stroke
 			(width 0)
@@ -9185,7 +9309,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 229.87) (xy 358.14 229.87)
+			(xy 355.6 233.68) (xy 358.14 233.68)
 		)
 		(stroke
 			(width 0)
@@ -9245,7 +9369,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 229.87) (xy 353.06 229.87)
+			(xy 350.52 233.68) (xy 353.06 233.68)
 		)
 		(stroke
 			(width 0)
@@ -9255,7 +9379,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 129.54) (xy 359.41 129.54)
+			(xy 356.87 133.35) (xy 359.41 133.35)
 		)
 		(stroke
 			(width 0)
@@ -9335,7 +9459,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 129.54) (xy 356.87 133.35)
+			(xy 356.87 133.35) (xy 356.87 137.16)
 		)
 		(stroke
 			(width 0)
@@ -9415,7 +9539,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 71.12) (xy 266.7 71.12)
+			(xy 265.43 73.66) (xy 266.7 73.66)
 		)
 		(stroke
 			(width 0)
@@ -9545,16 +9669,6 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 226.06) (xy 386.08 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1046147-ebc8-484c-b6c5-e91d411cdd63")
-	)
-	(wire
-		(pts
 			(xy 91.44 222.25) (xy 91.44 224.79)
 		)
 		(stroke
@@ -9655,7 +9769,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 173.99) (xy 392.43 180.34)
+			(xy 392.43 177.8) (xy 392.43 184.15)
 		)
 		(stroke
 			(width 0)
@@ -9705,7 +9819,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 129.54) (xy 369.57 129.54)
+			(xy 367.03 133.35) (xy 369.57 133.35)
 		)
 		(stroke
 			(width 0)
@@ -9735,7 +9849,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 229.87) (xy 365.76 229.87)
+			(xy 368.3 233.68) (xy 365.76 233.68)
 		)
 		(stroke
 			(width 0)
@@ -10115,7 +10229,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 129.54) (xy 361.95 129.54)
+			(xy 359.41 133.35) (xy 361.95 133.35)
 		)
 		(stroke
 			(width 0)
@@ -10165,7 +10279,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 229.87) (xy 340.36 231.14)
+			(xy 340.36 233.68) (xy 340.36 234.95)
 		)
 		(stroke
 			(width 0)
@@ -10175,7 +10289,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 191.77) (xy 392.43 187.96)
+			(xy 392.43 195.58) (xy 392.43 191.77)
 		)
 		(stroke
 			(width 0)
@@ -10225,7 +10339,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 229.87) (xy 360.68 229.87)
+			(xy 358.14 233.68) (xy 360.68 233.68)
 		)
 		(stroke
 			(width 0)
@@ -10235,7 +10349,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 129.54) (xy 392.43 129.54)
+			(xy 372.11 133.35) (xy 392.43 133.35)
 		)
 		(stroke
 			(width 0)
@@ -10275,7 +10389,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 229.87) (xy 363.22 229.87)
+			(xy 365.76 233.68) (xy 363.22 233.68)
 		)
 		(stroke
 			(width 0)
@@ -10315,7 +10429,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 113.03) (xy 101.6 129.54)
+			(xy 101.6 113.03) (xy 101.6 125.73)
 		)
 		(stroke
 			(width 0)
@@ -10345,6 +10459,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 219.71) (xy 386.08 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd87b680-ceb2-4c4e-9708-b0d01f88a8e8")
+	)
+	(wire
+		(pts
 			(xy 292.1 231.14) (xy 292.1 234.95)
 		)
 		(stroke
@@ -10355,7 +10479,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 129.54) (xy 101.6 129.54)
+			(xy 78.74 125.73) (xy 101.6 125.73)
 		)
 		(stroke
 			(width 0)
@@ -10385,7 +10509,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 138.43) (xy 335.28 138.43)
+			(xy 322.58 142.24) (xy 335.28 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10395,7 +10519,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 219.71) (xy 335.28 219.71)
+			(xy 321.31 223.52) (xy 335.28 223.52)
 		)
 		(stroke
 			(width 0)
@@ -10515,16 +10639,6 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 220.98) (xy 386.08 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e584be86-41fc-4c2f-89a4-dce9708610d4")
-	)
-	(wire
-		(pts
 			(xy 208.28 81.28) (xy 219.71 81.28)
 		)
 		(stroke
@@ -10585,7 +10699,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 129.54) (xy 367.03 133.35)
+			(xy 367.03 133.35) (xy 367.03 137.16)
 		)
 		(stroke
 			(width 0)
@@ -10685,7 +10799,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 143.51) (xy 335.28 143.51)
+			(xy 322.58 147.32) (xy 335.28 147.32)
 		)
 		(stroke
 			(width 0)
@@ -10725,7 +10839,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 86.36) (xy 195.58 86.36)
+			(xy 190.5 86.36) (xy 195.58 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10765,7 +10879,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 71.12) (xy 266.7 88.9)
+			(xy 266.7 73.66) (xy 266.7 88.9)
 		)
 		(stroke
 			(width 0)
@@ -10855,7 +10969,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 129.54) (xy 364.49 129.54)
+			(xy 361.95 133.35) (xy 364.49 133.35)
 		)
 		(stroke
 			(width 0)
@@ -10925,7 +11039,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 124.46) (xy 93.98 124.46)
+			(xy 72.39 123.19) (xy 93.98 123.19)
 		)
 		(stroke
 			(width 0)
@@ -11144,7 +11258,7 @@
 		(uuid "28610114-c1ea-4343-b60a-c3f00bf906cd")
 	)
 	(label "SUSCLK"
-		(at 389.89 209.55 0)
+		(at 389.89 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11294,7 +11408,7 @@
 		(uuid "666f18b0-d83c-4f9f-9caf-dedfb245975b")
 	)
 	(label "PCIe_RX_P_4"
-		(at 322.58 153.67 0)
+		(at 322.58 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11344,7 +11458,7 @@
 		(uuid "7446b8f6-5838-4140-b28d-9406569c9f30")
 	)
 	(label "PCIe_RX_N_4"
-		(at 322.58 156.21 0)
+		(at 322.58 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11364,7 +11478,7 @@
 		(uuid "7aad05ca-7e25-4da3-937c-d20ef61d523e")
 	)
 	(label "PCIe_CLK_N_4"
-		(at 321.31 219.71 0)
+		(at 321.31 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11374,7 +11488,7 @@
 		(uuid "83e19fc4-0c0c-4447-8433-0d35cba5fc0f")
 	)
 	(label "PCIe_TX_P_4"
-		(at 322.58 148.59 0)
+		(at 322.58 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11384,7 +11498,7 @@
 		(uuid "85e93f63-9828-49ab-b966-17efb5b5d5c2")
 	)
 	(label "PCIe_CLK_P_4"
-		(at 321.31 217.17 0)
+		(at 321.31 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11434,7 +11548,7 @@
 		(uuid "95ff28f7-7969-4150-84c4-a891163e89b9")
 	)
 	(label "PCIe_TX_N_4"
-		(at 322.58 151.13 0)
+		(at 322.58 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11454,7 +11568,7 @@
 		(uuid "9ca04900-ac16-4e08-8ae9-ccffded56bb2")
 	)
 	(label "M2_3v3"
-		(at 344.17 129.54 0)
+		(at 344.17 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11494,7 +11608,7 @@
 		(uuid "abe01f36-3179-4b79-a4fa-8b4ecf8af334")
 	)
 	(label "~{PERST}"
-		(at 78.74 124.46 180)
+		(at 78.74 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11504,7 +11618,7 @@
 		(uuid "adf19b21-dde4-41ba-8d4b-5e9b82936a59")
 	)
 	(label "~{PERST}"
-		(at 328.93 138.43 180)
+		(at 328.93 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11739,7 +11853,7 @@
 	)
 	(hierarchical_label "PCIE_nCLKREQ"
 		(shape output)
-		(at 27.94 147.32 180)
+		(at 35.56 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11761,7 +11875,7 @@
 	)
 	(hierarchical_label "PCIE_nCLKREQ"
 		(shape output)
-		(at 322.58 140.97 180)
+		(at 322.58 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11783,7 +11897,7 @@
 	)
 	(hierarchical_label "PCIE_nWAKE"
 		(shape output)
-		(at 322.58 143.51 180)
+		(at 322.58 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11805,7 +11919,7 @@
 	)
 	(hierarchical_label "PCIE_nRST"
 		(shape input)
-		(at 78.74 129.54 180)
+		(at 78.74 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11838,7 +11952,7 @@
 	)
 	(hierarchical_label "+5v_S1"
 		(shape input)
-		(at 182.88 86.36 180)
+		(at 190.5 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11871,7 +11985,7 @@
 	)
 	(hierarchical_label "PCIE_nWAKE"
 		(shape output)
-		(at 27.94 149.86 180)
+		(at 35.56 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11882,7 +11996,7 @@
 	)
 	(hierarchical_label "PCIE_PWR_EN"
 		(shape input)
-		(at 265.43 71.12 180)
+		(at 265.43 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13032,7 +13146,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:M.2_Screw")
-		(at 351.79 77.47 0)
+		(at 397.51 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13041,7 +13155,7 @@
 		(fields_autoplaced yes)
 		(uuid "1719897f-d792-4489-8767-f7259f9587bf")
 		(property "Reference" "M15"
-			(at 359.41 76.1999 0)
+			(at 396.2399 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13050,7 +13164,7 @@
 			)
 		)
 		(property "Value" "M.2 Screw"
-			(at 359.41 78.7399 0)
+			(at 398.7799 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13059,7 +13173,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 77.47 0)
+			(at 397.51 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13068,7 +13182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 77.47 0)
+			(at 397.51 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13077,7 +13191,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 351.79 77.47 0)
+			(at 397.51 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13086,7 +13200,7 @@
 			)
 		)
 		(property "Part Description" "M.2 Screw"
-			(at 351.79 77.47 0)
+			(at 397.51 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14454,7 +14568,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:Bus_M.2_Socket_M")
-		(at 360.68 181.61 0)
+		(at 360.68 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14462,7 +14576,7 @@
 		(dnp no)
 		(uuid "3407cc52-7b53-44a2-851f-0a208e17200b")
 		(property "Reference" "J13"
-			(at 338.074 134.112 0)
+			(at 338.074 137.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14471,7 +14585,7 @@
 			)
 		)
 		(property "Value" "Bus_M.2_Socket_M"
-			(at 374.396 134.366 0)
+			(at 374.396 138.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14480,7 +14594,7 @@
 			)
 		)
 		(property "Footprint" "CM5IO:M.2 M Key socket"
-			(at 360.68 154.94 0)
+			(at 360.68 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14489,7 +14603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 154.94 0)
+			(at 360.68 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14498,7 +14612,7 @@
 			)
 		)
 		(property "Description" "M.2 Socket 3 Mechanical Key M"
-			(at 360.68 181.61 0)
+			(at 360.68 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14507,7 +14621,7 @@
 			)
 		)
 		(property "Field5" "MTSSD03-67MSW337"
-			(at 360.68 181.61 0)
+			(at 360.68 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14516,7 +14630,7 @@
 			)
 		)
 		(property "Field6" "MTSSD03-67MSW337"
-			(at 360.68 181.61 0)
+			(at 360.68 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14525,7 +14639,7 @@
 			)
 		)
 		(property "Field7" "MTCONN"
-			(at 360.68 181.61 0)
+			(at 360.68 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14534,7 +14648,7 @@
 			)
 		)
 		(property "Part Description" "M.2 M Key connector"
-			(at 360.68 181.61 0)
+			(at 360.68 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14976,7 +15090,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:SolderNut")
-		(at 297.18 48.26 0)
+		(at 368.3 60.96 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -14985,7 +15099,7 @@
 		(fields_autoplaced yes)
 		(uuid "3904783f-0d7f-4793-8eb1-9fe3ee2d6303")
 		(property "Reference" "M3"
-			(at 302.26 46.9899 0)
+			(at 367.0299 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14994,7 +15108,7 @@
 			)
 		)
 		(property "Value" "M.2 Solder Nut"
-			(at 302.26 49.5299 0)
+			(at 369.5699 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15003,7 +15117,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 48.26 0)
+			(at 368.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15012,7 +15126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 48.26 0)
+			(at 368.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15021,7 +15135,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 48.26 0)
+			(at 368.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15030,7 +15144,7 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
-			(at 297.18 48.26 0)
+			(at 368.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15114,7 +15228,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 392.43 170.18 90)
+		(at 392.43 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15122,7 +15236,7 @@
 		(dnp no)
 		(uuid "3e1d224d-7455-4488-9596-69bbd82d80c3")
 		(property "Reference" "D9"
-			(at 395.4018 169.1894 90)
+			(at 395.4018 172.9994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15131,7 +15245,7 @@
 			)
 		)
 		(property "Value" "LED Green"
-			(at 395.4018 171.5008 90)
+			(at 395.4018 175.3108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15140,7 +15254,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 392.43 170.18 0)
+			(at 392.43 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15149,7 +15263,7 @@
 			)
 		)
 		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf"
-			(at 392.43 170.18 0)
+			(at 392.43 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15158,7 +15272,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 392.43 170.18 0)
+			(at 392.43 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15167,7 +15281,7 @@
 			)
 		)
 		(property "Field4" "Digikey "
-			(at 392.43 170.18 0)
+			(at 392.43 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15176,7 +15290,7 @@
 			)
 		)
 		(property "Field5" "LTST-S270KGKT"
-			(at 392.43 170.18 0)
+			(at 392.43 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15185,7 +15299,7 @@
 			)
 		)
 		(property "Field6" "SML-A12M8TT86N"
-			(at 392.43 170.18 0)
+			(at 392.43 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15194,7 +15308,7 @@
 			)
 		)
 		(property "Field7" "Rohm"
-			(at 392.43 170.18 0)
+			(at 392.43 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15203,7 +15317,7 @@
 			)
 		)
 		(property "Field8" "650263301"
-			(at 392.43 170.18 0)
+			(at 392.43 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15212,7 +15326,7 @@
 			)
 		)
 		(property "Part Description" "	Green 572nm LED Indication - Discrete 2.2V 2-SMD, No Lead"
-			(at 392.43 170.18 0)
+			(at 392.43 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15254,7 +15368,7 @@
 			)
 		)
 		(property "Value" "+1V2"
-			(at 26.67 15.24 0)
+			(at 25.146 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15743,7 +15857,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:SolderNut")
-		(at 375.92 48.26 0)
+		(at 299.72 35.56 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -15752,7 +15866,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ebaa144-731f-49b9-9a38-6b10796e922d")
 		(property "Reference" "M18"
-			(at 381 46.9899 0)
+			(at 298.4499 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15761,7 +15875,7 @@
 			)
 		)
 		(property "Value" "M.2 Solder Nut"
-			(at 381 49.5299 0)
+			(at 300.9899 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15770,7 +15884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 375.92 48.26 0)
+			(at 299.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15779,7 +15893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 48.26 0)
+			(at 299.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15788,7 +15902,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 375.92 48.26 0)
+			(at 299.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15797,7 +15911,7 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
-			(at 375.92 48.26 0)
+			(at 299.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15816,7 +15930,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:M.2_Screw")
-		(at 326.39 77.47 0)
+		(at 328.93 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15825,7 +15939,7 @@
 		(fields_autoplaced yes)
 		(uuid "5058affa-708d-436a-b64c-5dd1baf4639f")
 		(property "Reference" "M10"
-			(at 334.01 76.1999 0)
+			(at 327.6599 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15834,7 +15948,7 @@
 			)
 		)
 		(property "Value" "M.2 Screw"
-			(at 334.01 78.7399 0)
+			(at 330.1999 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15843,7 +15957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 326.39 77.47 0)
+			(at 328.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15852,7 +15966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 77.47 0)
+			(at 328.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15861,7 +15975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 326.39 77.47 0)
+			(at 328.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15870,7 +15984,7 @@
 			)
 		)
 		(property "Part Description" "M.2 Screw"
-			(at 326.39 77.47 0)
+			(at 328.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16466,7 +16580,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:SolderNut")
-		(at 323.85 60.96 0)
+		(at 312.42 60.96 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -16475,7 +16589,7 @@
 		(fields_autoplaced yes)
 		(uuid "72b7a535-20a0-4ef4-82b2-0d0d251b0a77")
 		(property "Reference" "M9"
-			(at 328.93 59.6899 0)
+			(at 311.1499 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16484,7 +16598,7 @@
 			)
 		)
 		(property "Value" "M.2 Solder Nut"
-			(at 328.93 62.2299 0)
+			(at 313.6899 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16493,7 +16607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 60.96 0)
+			(at 312.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16502,7 +16616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 60.96 0)
+			(at 312.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16511,7 +16625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 323.85 60.96 0)
+			(at 312.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16520,7 +16634,7 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
-			(at 323.85 60.96 0)
+			(at 312.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16539,7 +16653,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:SolderNut")
-		(at 349.25 60.96 0)
+		(at 381 34.29 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -16548,7 +16662,7 @@
 		(fields_autoplaced yes)
 		(uuid "77c532a0-6595-4731-ae53-5bfd15a5c3fd")
 		(property "Reference" "M14"
-			(at 354.33 59.6899 0)
+			(at 379.7299 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16557,7 +16671,7 @@
 			)
 		)
 		(property "Value" "M.2 Solder Nut"
-			(at 354.33 62.2299 0)
+			(at 382.2699 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16566,7 +16680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 349.25 60.96 0)
+			(at 381 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16575,7 +16689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 60.96 0)
+			(at 381 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16584,7 +16698,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 349.25 60.96 0)
+			(at 381 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16593,7 +16707,7 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
-			(at 349.25 60.96 0)
+			(at 381 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16682,7 +16796,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:SolderNut")
-		(at 375.92 22.86 0)
+		(at 274.32 35.56 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -16691,7 +16805,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a23b324-4a25-4741-9590-8a93cce65752")
 		(property "Reference" "M16"
-			(at 381 21.5899 0)
+			(at 273.0499 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16700,7 +16814,7 @@
 			)
 		)
 		(property "Value" "M.2 Solder Nut"
-			(at 381 24.1299 0)
+			(at 275.5899 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16709,7 +16823,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 375.92 22.86 0)
+			(at 274.32 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16718,7 +16832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 22.86 0)
+			(at 274.32 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16727,7 +16841,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 375.92 22.86 0)
+			(at 274.32 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16736,7 +16850,7 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
-			(at 375.92 22.86 0)
+			(at 274.32 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16755,7 +16869,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:SolderNut")
-		(at 323.85 35.56 0)
+		(at 287.02 60.96 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -16764,7 +16878,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cbb2e6e-6075-4d30-bbfa-c4204d043e46")
 		(property "Reference" "M7"
-			(at 328.93 34.2899 0)
+			(at 285.7499 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16773,7 +16887,7 @@
 			)
 		)
 		(property "Value" "M.2 Solder Nut"
-			(at 328.93 36.8299 0)
+			(at 288.2899 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16782,7 +16896,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 35.56 0)
+			(at 287.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16791,7 +16905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 35.56 0)
+			(at 287.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16800,7 +16914,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 323.85 35.56 0)
+			(at 287.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16809,7 +16923,7 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
-			(at 323.85 35.56 0)
+			(at 287.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17296,7 +17410,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:M.2_Screw")
-		(at 299.72 77.47 0)
+		(at 397.51 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17305,7 +17419,7 @@
 		(fields_autoplaced yes)
 		(uuid "91a6e385-8577-49eb-b867-1861d45af64f")
 		(property "Reference" "M5"
-			(at 307.34 76.1999 0)
+			(at 396.2399 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17314,7 +17428,7 @@
 			)
 		)
 		(property "Value" "M.2 Screw"
-			(at 307.34 78.7399 0)
+			(at 398.7799 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17323,7 +17437,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 299.72 77.47 0)
+			(at 397.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17332,7 +17446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 77.47 0)
+			(at 397.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17341,7 +17455,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 299.72 77.47 0)
+			(at 397.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17350,7 +17464,7 @@
 			)
 		)
 		(property "Part Description" "M.2 Screw"
-			(at 299.72 77.47 0)
+			(at 397.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17500,7 +17614,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:SolderNut")
-		(at 297.18 35.56 0)
+		(at 355.6 60.96 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -17509,7 +17623,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cb03503-7593-4624-99a4-78d3c087fff9")
 		(property "Reference" "M2"
-			(at 302.26 34.2899 0)
+			(at 354.3299 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17518,7 +17632,7 @@
 			)
 		)
 		(property "Value" "M.2 Solder Nut"
-			(at 302.26 36.8299 0)
+			(at 356.8699 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17527,7 +17641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 35.56 0)
+			(at 355.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17536,7 +17650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 35.56 0)
+			(at 355.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17545,7 +17659,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 35.56 0)
+			(at 355.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17554,7 +17668,7 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
-			(at 297.18 35.56 0)
+			(at 355.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17891,7 +18005,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:SolderNut")
-		(at 349.25 22.86 0)
+		(at 342.9 34.29 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -17900,7 +18014,7 @@
 		(fields_autoplaced yes)
 		(uuid "aca6ae18-13ed-4719-a015-ed861e647836")
 		(property "Reference" "M11"
-			(at 354.33 21.5899 0)
+			(at 341.6299 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17909,7 +18023,7 @@
 			)
 		)
 		(property "Value" "M.2 Solder Nut"
-			(at 354.33 24.1299 0)
+			(at 344.1699 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17918,7 +18032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 349.25 22.86 0)
+			(at 342.9 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17927,7 +18041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 22.86 0)
+			(at 342.9 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17936,7 +18050,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 349.25 22.86 0)
+			(at 342.9 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17945,7 +18059,7 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
-			(at 349.25 22.86 0)
+			(at 342.9 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18032,7 +18146,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 392.43 184.15 0)
+		(at 392.43 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18040,7 +18154,7 @@
 		(dnp no)
 		(uuid "ae48c4bd-848e-452f-9133-36b860655154")
 		(property "Reference" "R42"
-			(at 394.208 182.9816 0)
+			(at 394.208 186.7916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18049,7 +18163,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 394.208 185.293 0)
+			(at 394.208 189.103 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18058,7 +18172,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 390.652 184.15 90)
+			(at 390.652 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18067,7 +18181,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 392.43 184.15 0)
+			(at 392.43 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18076,7 +18190,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 392.43 184.15 0)
+			(at 392.43 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18085,7 +18199,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 392.43 184.15 0)
+			(at 392.43 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18094,7 +18208,7 @@
 			)
 		)
 		(property "Field5" "9239235"
-			(at 392.43 184.15 0)
+			(at 392.43 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18103,7 +18217,7 @@
 			)
 		)
 		(property "Field7" "KOA EUROPE GMBH"
-			(at 392.43 184.15 0)
+			(at 392.43 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18112,7 +18226,7 @@
 			)
 		)
 		(property "Field6" "RK73H1ETTP1001F"
-			(at 392.43 184.15 0)
+			(at 392.43 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18121,7 +18235,7 @@
 			)
 		)
 		(property "Part Description" "Resistor 1K M1005 1% 63mW"
-			(at 392.43 184.15 0)
+			(at 392.43 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18130,7 +18244,7 @@
 			)
 		)
 		(property "Field8" "125049511"
-			(at 392.43 184.15 0)
+			(at 392.43 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18484,7 +18598,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 340.36 231.14 0)
+		(at 340.36 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18492,7 +18606,7 @@
 		(dnp no)
 		(uuid "be686f3e-7b2f-4bd3-ba37-c2f385c3bffc")
 		(property "Reference" "#PWR078"
-			(at 340.36 237.49 0)
+			(at 340.36 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18501,7 +18615,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 340.487 235.5342 0)
+			(at 340.487 239.3442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18509,7 +18623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 340.36 231.14 0)
+			(at 340.36 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18518,7 +18632,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 340.36 231.14 0)
+			(at 340.36 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18527,7 +18641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 340.36 231.14 0)
+			(at 340.36 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18549,7 +18663,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:SolderNut")
-		(at 297.18 22.86 0)
+		(at 342.9 60.96 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -18558,7 +18672,7 @@
 		(fields_autoplaced yes)
 		(uuid "be9d4b43-843e-4249-a36f-5a0db4337599")
 		(property "Reference" "M1"
-			(at 302.26 21.5899 0)
+			(at 341.6299 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18567,7 +18681,7 @@
 			)
 		)
 		(property "Value" "M.2 Solder Nut"
-			(at 302.26 24.1299 0)
+			(at 344.1699 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18576,7 +18690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 22.86 0)
+			(at 342.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18585,7 +18699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 22.86 0)
+			(at 342.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18594,7 +18708,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 22.86 0)
+			(at 342.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18603,7 +18717,7 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
-			(at 297.18 22.86 0)
+			(at 342.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19081,7 +19195,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:M.2_Screw")
-		(at 378.46 77.47 0)
+		(at 328.93 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19090,7 +19204,7 @@
 		(fields_autoplaced yes)
 		(uuid "d24172c4-74ca-421a-a562-aaae1644a338")
 		(property "Reference" "M20"
-			(at 386.08 76.1999 0)
+			(at 327.6599 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19099,7 +19213,7 @@
 			)
 		)
 		(property "Value" "M.2 Screw"
-			(at 386.08 78.7399 0)
+			(at 330.1999 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19108,7 +19222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 378.46 77.47 0)
+			(at 328.93 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19117,7 +19231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 378.46 77.47 0)
+			(at 328.93 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19126,7 +19240,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 378.46 77.47 0)
+			(at 328.93 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19135,7 +19249,7 @@
 			)
 		)
 		(property "Part Description" "M.2 Screw"
-			(at 378.46 77.47 0)
+			(at 328.93 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19154,7 +19268,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:SolderNut")
-		(at 297.18 60.96 0)
+		(at 381 60.96 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -19163,7 +19277,7 @@
 		(fields_autoplaced yes)
 		(uuid "d724fbc1-c3ee-40a2-95fb-70b7601b787f")
 		(property "Reference" "M4"
-			(at 302.26 59.6899 0)
+			(at 379.7299 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19172,7 +19286,7 @@
 			)
 		)
 		(property "Value" "M.2 Solder Nut"
-			(at 302.26 62.2299 0)
+			(at 382.2699 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19181,7 +19295,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 60.96 0)
+			(at 381 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19190,7 +19304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 60.96 0)
+			(at 381 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19199,7 +19313,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 60.96 0)
+			(at 381 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19208,7 +19322,7 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
-			(at 297.18 60.96 0)
+			(at 381 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19618,7 +19732,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:SolderNut")
-		(at 323.85 22.86 0)
+		(at 274.32 60.96 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -19627,7 +19741,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd142e6f-0bb4-4597-866c-7e44160de389")
 		(property "Reference" "M6"
-			(at 328.93 21.5899 0)
+			(at 273.0499 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19636,7 +19750,7 @@
 			)
 		)
 		(property "Value" "M.2 Solder Nut"
-			(at 328.93 24.1299 0)
+			(at 275.5899 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19645,7 +19759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 22.86 0)
+			(at 274.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19654,7 +19768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 22.86 0)
+			(at 274.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19663,7 +19777,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 323.85 22.86 0)
+			(at 274.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19672,7 +19786,7 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
-			(at 323.85 22.86 0)
+			(at 274.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19814,7 +19928,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:SolderNut")
-		(at 349.25 48.26 0)
+		(at 368.3 34.29 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -19823,7 +19937,7 @@
 		(fields_autoplaced yes)
 		(uuid "e19ac236-09da-4d03-9d4f-412015b548ae")
 		(property "Reference" "M13"
-			(at 354.33 46.9899 0)
+			(at 367.0299 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19832,7 +19946,7 @@
 			)
 		)
 		(property "Value" "M.2 Solder Nut"
-			(at 354.33 49.5299 0)
+			(at 369.5699 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19841,7 +19955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 349.25 48.26 0)
+			(at 368.3 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19850,7 +19964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 48.26 0)
+			(at 368.3 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19859,7 +19973,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 349.25 48.26 0)
+			(at 368.3 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19868,7 +19982,7 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
-			(at 349.25 48.26 0)
+			(at 368.3 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20082,7 +20196,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:SolderNut")
-		(at 375.92 60.96 0)
+		(at 312.42 35.56 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -20091,7 +20205,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5a4de65-5f72-4f75-a727-80f51e023d8a")
 		(property "Reference" "M19"
-			(at 381 59.6899 0)
+			(at 311.1499 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20100,7 +20214,7 @@
 			)
 		)
 		(property "Value" "M.2 Solder Nut"
-			(at 381 62.2299 0)
+			(at 313.6899 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20109,7 +20223,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 375.92 60.96 0)
+			(at 312.42 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20118,7 +20232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 60.96 0)
+			(at 312.42 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20127,7 +20241,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 375.92 60.96 0)
+			(at 312.42 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20136,7 +20250,7 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
-			(at 375.92 60.96 0)
+			(at 312.42 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20155,7 +20269,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:SolderNut")
-		(at 323.85 48.26 0)
+		(at 299.72 60.96 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -20164,7 +20278,7 @@
 		(fields_autoplaced yes)
 		(uuid "e965c169-2bcf-4d48-8fa3-2757c4f44369")
 		(property "Reference" "M8"
-			(at 328.93 46.9899 0)
+			(at 298.4499 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20173,7 +20287,7 @@
 			)
 		)
 		(property "Value" "M.2 Solder Nut"
-			(at 328.93 49.5299 0)
+			(at 300.9899 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20182,7 +20296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 48.26 0)
+			(at 299.72 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20191,7 +20305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 48.26 0)
+			(at 299.72 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20200,7 +20314,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 323.85 48.26 0)
+			(at 299.72 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20209,7 +20323,7 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
-			(at 323.85 48.26 0)
+			(at 299.72 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20361,7 +20475,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:SolderNut")
-		(at 375.92 35.56 0)
+		(at 287.02 35.56 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -20370,7 +20484,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef09ede7-1e47-4af2-909a-376f2098dd9c")
 		(property "Reference" "M17"
-			(at 381 34.2899 0)
+			(at 285.7499 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20379,7 +20493,7 @@
 			)
 		)
 		(property "Value" "M.2 Solder Nut"
-			(at 381 36.8299 0)
+			(at 288.2899 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20388,7 +20502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 375.92 35.56 0)
+			(at 287.02 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20397,7 +20511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 35.56 0)
+			(at 287.02 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20406,7 +20520,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 375.92 35.56 0)
+			(at 287.02 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20415,7 +20529,7 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
-			(at 375.92 35.56 0)
+			(at 287.02 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20502,7 +20616,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:SolderNut")
-		(at 349.25 35.56 0)
+		(at 355.6 34.29 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -20511,7 +20625,7 @@
 		(fields_autoplaced yes)
 		(uuid "efa0f422-0da5-4fa5-921c-258767831b01")
 		(property "Reference" "M12"
-			(at 354.33 34.2899 0)
+			(at 354.3299 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20520,7 +20634,7 @@
 			)
 		)
 		(property "Value" "M.2 Solder Nut"
-			(at 354.33 36.8299 0)
+			(at 356.8699 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20529,7 +20643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 349.25 35.56 0)
+			(at 355.6 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20538,7 +20652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 35.56 0)
+			(at 355.6 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20547,7 +20661,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 349.25 35.56 0)
+			(at 355.6 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20556,7 +20670,7 @@
 			)
 		)
 		(property "Part Description" "Solder nut for M.2 slot"
-			(at 349.25 35.56 0)
+			(at 355.6 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20645,7 +20759,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f55ef88c-8286-4cd2-99f8-ce452745e8fb")
 		(property "Reference" "#PWR081"
 			(at 41.91 24.13 0)
@@ -20657,7 +20770,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 41.91 15.24 0)
+			(at 42.164 16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)

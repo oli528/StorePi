@@ -6170,6 +6170,30 @@
 		)
 		(uuid "499fd7c0-30bc-463e-9881-659f49f9dd5d")
 	)
+	(text_box "Current Limit HDMI"
+		(exclude_from_sim no)
+		(at 228.6 146.05 0)
+		(size 29.21 7.62)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "535ccfc3-39b1-4224-b124-60c18291ab27")
+	)
 	(text_box "[${#}] CM5_High Speed"
 		(exclude_from_sim no)
 		(at 162.56 13.97 0)
