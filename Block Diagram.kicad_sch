@@ -865,7 +865,7 @@
 		)
 		(uuid "50f90389-4852-4d94-a1e5-f12357304e05")
 	)
-	(text_box "Ethernet Control"
+	(text_box "RJ45\n"
 		(exclude_from_sim no)
 		(at 157.48 93.98 0)
 		(size 27.94 10.16)

@@ -13,7 +13,7 @@
 	(lib_symbols)
 	(text "9"
 		(exclude_from_sim no)
-		(at 35.56 144.78 0)
+		(at 37.592 135.636 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -41,7 +41,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 323.85 114.3 0)
+		(at 325.882 105.156 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -55,7 +55,7 @@
 	)
 	(text "13"
 		(exclude_from_sim no)
-		(at 134.62 99.06 0)
+		(at 136.652 89.916 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -67,9 +67,9 @@
 		)
 		(uuid "09a9f005-609a-4854-9ba5-f5a5e7b8d7c7")
 	)
-	(text "..........................................."
+	(text "Github CM5_NAS\n"
 		(exclude_from_sim no)
-		(at 244.348 84.074 0)
+		(at 246.38 74.93 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -77,12 +77,13 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
+			(href "https://github.com/oli528/CM5-NAS")
 		)
 		(uuid "0a96f99f-756a-4a9f-95ea-0f44fae79059")
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 244.348 152.654 0)
+		(at 246.38 143.51 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -111,7 +112,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 244.348 122.174 0)
+		(at 246.38 113.03 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -125,7 +126,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 244.348 145.034 0)
+		(at 246.38 135.89 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -153,7 +154,7 @@
 	)
 	(text "3"
 		(exclude_from_sim no)
-		(at 35.56 99.06 0)
+		(at 37.592 89.916 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -167,7 +168,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 323.85 83.82 0)
+		(at 325.882 74.676 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -181,7 +182,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 323.85 144.78 0)
+		(at 325.882 135.636 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -195,7 +196,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 323.85 121.92 0)
+		(at 325.882 112.776 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -209,7 +210,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 144.78 121.92 0)
+		(at 146.812 112.776 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -223,7 +224,7 @@
 	)
 	(text "1"
 		(exclude_from_sim no)
-		(at 35.56 83.82 0)
+		(at 37.592 74.676 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -248,9 +249,9 @@
 		)
 		(uuid "3e121d9b-11e9-4895-9779-ade93d5b2a88")
 	)
-	(text "..........................................."
+	(text "Sata Drives 2\n"
 		(exclude_from_sim no)
-		(at 45.974 142.494 0)
+		(at 47.498 135.128 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -258,13 +259,13 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#30")
+			(href "#9")
 		)
 		(uuid "41bb0f90-1135-4d50-9d44-9fb04444ecf6")
 	)
 	(text "Index"
 		(exclude_from_sim no)
-		(at 45.72 71.12 0)
+		(at 47.752 61.976 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -278,7 +279,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 144.78 99.06 0)
+		(at 146.812 89.916 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -292,7 +293,7 @@
 	)
 	(text "Index"
 		(exclude_from_sim no)
-		(at 144.78 71.12 0)
+		(at 146.812 61.976 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -306,7 +307,7 @@
 	)
 	(text "15"
 		(exclude_from_sim no)
-		(at 134.62 114.3 0)
+		(at 136.652 105.156 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -320,7 +321,7 @@
 	)
 	(text "6"
 		(exclude_from_sim no)
-		(at 35.56 121.92 0)
+		(at 37.592 112.776 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -349,7 +350,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 244.348 99.314 0)
+		(at 246.38 90.17 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -360,24 +361,9 @@
 		)
 		(uuid "4b96a01a-48c9-4498-8edb-c952e234ab44")
 	)
-	(text "${VARIANT} ${RELEASE_DATE}"
-		(exclude_from_sim no)
-		(at 220.98 237.49 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 10.16 10.16)
-				(thickness 0.6)
-				(bold yes)
-				(color 200 200 200 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f144e11-d681-45f3-b92d-dea6c28023e4")
-	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 244.348 91.694 0)
+		(at 246.38 82.55 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -390,7 +376,7 @@
 	)
 	(text "Page"
 		(exclude_from_sim no)
-		(at 35.56 71.12 0)
+		(at 37.592 61.976 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -404,7 +390,7 @@
 	)
 	(text "CM5_High Speed IO"
 		(exclude_from_sim no)
-		(at 45.72 106.68 0)
+		(at 47.752 97.536 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -418,7 +404,7 @@
 	)
 	(text "Power"
 		(exclude_from_sim no)
-		(at 45.974 121.92 0)
+		(at 48.006 112.776 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -432,7 +418,7 @@
 	)
 	(text "8"
 		(exclude_from_sim no)
-		(at 35.56 137.16 0)
+		(at 37.592 128.016 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -446,7 +432,7 @@
 	)
 	(text "14"
 		(exclude_from_sim no)
-		(at 134.62 106.68 0)
+		(at 136.652 97.536 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -460,7 +446,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 323.85 129.54 0)
+		(at 325.882 120.396 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -474,7 +460,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 244.348 106.934 0)
+		(at 246.38 97.79 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -488,7 +474,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 244.348 129.794 0)
+		(at 246.38 120.65 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -502,7 +488,7 @@
 	)
 	(text "5"
 		(exclude_from_sim no)
-		(at 35.56 114.3 0)
+		(at 37.592 105.156 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -531,7 +517,7 @@
 	)
 	(text "16"
 		(exclude_from_sim no)
-		(at 134.62 121.92 0)
+		(at 136.652 112.776 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -545,7 +531,7 @@
 	)
 	(text "10"
 		(exclude_from_sim no)
-		(at 35.56 152.4 0)
+		(at 37.592 143.256 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -559,7 +545,7 @@
 	)
 	(text "References"
 		(exclude_from_sim no)
-		(at 245.11 71.12 0)
+		(at 247.142 61.976 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -573,7 +559,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 323.85 106.68 0)
+		(at 325.882 97.536 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -587,7 +573,7 @@
 	)
 	(text "18"
 		(exclude_from_sim no)
-		(at 134.62 137.16 0)
+		(at 136.652 128.016 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -599,24 +585,9 @@
 		)
 		(uuid "7d4de17d-b484-45d2-95af-1050fc297950")
 	)
-	(text "Variant: ${VARIANT}"
-		(exclude_from_sim no)
-		(at 25.4 58.42 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 8 8)
-				(thickness 1)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "832c6231-94ea-4718-8f70-96006b71efdf")
-	)
 	(text "4"
 		(exclude_from_sim no)
-		(at 35.56 106.68 0)
+		(at 37.592 97.536 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -630,7 +601,7 @@
 	)
 	(text "11"
 		(exclude_from_sim no)
-		(at 134.62 83.82 0)
+		(at 136.652 74.676 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -644,7 +615,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 323.85 91.44 0)
+		(at 325.882 82.296 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -671,9 +642,9 @@
 		)
 		(uuid "9008c96f-82fa-4b3f-88a3-9ae35f59090b")
 	)
-	(text "Sata Drives"
+	(text "Sata Drives 1\n"
 		(exclude_from_sim no)
-		(at 45.466 136.652 0)
+		(at 47.498 127.508 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -687,7 +658,7 @@
 	)
 	(text "CM5_GPIO"
 		(exclude_from_sim no)
-		(at 45.72 114.3 0)
+		(at 47.752 105.156 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -701,7 +672,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 244.348 137.414 0)
+		(at 246.38 128.27 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -715,7 +686,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 323.85 137.16 0)
+		(at 325.882 128.016 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -729,7 +700,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 144.78 144.78 0)
+		(at 146.812 135.636 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -743,7 +714,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 144.78 83.82 0)
+		(at 146.812 74.676 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -757,7 +728,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 144.78 129.54 0)
+		(at 146.812 120.396 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -771,7 +742,7 @@
 	)
 	(text "M.2 Drives"
 		(exclude_from_sim no)
-		(at 45.72 129.54 0)
+		(at 47.752 120.396 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -785,7 +756,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 144.78 114.3 0)
+		(at 146.812 105.156 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -799,7 +770,7 @@
 	)
 	(text "${BOARD_NAME}"
 		(exclude_from_sim no)
-		(at 25.4 40.64 0)
+		(at 22.352 40.64 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -814,7 +785,7 @@
 	)
 	(text "Page"
 		(exclude_from_sim no)
-		(at 134.62 71.12 0)
+		(at 136.652 61.976 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -843,7 +814,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 144.78 106.68 0)
+		(at 146.812 97.536 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -857,7 +828,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 244.348 114.554 0)
+		(at 246.38 105.41 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -871,7 +842,7 @@
 	)
 	(text "Block Diagram"
 		(exclude_from_sim no)
-		(at 45.72 91.44 0)
+		(at 47.752 82.296 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -885,7 +856,7 @@
 	)
 	(text "19"
 		(exclude_from_sim no)
-		(at 134.62 144.78 0)
+		(at 136.652 135.636 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -899,7 +870,7 @@
 	)
 	(text "7"
 		(exclude_from_sim no)
-		(at 35.56 129.54 0)
+		(at 37.592 120.396 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -913,7 +884,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 323.85 99.06 0)
+		(at 325.882 89.916 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -927,7 +898,7 @@
 	)
 	(text "12"
 		(exclude_from_sim no)
-		(at 134.62 91.44 0)
+		(at 136.652 82.296 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -954,7 +925,7 @@
 	)
 	(text "2"
 		(exclude_from_sim no)
-		(at 35.56 91.44 0)
+		(at 37.592 82.296 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -968,7 +939,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 144.78 137.16 0)
+		(at 146.812 128.016 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -982,7 +953,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 144.78 152.4 0)
+		(at 146.812 143.256 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -996,7 +967,7 @@
 	)
 	(text "Cover Page"
 		(exclude_from_sim no)
-		(at 45.72 83.82 0)
+		(at 47.752 74.676 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1010,7 +981,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 323.85 152.4 0)
+		(at 325.882 143.256 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1038,7 +1009,7 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 144.78 91.44 0)
+		(at 146.812 82.296 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1052,7 +1023,7 @@
 	)
 	(text "Project Architecture"
 		(exclude_from_sim no)
-		(at 45.72 99.06 0)
+		(at 47.752 89.916 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1081,7 +1052,7 @@
 	)
 	(text "20"
 		(exclude_from_sim no)
-		(at 134.62 152.4 0)
+		(at 136.652 143.256 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1107,9 +1078,9 @@
 		)
 		(uuid "fb09f930-25b6-4039-89ae-42d9d443b49d")
 	)
-	(text "Revision History"
+	(text "Ethernet"
 		(exclude_from_sim no)
-		(at 47.498 150.876 0)
+		(at 48.006 143.002 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1123,7 +1094,7 @@
 	)
 	(text "17"
 		(exclude_from_sim no)
-		(at 134.62 129.54 0)
+		(at 136.652 120.396 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1332,7 +1303,7 @@
 	)
 	(polyline
 		(pts
-			(xy 45.72 73.66) (xy 106.68 73.66)
+			(xy 47.752 64.516) (xy 108.712 64.516)
 		)
 		(stroke
 			(width 1)
@@ -1343,7 +1314,7 @@
 	)
 	(polyline
 		(pts
-			(xy 324.612 73.406) (xy 385.572 73.406)
+			(xy 326.644 64.262) (xy 387.604 64.262)
 		)
 		(stroke
 			(width 1)
@@ -1354,7 +1325,7 @@
 	)
 	(polyline
 		(pts
-			(xy 245.11 73.66) (xy 306.07 73.66)
+			(xy 247.142 64.516) (xy 308.102 64.516)
 		)
 		(stroke
 			(width 1)
@@ -1365,7 +1336,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.84 73.66) (xy 134.62 73.66)
+			(xy 118.872 64.516) (xy 136.652 64.516)
 		)
 		(stroke
 			(width 1)
@@ -1376,7 +1347,7 @@
 	)
 	(polyline
 		(pts
-			(xy 17.78 73.66) (xy 35.56 73.66)
+			(xy 19.812 64.516) (xy 37.592 64.516)
 		)
 		(stroke
 			(width 1)
@@ -1398,7 +1369,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.78 73.66) (xy 205.74 73.66)
+			(xy 146.812 64.516) (xy 207.772 64.516)
 		)
 		(stroke
 			(width 1)
@@ -1492,7 +1463,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
-					(page "10")
+					(page "13")
 				)
 			)
 		)

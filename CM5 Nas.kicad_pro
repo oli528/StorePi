@@ -692,7 +692,7 @@
     ],
     [
       "6a9d58eb-7efc-489b-8392-0909cd6b0d5f",
-      "USB & Ethernet"
+      "Usb Switch"
     ],
     [
       "e7c91631-be85-488a-af7a-f2a810f3fbfe",
@@ -700,14 +700,12 @@
     ]
   ],
   "text_variables": {
-    "BOARD_NAME": "Board Name",
-    "COMPANY": "Company Name",
-    "DESIGNER": "Designer Name",
+    "BOARD_NAME": "CM5_NAS",
+    "DESIGNER": "Oliver Studman",
     "DOC_TYPE": "Fabrication",
-    "PROJECT_NAME": "Project Name",
+    "PROJECT_NAME": "CM5_NAS",
     "RELEASE_DATE": "Release Date",
     "REVIEWER": "Reviewer Name",
-    "REVISION": "Revision Number",
-    "VARIANT": "Variant Name"
+    "REVISION": "4"
   }
 }
