@@ -19,4 +19,5 @@
   (lib (name "47018-2000")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/47018-2000")(options "")(descr ""))
   (lib (name "MAX20008AFOC_VY+T")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/MAX20008AFOC_VY+T")(options "")(descr ""))
   (lib (name "SJA1105RELY")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/SJA1105RELY")(options "")(descr ""))
+  (lib (name "XT60PW-M")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/XT60PW-M")(options "")(descr ""))
 )

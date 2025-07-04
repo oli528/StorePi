@@ -20,4 +20,5 @@
   (lib (name "47018-2000")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/47018-2000.kicad_sym")(options "")(descr ""))
   (lib (name "MAX20008AFOC_VY+T")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/MAX20008AFOC_VY+T.kicad_sym")(options "")(descr ""))
   (lib (name "SJA1105RELY")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/SJA1105RELY.kicad_sym")(options "")(descr ""))
+  (lib (name "XT60PW-M")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/XT60PW-M.kicad_sym")(options "")(descr ""))
 )

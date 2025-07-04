@@ -4281,7 +4281,7 @@
 	)
 	(rectangle
 		(start 71.12 118.11)
-		(end 113.03 142.24)
+		(end 113.03 152.4)
 		(stroke
 			(width 1)
 			(type default)
@@ -4442,6 +4442,190 @@
 			)
 		)
 		(uuid "fafa8630-f220-4ccc-ad81-259f6deb33e4")
+	)
+	(text_box "Filtering"
+		(exclude_from_sim no)
+		(at 36.83 182.88 0)
+		(size 27.94 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "0aebaab6-7089-41b7-9974-b582bc343493")
+	)
+	(text_box "Flash\n\n"
+		(exclude_from_sim no)
+		(at 50.8 33.02 0)
+		(size 27.94 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "230cad27-36ae-444c-ae05-c3368536e1ac")
+	)
+	(text_box "JMS561"
+		(exclude_from_sim no)
+		(at 177.8 107.95 0)
+		(size 27.94 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "53238f0e-a078-44ab-9d8f-70d149ee091a")
+	)
+	(text_box "Sata Connectors\n"
+		(exclude_from_sim no)
+		(at 201.93 143.51 0)
+		(size 27.94 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "62d68a34-9a55-4e24-8986-2262db19d670")
+	)
+	(text_box "Hardware Raid \nConfig\n"
+		(exclude_from_sim no)
+		(at 80.01 139.7 0)
+		(size 27.94 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "6b60eb7e-a12a-4d53-b324-7dbede288202")
+	)
+	(text_box "Activity Leds\n"
+		(exclude_from_sim no)
+		(at 114.3 143.51 0)
+		(size 27.94 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "bb418e45-946e-4ca8-bddf-462f8d13137f")
+	)
+	(text_box "Power Managment\n"
+		(exclude_from_sim no)
+		(at 44.45 109.22 0)
+		(size 27.94 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "e0079fd0-0bef-4231-9f32-63db730c7542")
+	)
+	(text_box "Crystal\n"
+		(exclude_from_sim no)
+		(at 71.12 33.02 0)
+		(size 27.94 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "f44034d4-0bc5-4515-81fb-b82066bc6996")
 	)
 	(junction
 		(at 229.87 104.14)

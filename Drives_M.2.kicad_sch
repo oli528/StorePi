@@ -4737,7 +4737,7 @@
 	)
 	(rectangle
 		(start 12.7 13.97)
-		(end 49.53 102.87)
+		(end 49.53 109.22)
 		(stroke
 			(width 1)
 			(type default)
@@ -4804,6 +4804,144 @@
 			(justify left bottom)
 		)
 		(uuid "ca4dd031-e1a5-4153-838d-a74146cfbe08")
+	)
+	(text_box "Clock\n"
+		(exclude_from_sim no)
+		(at 209.55 41.91 0)
+		(size 27.94 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "0c46d18d-834d-4ba9-9bd7-622d0861a41d")
+	)
+	(text_box "M.2 Mounting\n"
+		(exclude_from_sim no)
+		(at 356.87 66.04 0)
+		(size 27.94 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "2e969968-39ed-4b3a-9e4c-21c8d1aaf636")
+	)
+	(text_box "M.2 Drives\n"
+		(exclude_from_sim no)
+		(at 16.51 129.54 0)
+		(size 27.94 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "3d9f91bd-6f14-4d35-99d9-8d7e98984dec")
+	)
+	(text_box "M.2 Power\n"
+		(exclude_from_sim no)
+		(at 269.24 67.31 0)
+		(size 27.94 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "6416d3da-5489-4d22-90ba-b665896e0f37")
+	)
+	(text_box "ASM1184"
+		(exclude_from_sim no)
+		(at 106.68 119.38 0)
+		(size 27.94 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "c2eb3c2b-63f1-4711-83c7-ddee5e41d66c")
+	)
+	(text_box "Filtering"
+		(exclude_from_sim no)
+		(at 15.24 100.33 0)
+		(size 27.94 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(thickness 0.3175)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "c8d50a73-5278-40dd-aea4-64ca077e67df")
 	)
 	(junction
 		(at 36.83 59.69)

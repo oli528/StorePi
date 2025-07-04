@@ -10386,6 +10386,19 @@
 		(uuid 05efc804-f448-45d8-b82a-8b62bde36a19)
 	)
 	(rectangle
+		(start 38.1 214.63)
+		(end 68.58 238.76)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4218c43d-f20e-481b-a00f-8145b8c2627e)
+	)
+	(rectangle
 		(start 139.7 80.01)
 		(end 187.96 121.92)
 		(stroke
@@ -10425,8 +10438,8 @@
 		(uuid 9c11a7d3-7abd-4b44-8eb1-7d61dfd2c8bb)
 	)
 	(rectangle
-		(start 20.32 176.53)
-		(end 57.15 200.66)
+		(start 13.97 170.18)
+		(end 50.8 194.31)
 		(stroke
 			(width 1)
 			(type default)
@@ -10541,7 +10554,7 @@
 	)
 	(text "POWER BUTTON"
 		(exclude_from_sim no)
-		(at 35.814 180.848 0)
+		(at 29.464 174.498 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -10566,6 +10579,20 @@
 			(justify left bottom)
 		)
 		(uuid "a1ef7128-69cf-4057-91db-0d8ac8d863d4")
+	)
+	(text "CM5 Fan\n"
+		(exclude_from_sim no)
+		(at 40.386 237.744 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c817933f-1d28-41e6-af0e-7406c00f1b2d")
 	)
 	(text "RTC BAT"
 		(exclude_from_sim no)
@@ -11072,7 +11099,7 @@
 		(uuid "42a7319b-15c2-407e-9efa-09dc8e477742")
 	)
 	(no_connect
-		(at 104.14 207.01)
+		(at 105.41 184.15)
 		(uuid "58b243a8-20dd-4a61-9d45-0da372a01384")
 	)
 	(no_connect
@@ -11082,6 +11109,10 @@
 	(no_connect
 		(at 101.6 120.65)
 		(uuid "7fdc59b1-0e4b-4236-a2d7-8e76bd57abd7")
+	)
+	(no_connect
+		(at 104.14 207.01)
+		(uuid "934f7e82-4704-46d8-83a2-50389be3c773")
 	)
 	(no_connect
 		(at 135.89 207.01)
@@ -11125,7 +11156,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 182.88) (xy 29.21 182.88)
+			(xy 16.51 176.53) (xy 22.86 176.53)
 		)
 		(stroke
 			(width 0)
@@ -11555,6 +11586,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 201.93) (xy 104.14 201.93)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "205f08cf-850c-4acb-890c-0e3a0f510d1b")
+	)
+	(wire
+		(pts
 			(xy 243.84 152.4) (xy 234.95 152.4)
 		)
 		(stroke
@@ -11655,7 +11696,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 204.47) (xy 102.87 204.47)
+			(xy 105.41 181.61) (xy 104.14 181.61)
 		)
 		(stroke
 			(width 0)
@@ -11915,6 +11956,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 204.47) (xy 102.87 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40195fb4-24eb-408f-96ef-14ae50080cce")
+	)
+	(wire
+		(pts
 			(xy 39.37 92.71) (xy 39.37 102.87)
 		)
 		(stroke
@@ -11955,7 +12006,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 176.53) (xy 104.14 176.53)
+			(xy 44.45 220.98) (xy 55.88 220.98)
 		)
 		(stroke
 			(width 0)
@@ -12935,7 +12986,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 184.15) (xy 104.14 184.15)
+			(xy 44.45 228.6) (xy 55.88 228.6)
 		)
 		(stroke
 			(width 0)
@@ -13215,7 +13266,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 181.61) (xy 102.87 181.61)
+			(xy 55.88 226.06) (xy 54.61 226.06)
 		)
 		(stroke
 			(width 0)
@@ -13595,7 +13646,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 179.07) (xy 104.14 179.07)
+			(xy 44.45 223.52) (xy 55.88 223.52)
 		)
 		(stroke
 			(width 0)
@@ -13612,6 +13663,16 @@
 			(type solid)
 		)
 		(uuid "d6ca5316-e2bd-4d27-b415-17fa26760732")
+	)
+	(wire
+		(pts
+			(xy 104.14 204.47) (xy 102.87 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6cc11d2-0b73-4511-903f-e98c2b84f666")
 	)
 	(wire
 		(pts
@@ -13775,7 +13836,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 181.61) (xy 102.87 190.5)
+			(xy 54.61 226.06) (xy 54.61 234.95)
 		)
 		(stroke
 			(width 0)
@@ -13895,7 +13956,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 204.47) (xy 102.87 212.09)
+			(xy 93.98 199.39) (xy 104.14 199.39)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f4d479e3-f0c8-4999-afc3-703f8e065f78")
+	)
+	(wire
+		(pts
+			(xy 104.14 181.61) (xy 104.14 189.23)
 		)
 		(stroke
 			(width 0)
@@ -13975,7 +14046,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 201.93) (xy 104.14 201.93)
+			(xy 93.98 179.07) (xy 105.41 179.07)
 		)
 		(stroke
 			(width 0)
@@ -14005,7 +14076,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 199.39) (xy 104.14 199.39)
+			(xy 93.98 176.53) (xy 105.41 176.53)
 		)
 		(stroke
 			(width 0)
@@ -14474,7 +14545,7 @@
 		(uuid "4f6cf3f7-7a37-4b4b-bebf-3b3c2944e61f")
 	)
 	(label "TACHO"
-		(at 93.345 184.15 0)
+		(at 45.085 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14624,7 +14695,7 @@
 		(uuid "72b3dd44-f6fd-4745-9ef1-5572f5f7c814")
 	)
 	(label "PWM"
-		(at 93.345 179.07 0)
+		(at 45.085 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14643,8 +14714,8 @@
 		)
 		(uuid "74176c84-4bc0-4c53-8942-2a613099a7fb")
 	)
-	(label "PWM"
-		(at 93.345 201.93 0)
+	(label "PWM_1"
+		(at 94.615 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14833,7 +14904,7 @@
 		)
 		(uuid "8761bd53-fb67-4588-8e51-44daafd99567")
 	)
-	(label "PWM"
+	(label "PWM_3"
 		(at 125.095 201.93 0)
 		(effects
 			(font
@@ -15214,7 +15285,7 @@
 		(uuid "d27ebd75-3627-4bf2-adb9-c1791a401be6")
 	)
 	(label "PWR_BUT"
-		(at 22.86 182.88 0)
+		(at 16.51 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15283,7 +15354,7 @@
 		)
 		(uuid "e423a671-df4a-4d74-b52a-d9c696711575")
 	)
-	(label "PWM"
+	(label "PWM_2"
 		(at 125.095 179.07 0)
 		(effects
 			(font
@@ -15362,6 +15433,16 @@
 			(justify right bottom)
 		)
 		(uuid "ed2afbe6-8ab1-44b9-818c-f56c949f9d3a")
+	)
+	(label "PWM_3"
+		(at 93.345 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f00f5189-8f48-416d-85ce-38d888b453cf")
 	)
 	(label "ID_SC"
 		(at 110.49 72.39 180)
@@ -15453,17 +15534,6 @@
 		)
 		(uuid "fd965729-126a-4f1c-85e4-4646c9601021")
 	)
-	(hierarchical_label "+5v"
-		(shape input)
-		(at 124.46 199.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "160ee477-34b3-4f19-8cb9-f3edeb7c0ec7")
-	)
 	(hierarchical_label "+1V8"
 		(shape output)
 		(at 26.67 138.43 180)
@@ -15486,9 +15556,20 @@
 		)
 		(uuid "3d2b9c98-ab4e-40ed-8a35-ac43d9bcf10a")
 	)
-	(hierarchical_label "+5v"
+	(hierarchical_label "+12V"
 		(shape input)
-		(at 92.71 199.39 180)
+		(at 124.46 199.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48fa6bbd-b507-435b-8545-480aa13ade64")
+	)
+	(hierarchical_label "+12V"
+		(shape input)
+		(at 93.98 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15552,7 +15633,7 @@
 		)
 		(uuid "9137ded4-d062-473f-8f9c-cf329fbd5226")
 	)
-	(hierarchical_label "+5v"
+	(hierarchical_label "+12V"
 		(shape input)
 		(at 124.46 176.53 180)
 		(effects
@@ -15598,7 +15679,7 @@
 	)
 	(hierarchical_label "+5v"
 		(shape input)
-		(at 92.71 176.53 180)
+		(at 44.45 220.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15617,6 +15698,17 @@
 			(justify right)
 		)
 		(uuid "e7e7564e-8440-4a8a-8f25-3b9b6830b22b")
+	)
+	(hierarchical_label "+12V"
+		(shape input)
+		(at 93.98 199.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f01ac493-db50-449e-91b0-cc6e4919ff85")
 	)
 	(hierarchical_label "GPIO_VREF"
 		(shape output)
@@ -18270,6 +18362,71 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 102.87 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32b3f390-3591-41e8-bc82-01fdf4302a43")
+		(property "Reference" "#PWR0159"
+			(at 102.87 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 102.87 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 102.87 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1921bf3e-022c-467a-b811-cdaff3a8d1e6")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 144.78 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18503,7 +18660,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 102.87 190.5 0)
+		(at 54.61 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18511,7 +18668,7 @@
 		(dnp no)
 		(uuid "40a6c1e0-3797-4b36-a48d-55c27341619d")
 		(property "Reference" "#PWR16"
-			(at 102.87 196.85 0)
+			(at 54.61 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18520,7 +18677,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 102.87 194.31 0)
+			(at 54.61 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18528,7 +18685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 190.5 0)
+			(at 54.61 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18537,7 +18694,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 190.5 0)
+			(at 54.61 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18546,7 +18703,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 102.87 190.5 0)
+			(at 54.61 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18633,7 +18790,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 109.22 179.07 0)
+		(at 60.96 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18641,7 +18798,7 @@
 		(dnp no)
 		(uuid "6aeabf3a-c9eb-43e4-983c-5a4d5e9c1160")
 		(property "Reference" "J5"
-			(at 107.315 187.325 0)
+			(at 59.055 231.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18650,7 +18807,7 @@
 			)
 		)
 		(property "Value" "JST_SHBM04B-SRSS-TB"
-			(at 92.456 173.228 0)
+			(at 44.196 217.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18659,7 +18816,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-			(at 109.22 179.07 0)
+			(at 60.96 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18668,7 +18825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 179.07 0)
+			(at 60.96 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18677,7 +18834,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 179.07 0)
+			(at 60.96 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18686,7 +18843,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 109.22 179.07 0)
+			(at 60.96 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18695,7 +18852,7 @@
 			)
 		)
 		(property "Field5" "SHBM04B-SRSS-TB"
-			(at 109.22 179.07 0)
+			(at 60.96 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18704,7 +18861,7 @@
 			)
 		)
 		(property "Field6" "SHBM04B-SRSS-TB"
-			(at 109.22 179.07 0)
+			(at 60.96 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18713,7 +18870,7 @@
 			)
 		)
 		(property "Field7" "JST"
-			(at 109.22 179.07 0)
+			(at 60.96 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18722,7 +18879,7 @@
 			)
 		)
 		(property "Part Description" "4 pin vertical 1mm pitch connector"
-			(at 109.22 179.07 0)
+			(at 60.96 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18753,7 +18910,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 29.21 187.96 270)
+		(at 22.86 181.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18761,7 +18918,7 @@
 		(dnp no)
 		(uuid "6d6b7ec1-ac41-45c8-9cb4-3895d23e2861")
 		(property "Reference" "SW1"
-			(at 33.02 186.6899 90)
+			(at 26.67 180.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18770,7 +18927,7 @@
 			)
 		)
 		(property "Value" "Right angle Tact button"
-			(at 33.02 189.484 90)
+			(at 26.67 183.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18779,7 +18936,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
-			(at 34.29 187.96 0)
+			(at 27.94 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18788,7 +18945,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/240/Littelfuse-3050591.pdf"
-			(at 34.29 187.96 0)
+			(at 27.94 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18797,7 +18954,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 29.21 187.96 0)
+			(at 22.86 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18806,7 +18963,7 @@
 			)
 		)
 		(property "Field5" "PTS645VH58-2LFS"
-			(at 29.21 187.96 0)
+			(at 22.86 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18815,7 +18972,7 @@
 			)
 		)
 		(property "Field6" "PTS645VH58-2LFS"
-			(at 29.21 187.96 0)
+			(at 22.86 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18824,7 +18981,7 @@
 			)
 		)
 		(property "Field7" "CK"
-			(at 29.21 187.96 0)
+			(at 22.86 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18833,7 +18990,7 @@
 			)
 		)
 		(property "Part Description" "Right angle through hole Tact switch"
-			(at 29.21 187.96 0)
+			(at 22.86 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18851,6 +19008,126 @@
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 109.22 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7109b920-8e05-4e08-8d4a-393e5981739d")
+		(property "Reference" "J?"
+			(at 107.315 210.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_SHBM04B-SRSS-TB"
+			(at 92.456 196.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+			(at 109.22 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 109.22 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "SHBM04B-SRSS-TB"
+			(at 109.22 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "SHBM04B-SRSS-TB"
+			(at 109.22 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "JST"
+			(at 109.22 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "4 pin vertical 1mm pitch connector"
+			(at 109.22 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62467460-f671-4359-83ca-a176f59130c3")
+		)
+		(pin "2"
+			(uuid "50baa359-b77f-49c1-87c1-497896c9ddd7")
+		)
+		(pin "3"
+			(uuid "d2ec1464-0cfd-4846-b6ce-6100775c0005")
+		)
+		(pin "4"
+			(uuid "99b0ec8a-95c2-4ec0-8335-b4b8b8192d98")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -18923,7 +19200,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 102.87 212.09 0)
+		(at 104.14 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18931,7 +19208,7 @@
 		(dnp no)
 		(uuid "7fc1e394-d874-43d3-a92a-7ca8a2ad3e26")
 		(property "Reference" "#PWR049"
-			(at 102.87 218.44 0)
+			(at 104.14 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18940,7 +19217,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 102.87 215.9 0)
+			(at 104.14 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18948,7 +19225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 212.09 0)
+			(at 104.14 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18957,7 +19234,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 212.09 0)
+			(at 104.14 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18966,7 +19243,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 102.87 212.09 0)
+			(at 104.14 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19409,7 +19686,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 109.22 201.93 0)
+		(at 110.49 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19417,7 +19694,7 @@
 		(dnp no)
 		(uuid "c96780af-8e95-49ed-a456-d61b0423692a")
 		(property "Reference" "J?"
-			(at 107.315 210.185 0)
+			(at 108.585 187.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19426,7 +19703,7 @@
 			)
 		)
 		(property "Value" "JST_SHBM04B-SRSS-TB"
-			(at 92.456 196.088 0)
+			(at 93.726 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19435,7 +19712,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-			(at 109.22 201.93 0)
+			(at 110.49 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19444,7 +19721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 201.93 0)
+			(at 110.49 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19453,7 +19730,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 201.93 0)
+			(at 110.49 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19462,7 +19739,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 109.22 201.93 0)
+			(at 110.49 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19471,7 +19748,7 @@
 			)
 		)
 		(property "Field5" "SHBM04B-SRSS-TB"
-			(at 109.22 201.93 0)
+			(at 110.49 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19480,7 +19757,7 @@
 			)
 		)
 		(property "Field6" "SHBM04B-SRSS-TB"
-			(at 109.22 201.93 0)
+			(at 110.49 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19489,7 +19766,7 @@
 			)
 		)
 		(property "Field7" "JST"
-			(at 109.22 201.93 0)
+			(at 110.49 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19498,7 +19775,7 @@
 			)
 		)
 		(property "Part Description" "4 pin vertical 1mm pitch connector"
-			(at 109.22 201.93 0)
+			(at 110.49 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20669,7 +20946,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 29.21 193.04 0)
+		(at 22.86 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20677,7 +20954,7 @@
 		(dnp no)
 		(uuid "f06f18a3-c0e2-4ed0-947a-3f143345d5ab")
 		(property "Reference" "#PWR12"
-			(at 29.21 199.39 0)
+			(at 22.86 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20686,7 +20963,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 29.21 196.85 0)
+			(at 22.86 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20694,7 +20971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 193.04 0)
+			(at 22.86 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20703,7 +20980,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 193.04 0)
+			(at 22.86 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20712,7 +20989,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 29.21 193.04 0)
+			(at 22.86 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
