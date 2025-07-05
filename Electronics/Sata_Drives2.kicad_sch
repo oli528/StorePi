@@ -8957,7 +8957,7 @@
 		)
 		(uuid "bd277325-1f8b-4b0e-9aa6-60e671f3e34e")
 	)
-	(label "GND"
+	(label ""
 		(at 113.03 72.39 0)
 		(effects
 			(font
@@ -8967,7 +8967,7 @@
 		)
 		(uuid "bdd86ae4-2efa-40d1-b60f-1d337661c87c")
 	)
-	(label "GND"
+	(label ""
 		(at 113.03 74.93 0)
 		(effects
 			(font
@@ -9007,7 +9007,7 @@
 		)
 		(uuid "c7627f91-36ef-4215-a2ba-af3be35b8a62")
 	)
-	(label "GND"
+	(label ""
 		(at 113.03 90.17 0)
 		(effects
 			(font

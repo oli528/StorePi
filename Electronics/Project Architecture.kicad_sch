@@ -5998,7 +5998,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "7")
+					(page "8")
 				)
 			)
 		)
@@ -6041,7 +6041,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "9")
+					(page "10")
 				)
 			)
 		)
@@ -6082,7 +6082,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "6")
+					(page "7")
 				)
 			)
 		)
@@ -6124,7 +6124,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "10")
+					(page "11")
 				)
 			)
 		)
@@ -6173,6 +6173,48 @@
 		)
 	)
 	(sheet
+		(at 38.1 156.21)
+		(size 16.51 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a3678a24-a5cb-4574-9914-f8b84f80e313")
+		(property "Sheetname" "RP2040"
+			(at 38.1 155.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RP2040.kicad_sch"
+			(at 38.1 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 241.3 101.6)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
@@ -6210,7 +6252,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "8")
+					(page "9")
 				)
 			)
 		)

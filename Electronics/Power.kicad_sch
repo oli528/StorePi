@@ -1145,6 +1145,143 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:AMS1117-3.3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-3.3"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMS1117-3.3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117-3.3_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TPS65251-1RHAR:TPS65251-1RHAR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2183,6 +2320,43 @@
 		)
 		(uuid e06bb809-5361-4088-afa8-aa77179ed971)
 	)
+	(rectangle
+		(start 184.15 16.51)
+		(end 243.84 48.26)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e40dec0b-e5ce-45e6-b68f-cf3cc4ff1d8c)
+	)
+	(text_box "Secondary 3V3 Supply 1A + 600ma from CM5\n"
+		(exclude_from_sim no)
+		(at 182.88 39.37 0)
+		(size 60.96 7.62)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "494f3af2-a9d4-4880-89c7-33213e32d7e9")
+	)
 	(text_box "Analog & Digital Supply "
 		(exclude_from_sim no)
 		(at 69.85 125.73 0)
@@ -2308,6 +2482,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45c92add-df42-4d59-a604-32763105ef24")
+	)
+	(junction
+		(at 200.66 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "496ef2bd-37b4-4fec-81b0-dee08dd8e08a")
 	)
 	(junction
 		(at 203.2 121.92)
@@ -2586,6 +2766,12 @@
 		(uuid "eb9a9e9b-324a-4416-b763-611c6688c739")
 	)
 	(junction
+		(at 220.98 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f110370f-c589-4f51-bdeb-a946ed25637e")
+	)
+	(junction
 		(at 226.06 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2716,6 +2902,16 @@
 			(type default)
 		)
 		(uuid "0ffe7a6c-d860-4704-bb58-e6a498b2e3da")
+	)
+	(wire
+		(pts
+			(xy 220.98 27.94) (xy 220.98 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107ad620-d8c1-4505-9cf4-b67e6153a25e")
 	)
 	(wire
 		(pts
@@ -3409,6 +3605,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 33.02) (xy 220.98 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60fafd3e-5427-46a5-abf5-1161be8e711e")
+	)
+	(wire
+		(pts
 			(xy 68.58 93.98) (xy 80.01 93.98)
 		)
 		(stroke
@@ -3556,6 +3762,16 @@
 			(type default)
 		)
 		(uuid "735bc48c-5089-4304-bcd2-c2b5f37eb40c")
+	)
+	(wire
+		(pts
+			(xy 200.66 27.94) (xy 200.66 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c727f3-ed27-49ac-8264-585496a5d319")
 	)
 	(wire
 		(pts
@@ -4179,6 +4395,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 26.67) (xy 227.33 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d8cb33-5df1-48a8-8be6-800c1a2d8730")
+	)
+	(wire
+		(pts
 			(xy 195.58 115.57) (xy 203.2 115.57)
 		)
 		(stroke
@@ -4279,6 +4505,26 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 26.67) (xy 218.44 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc926304-2e21-4dcf-b191-5648d5f06d5b")
+	)
+	(wire
+		(pts
+			(xy 194.31 26.67) (xy 200.66 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd68614c-8ac5-4cfc-b830-a7cc985e83e8")
+	)
+	(wire
+		(pts
 			(xy 49.53 68.58) (xy 57.15 68.58)
 		)
 		(stroke
@@ -4366,6 +4612,16 @@
 			(type default)
 		)
 		(uuid "d49ea0e8-4870-4e42-9345-db6769c2fbcf")
+	)
+	(wire
+		(pts
+			(xy 200.66 33.02) (xy 200.66 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b16672-6b23-45f0-aff5-b3282f3af76d")
 	)
 	(wire
 		(pts
@@ -4636,6 +4892,16 @@
 			(type default)
 		)
 		(uuid "f6b8f996-ec95-4fb5-a74f-ba4529f08c28")
+	)
+	(wire
+		(pts
+			(xy 200.66 26.67) (xy 203.2 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7176fb8-1be0-445b-a035-c707141f06d1")
 	)
 	(wire
 		(pts
@@ -4916,6 +5182,17 @@
 	)
 	(hierarchical_label "+5V S1"
 		(shape input)
+		(at 194.31 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74b50435-825f-410f-b6b3-eec031688da4")
+	)
+	(hierarchical_label "+5V S1"
+		(shape input)
 		(at 127 63.5 0)
 		(effects
 			(font
@@ -4924,6 +5201,17 @@
 			(justify left)
 		)
 		(uuid "77a2603c-713b-4feb-9a00-b528e2604bfa")
+	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 227.33 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f806d2f-616f-480c-857f-37cf220af961")
 	)
 	(hierarchical_label "+1V2A"
 		(shape output)
@@ -5989,6 +6277,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 210.82 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "329be7e0-3c9d-4301-9c10-349040a9b247")
+		(property "Reference" "U?"
+			(at 210.82 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 210.82 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 210.82 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 213.36 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 210.82 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0f904370-ab60-4c5d-9823-94713d4809ad")
+		)
+		(pin "1"
+			(uuid "9a599dc8-764f-4f03-9752-c6608f81e273")
+		)
+		(pin "2"
+			(uuid "1129f43e-dbb8-43c5-bae6-2574d6bc0d55")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 113.03 34.29 90)
 		(unit 1)
@@ -6390,6 +6749,146 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 200.66 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3df8299d-6d88-4f7a-8d12-b4a8e5e4a15c")
+		(property "Reference" "C?"
+			(at 198.12 28.6638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 198.12 31.2038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 200.66 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94b29c00-3efb-4d92-a867-f492c93e17a1")
+		)
+		(pin "1"
+			(uuid "c03e6f34-d1bd-4c96-89b8-adbcc6b07dff")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 220.98 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44fdc86e-d845-472d-8e7f-3ae0e7f09905")
+		(property "Reference" "C?"
+			(at 223.52 28.6638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 223.52 31.2038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 220.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76cecd98-aeaa-453a-b77a-3ae5e2f51a38")
+		)
+		(pin "1"
+			(uuid "cc02cc4c-8516-4039-bf93-597f8b7baf6b")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -9520,6 +10019,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 210.82 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edcb7374-8329-4800-8c54-112cf1b3fc6e")
+		(property "Reference" "#PWR0164"
+			(at 210.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 213.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 210.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63925b0e-4210-458e-84d6-6f4975c11231")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 195.58 110.49 0)
 		(unit 1)
@@ -9726,6 +10292,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 200.66 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f31f6a08-98de-4dd4-9d77-480a0d15f68a")
+		(property "Reference" "#PWR0163"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 200.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17ddf8f8-9699-484e-9409-da44cc394f7b")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 165.1 53.34 0)
 		(mirror x)
@@ -9790,6 +10423,73 @@
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 220.98 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe0d7e15-da21-4541-809c-55573896d358")
+		(property "Reference" "#PWR0165"
+			(at 220.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 223.52 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 220.98 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b569186f-be1a-4afd-9de4-2cc97f37d585")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
