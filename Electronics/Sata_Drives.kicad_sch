@@ -4628,6 +4628,12 @@
 		(uuid "f44034d4-0bc5-4515-81fb-b82066bc6996")
 	)
 	(junction
+		(at 105.41 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04ad1e97-616d-4d5f-91e7-960d77d509b0")
+	)
+	(junction
 		(at 229.87 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4638,6 +4644,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b238ca9-f117-447b-906d-7aae1c9f77c1")
+	)
+	(junction
+		(at 105.41 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bba1143-7256-4239-a493-640010774b0c")
 	)
 	(junction
 		(at 29.21 163.83)
@@ -5105,6 +5117,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 90.17) (xy 105.41 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022867be-1532-4c72-b86b-161384c65689")
+	)
+	(wire
+		(pts
 			(xy 231.14 30.48) (xy 229.87 30.48)
 		)
 		(stroke
@@ -5252,6 +5274,16 @@
 			(type default)
 		)
 		(uuid "09e5553c-2257-429f-abe4-e1dd0a3e2c1a")
+	)
+	(wire
+		(pts
+			(xy 105.41 72.39) (xy 105.41 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a86e855-f4d5-4c0d-afca-713cc1ff466f")
 	)
 	(wire
 		(pts
@@ -5772,16 +5804,6 @@
 			(type default)
 		)
 		(uuid "395ebd9b-533c-45fc-9fbb-9a796a389a78")
-	)
-	(wire
-		(pts
-			(xy 184.15 59.69) (xy 194.31 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39616e13-e271-45fe-8d01-db8b63b4b52c")
 	)
 	(wire
 		(pts
@@ -6845,16 +6867,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 62.23) (xy 194.31 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88d33e5c-2da0-4c06-9dd7-44c0d8ad7ba2")
-	)
-	(wire
-		(pts
 			(xy 264.16 129.54) (xy 264.16 127)
 		)
 		(stroke
@@ -7305,16 +7317,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 52.07) (xy 194.31 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1dc0b6c-ad4e-434e-8ce6-8841a57eca24")
-	)
-	(wire
-		(pts
 			(xy 24.13 15.24) (xy 34.29 15.24)
 		)
 		(stroke
@@ -7512,16 +7514,6 @@
 			(type default)
 		)
 		(uuid "c1d77eb5-0d4d-46bc-9308-8aaa853329f7")
-	)
-	(wire
-		(pts
-			(xy 184.15 54.61) (xy 194.31 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c54f8da1-9736-4240-9336-9d62a65f3222")
 	)
 	(wire
 		(pts
@@ -8235,6 +8227,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 74.93) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff945733-c868-4618-a3f2-e9b4b1d93314")
+	)
+	(wire
+		(pts
 			(xy 144.78 146.05) (xy 139.7 146.05)
 		)
 		(stroke
@@ -8453,16 +8455,6 @@
 		)
 		(uuid "30f766e7-be1b-4f33-a47d-b2d5e0fc3dd2")
 	)
-	(label "SSRXN_0"
-		(at 186.69 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39272e85-5d76-4891-99cf-e389fb0d3459")
-	)
 	(label "GPIO9"
 		(at 21.59 67.31 180)
 		(effects
@@ -8482,16 +8474,6 @@
 			(justify right bottom)
 		)
 		(uuid "3b4eeb99-b467-4f80-8453-9cdcf2a22cac")
-	)
-	(label "SSTXN_0"
-		(at 186.69 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c3210d4-39e1-46eb-8266-ff9a3fd01cd7")
 	)
 	(label "GPIO1"
 		(at 130.81 114.3 90)
@@ -9003,16 +8985,6 @@
 		)
 		(uuid "c68b8ce2-06ff-458d-8906-dc464c2a3e1f")
 	)
-	(label "SSRXP_0"
-		(at 186.69 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c68d0103-b66b-45b9-a8c3-b6cdf8ba7ea9")
-	)
 	(label "GPIO0"
 		(at 135.89 114.3 90)
 		(effects
@@ -9163,16 +9135,6 @@
 		)
 		(uuid "de08a61b-a63a-4545-909d-7ca80393b8e4")
 	)
-	(label "SSTXP_0"
-		(at 186.69 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e2c959bd-3920-4169-baec-ce9df06fa035")
-	)
 	(label "GPIO9"
 		(at 105.41 52.07 0)
 		(effects
@@ -9233,6 +9195,28 @@
 		)
 		(uuid "f4826ec3-564d-4ba0-80e4-eefa27a7a18d")
 	)
+	(hierarchical_label "USB3-0-TX_N"
+		(shape output)
+		(at 184.15 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05db8706-85f6-4f3e-bd81-11a972b3d30b")
+	)
+	(hierarchical_label "USB3-0-TX_P"
+		(shape output)
+		(at 184.15 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1add703e-2338-47f9-b0c8-56d1143817f5")
+	)
 	(hierarchical_label "+3V3A"
 		(shape input)
 		(at 24.13 19.05 180)
@@ -9266,6 +9250,17 @@
 		)
 		(uuid "76457ac9-9ac7-404a-9aa3-276207321d56")
 	)
+	(hierarchical_label "USB3-0-RX_P"
+		(shape input)
+		(at 184.15 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "792a5e11-17bc-4d84-83f3-07f411f0a01f")
+	)
 	(hierarchical_label "+1V2"
 		(shape input)
 		(at 24.13 22.86 180)
@@ -9298,6 +9293,17 @@
 			(justify right)
 		)
 		(uuid "c245a3d9-1b07-466d-beb1-53a3d9d553b9")
+	)
+	(hierarchical_label "USB3-0-RX_N"
+		(shape input)
+		(at 184.15 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbd99fce-2ec6-4559-944a-f3b30e211180")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -11205,6 +11211,71 @@
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a72edad3-d792-4f36-af8a-632fcfbc9d26"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 105.41 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bf99d9e-4044-4d7e-93d4-527f188162d1")
+		(property "Reference" "#PWR0162"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70e9b70c-4d9d-404e-ad45-1d85c5c4c019")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a72edad3-d792-4f36-af8a-632fcfbc9d26"
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
