@@ -6120,6 +6120,10 @@
 		(uuid "65863a1f-42e0-4c88-b08b-6f504379c983")
 	)
 	(no_connect
+		(at 104.14 78.74)
+		(uuid "68f2300a-d5ca-4a8f-8860-b6b36a4bdd7d")
+	)
+	(no_connect
 		(at 335.28 170.18)
 		(uuid "6a771f77-6226-4599-a8dc-ba7616f61a75")
 	)
@@ -6174,6 +6178,10 @@
 	(no_connect
 		(at 241.3 171.45)
 		(uuid "87f7a414-8b52-4292-874b-0ab9a4a16039")
+	)
+	(no_connect
+		(at 104.14 76.2)
+		(uuid "891e2e19-dea3-4501-ac14-e85bdb199b32")
 	)
 	(no_connect
 		(at 241.3 191.77)
@@ -11910,7 +11918,7 @@
 		)
 		(uuid "80322131-87dc-41bd-a2cf-d7876f71a873")
 	)
-	(hierarchical_label "+5v_S1"
+	(hierarchical_label "+5v S1"
 		(shape input)
 		(at 190.5 86.36 180)
 		(effects

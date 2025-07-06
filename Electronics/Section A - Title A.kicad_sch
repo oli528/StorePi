@@ -6172,7 +6172,7 @@
 	)
 	(text_box "Current Limit HDMI"
 		(exclude_from_sim no)
-		(at 228.6 146.05 0)
+		(at 232.41 146.05 0)
 		(size 29.21 7.62)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -6488,7 +6488,7 @@
 		(uuid "c1a35e5a-1a48-4968-9a46-79b0c00af274")
 	)
 	(junction
-		(at 224.79 133.35)
+		(at 228.6 133.35)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "c2a0daae-66ee-4724-b66e-3585bf4ec845")
@@ -6524,7 +6524,7 @@
 		(uuid "cc99f407-f190-4df1-8c93-a6363a029259")
 	)
 	(junction
-		(at 257.81 133.35)
+		(at 261.62 133.35)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "d2b6a583-21e3-491b-b8d0-2ae53e83a06a")
@@ -7063,7 +7063,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 139.7) (xy 236.22 140.97)
+			(xy 240.03 139.7) (xy 240.03 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7303,7 +7303,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 133.35) (xy 236.22 133.35)
+			(xy 228.6 133.35) (xy 240.03 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7423,7 +7423,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 133.35) (xy 257.81 133.35)
+			(xy 255.27 133.35) (xy 261.62 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7453,7 +7453,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 133.35) (xy 224.79 133.35)
+			(xy 223.52 133.35) (xy 228.6 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7563,7 +7563,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 133.35) (xy 267.97 133.35)
+			(xy 261.62 133.35) (xy 271.78 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8073,16 +8073,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 33.02) (xy 101.6 33.02)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "d2a557fe-d21a-4bd8-8296-f30e49ee30ae")
-	)
-	(wire
-		(pts
 			(xy 38.1 78.74) (xy 40.64 78.74)
 		)
 		(stroke
@@ -8300,6 +8290,16 @@
 			(type solid)
 		)
 		(uuid "f597125b-38c4-4668-a89b-bc279d1094ee")
+	)
+	(wire
+		(pts
+			(xy 101.6 33.02) (xy 107.95 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f672d987-7d45-473f-b5ef-3dc8b41a63f5")
 	)
 	(wire
 		(pts
@@ -8662,7 +8662,7 @@
 		(uuid "97930470-5eca-4007-9506-66f6f79fb99f")
 	)
 	(label "HDMI_5v"
-		(at 266.7 133.35 180)
+		(at 270.51 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8954,17 +8954,6 @@
 		)
 		(uuid "33081913-a499-4ffe-8bbd-95f94f6a9109")
 	)
-	(hierarchical_label "USBOTG_ID"
-		(shape input)
-		(at 107.95 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "49f91516-535a-4017-96da-17123243530c")
-	)
 	(hierarchical_label "PCIE_CLK_N"
 		(shape output)
 		(at 34.29 45.72 180)
@@ -9108,7 +9097,7 @@
 		)
 		(uuid "8ef5bc5f-95d3-4d33-841a-e9dcf01b7339")
 	)
-	(hierarchical_label "+3.3v"
+	(hierarchical_label "+3V3"
 		(shape input)
 		(at 163.83 157.48 180)
 		(effects
@@ -9141,9 +9130,20 @@
 		)
 		(uuid "94de44ac-9479-41ec-a93c-c29ba8d52009")
 	)
-	(hierarchical_label "+5v"
+	(hierarchical_label "USBOTG"
+		(shape output)
+		(at 107.95 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f1b9eac-31b9-452b-92d7-43f33379977f")
+	)
+	(hierarchical_label "+5V S1"
 		(shape input)
-		(at 219.71 133.35 180)
+		(at 223.52 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9153,7 +9153,7 @@
 		(uuid "b3539691-af03-400e-a285-8725e534e33e")
 	)
 	(hierarchical_label "PCIE_nWAKE"
-		(shape input)
+		(shape bidirectional)
 		(at 34.29 35.56 180)
 		(effects
 			(font
@@ -9197,7 +9197,7 @@
 		(uuid "ca913e2d-997e-44df-9619-37f8b24f662f")
 	)
 	(hierarchical_label "PCIE_nCLKREQ"
-		(shape input)
+		(shape bidirectional)
 		(at 34.29 33.02 180)
 		(effects
 			(font
@@ -10119,7 +10119,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 257.81 137.16 0)
+		(at 261.62 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10127,7 +10127,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005da83896")
 		(property "Reference" "C19"
-			(at 260.731 135.9916 0)
+			(at 264.541 135.9916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10136,7 +10136,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 260.731 138.303 0)
+			(at 264.541 138.303 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10145,7 +10145,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 258.7752 140.97 0)
+			(at 262.5852 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10154,7 +10154,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
-			(at 257.81 137.16 0)
+			(at 261.62 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10163,7 +10163,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 137.16 0)
+			(at 261.62 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10172,7 +10172,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 257.81 137.16 0)
+			(at 261.62 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +10181,7 @@
 			)
 		)
 		(property "Field5" "2611911"
-			(at 257.81 137.16 0)
+			(at 261.62 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10190,7 +10190,7 @@
 			)
 		)
 		(property "Field6" "RM EMK105 B7104KV-F"
-			(at 257.81 137.16 0)
+			(at 261.62 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10199,7 +10199,7 @@
 			)
 		)
 		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
-			(at 257.81 137.16 0)
+			(at 261.62 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10208,7 +10208,7 @@
 			)
 		)
 		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 257.81 137.16 0)
+			(at 261.62 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10217,7 +10217,7 @@
 			)
 		)
 		(property "Field8" "110091611"
-			(at 257.81 137.16 0)
+			(at 261.62 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10242,7 +10242,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 224.79 137.16 0)
+		(at 228.6 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10250,7 +10250,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005daa0732")
 		(property "Reference" "C18"
-			(at 227.711 135.9916 0)
+			(at 231.521 135.9916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10259,7 +10259,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 227.711 138.303 0)
+			(at 231.521 138.303 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10268,7 +10268,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 225.7552 140.97 0)
+			(at 229.5652 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10277,7 +10277,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
-			(at 224.79 137.16 0)
+			(at 228.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10286,7 +10286,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 137.16 0)
+			(at 228.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,7 +10295,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 224.79 137.16 0)
+			(at 228.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10304,7 +10304,7 @@
 			)
 		)
 		(property "Field5" "2611911"
-			(at 224.79 137.16 0)
+			(at 228.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10313,7 +10313,7 @@
 			)
 		)
 		(property "Field6" "RM EMK105 B7104KV-F"
-			(at 224.79 137.16 0)
+			(at 228.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10322,7 +10322,7 @@
 			)
 		)
 		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
-			(at 224.79 137.16 0)
+			(at 228.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10331,7 +10331,7 @@
 			)
 		)
 		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 224.79 137.16 0)
+			(at 228.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10340,7 +10340,7 @@
 			)
 		)
 		(property "Field8" "110091611"
-			(at 224.79 137.16 0)
+			(at 228.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10365,7 +10365,7 @@
 	)
 	(symbol
 		(lib_id "CM5IO:RT9742SNGV")
-		(at 241.3 137.16 0)
+		(at 245.11 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10373,7 +10373,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dad5ba8")
 		(property "Reference" "U2"
-			(at 243.84 126.619 0)
+			(at 247.65 126.619 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10381,7 +10381,7 @@
 			)
 		)
 		(property "Value" "RT9742SNGV"
-			(at 243.84 128.9304 0)
+			(at 247.65 128.9304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10389,7 +10389,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23_HandSoldering"
-			(at 241.3 137.16 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10398,7 +10398,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9742/DS9742-10.pdf"
-			(at 241.3 137.16 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10407,7 +10407,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.3 137.16 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10416,7 +10416,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 241.3 137.16 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10425,7 +10425,7 @@
 			)
 		)
 		(property "Field5" "2575555"
-			(at 241.3 137.16 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10434,7 +10434,7 @@
 			)
 		)
 		(property "Field6" "RT9742SNGV"
-			(at 241.3 137.16 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10443,7 +10443,7 @@
 			)
 		)
 		(property "Field7" "RichTek"
-			(at 241.3 137.16 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10452,7 +10452,7 @@
 			)
 		)
 		(property "Part Description" "Power Switch/Driver 1:1 N-Channel 500mA SOT-23-3"
-			(at 241.3 137.16 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10461,7 +10461,7 @@
 			)
 		)
 		(property "Field8" "USWI00155"
-			(at 241.3 137.16 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10489,7 +10489,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 257.81 140.97 0)
+		(at 261.62 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10497,7 +10497,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005db8426d")
 		(property "Reference" "#PWR011"
-			(at 257.81 147.32 0)
+			(at 261.62 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10506,7 +10506,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 257.937 145.3642 0)
+			(at 261.747 145.3642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10514,7 +10514,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 140.97 0)
+			(at 261.62 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10523,7 +10523,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 140.97 0)
+			(at 261.62 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10532,7 +10532,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 257.81 140.97 0)
+			(at 261.62 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10554,7 +10554,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 224.79 140.97 0)
+		(at 228.6 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10562,7 +10562,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005db9fe14")
 		(property "Reference" "#PWR08"
-			(at 224.79 147.32 0)
+			(at 228.6 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10571,7 +10571,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 224.917 145.3642 0)
+			(at 228.727 145.3642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10579,7 +10579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 140.97 0)
+			(at 228.6 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10588,7 +10588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 140.97 0)
+			(at 228.6 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10597,7 +10597,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 224.79 140.97 0)
+			(at 228.6 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10619,7 +10619,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 236.22 140.97 0)
+		(at 240.03 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10627,7 +10627,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dbbbebc")
 		(property "Reference" "#PWR09"
-			(at 236.22 147.32 0)
+			(at 240.03 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10636,7 +10636,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 236.347 145.3642 0)
+			(at 240.157 145.3642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10644,7 +10644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 140.97 0)
+			(at 240.03 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10653,7 +10653,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 140.97 0)
+			(at 240.03 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10662,7 +10662,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 236.22 140.97 0)
+			(at 240.03 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)

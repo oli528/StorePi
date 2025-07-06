@@ -9228,7 +9228,7 @@
 		)
 		(uuid "4d449d7c-0f60-4fd6-9787-6ccd5d9ba1a9")
 	)
-	(hierarchical_label "+5V_S2"
+	(hierarchical_label "+5V S2"
 		(shape input)
 		(at 24.13 34.29 180)
 		(effects

@@ -13166,7 +13166,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 198.12) (xy 31.75 198.12)
+			(xy 24.13 196.85) (xy 25.4 196.85)
 		)
 		(stroke
 			(width 0)
@@ -13183,6 +13183,16 @@
 			(type default)
 		)
 		(uuid "43cb7a6a-3f58-4320-ad91-1d4347ebd643")
+	)
+	(wire
+		(pts
+			(xy 25.4 196.85) (xy 25.4 198.12)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4634f16d-0c56-4eed-be07-991e23ef234e")
 	)
 	(wire
 		(pts
@@ -14563,6 +14573,16 @@
 			(type solid)
 		)
 		(uuid "b50ec485-6889-46a9-987e-d2ba2c7e7917")
+	)
+	(wire
+		(pts
+			(xy 25.4 198.12) (xy 31.75 198.12)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b5bcd697-da60-43a0-9828-475d6d6a235c")
 	)
 	(wire
 		(pts
@@ -16904,17 +16924,6 @@
 		)
 		(uuid "fee4da5e-db5d-43f9-b567-4110f6a0a5f0")
 	)
-	(hierarchical_label "+1V8"
-		(shape output)
-		(at 26.67 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "20856340-8630-4e13-96d2-0e319fdd187f")
-	)
 	(hierarchical_label "CM5 Shut"
 		(shape output)
 		(at 38.1 181.61 0)
@@ -17058,9 +17067,9 @@
 		)
 		(uuid "bfcfad6f-0a27-4d77-b5a2-519cefe92fca")
 	)
-	(hierarchical_label "+5v"
+	(hierarchical_label "+5V S1"
 		(shape input)
-		(at 20.32 198.12 180)
+		(at 24.13 196.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
