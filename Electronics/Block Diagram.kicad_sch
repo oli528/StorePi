@@ -389,7 +389,7 @@
 		)
 		(uuid fe818828-3624-4a42-926c-34566d194c39)
 	)
-	(text "+5v"
+	(text "+5V"
 		(exclude_from_sim no)
 		(at 347.726 106.68 0)
 		(effects
@@ -434,7 +434,7 @@
 		)
 		(uuid "4570969a-23f9-402e-b415-e594243e91c6")
 	)
-	(text "+5v"
+	(text "+5V"
 		(exclude_from_sim no)
 		(at 138.176 88.646 0)
 		(effects
@@ -464,7 +464,7 @@
 		)
 		(uuid "b76b23fc-271e-4d85-9c32-612487cb79db")
 	)
-	(text "+5v"
+	(text "+5V"
 		(exclude_from_sim no)
 		(at 114.046 88.646 0)
 		(effects

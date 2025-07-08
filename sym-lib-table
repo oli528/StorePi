@@ -24,4 +24,5 @@
   (lib (name "TUSB9261IPVP")(type "KiCad")(uri "${KIPRJMOD}/Electronics/lib/lib_sym/TUSB9261IPVP.kicad_sym")(options "")(descr ""))
   (lib (name "USB2512B-AEZG")(type "KiCad")(uri "${KIPRJMOD}/Electronics/lib/lib_sym/USB2512B-AEZG.kicad_sym")(options "")(descr ""))
   (lib (name "XT60PW-M")(type "KiCad")(uri "${KIPRJMOD}/Electronics/lib/lib_sym/XT60PW-M.kicad_sym")(options "")(descr ""))
+  (lib (name "RB1-125BAG1A")(type "KiCad")(uri "${KIPRJMOD}/Electronics/lib/lib_sym/RB1-125BAG1A.kicad_sym")(options "")(descr ""))
 )
