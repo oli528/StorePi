@@ -634,6 +634,31 @@
 		)
 		(uuid "205684f9-9b3f-4aef-bbd6-2a2cbf506b65")
 	)
+	(text_box "Page 5"
+		(exclude_from_sim no)
+		(at 156.21 78.105 0)
+		(size 24.765 5.08)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#5")
+		)
+		(uuid "2256f715-b471-4bc6-8572-7920a3bdf65a")
+	)
 	(text_box "ETHERNET"
 		(exclude_from_sim no)
 		(at 241.3 95.25 0)
@@ -656,31 +681,6 @@
 			)
 		)
 		(uuid "29f18459-3b0c-4e53-a96d-cae677d37f45")
-	)
-	(text_box "Page 8"
-		(exclude_from_sim no)
-		(at 302.006 97.028 0)
-		(size 17.78 5.08)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-			(href "#8")
-		)
-		(uuid "2c748904-640a-4790-9cd3-81e6145a1f3e")
 	)
 	(text_box ""
 		(exclude_from_sim no)
@@ -818,6 +818,31 @@
 			)
 		)
 		(uuid "4616f06b-0c0c-4da0-aaa7-60ade012707d")
+	)
+	(text_box "Page 8"
+		(exclude_from_sim no)
+		(at 300.99 85.09 0)
+		(size 17.78 5.08)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#8")
+		)
+		(uuid "4a085924-2f01-458c-9fb1-7e6803cdffe4")
 	)
 	(text_box "DSI"
 		(exclude_from_sim no)
@@ -1078,6 +1103,30 @@
 		)
 		(uuid "8f602d65-403f-4ff5-b704-d33255654b4f")
 	)
+	(text_box "Page 4"
+		(exclude_from_sim no)
+		(at 156.21 73.66 0)
+		(size 24.765 5.08)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "91c6fde7-4ad5-4925-ad4d-3e408117b38f")
+	)
 	(text_box "\nL\n\n\nN\n\n\n\n\n\n"
 		(exclude_from_sim no)
 		(at 67.31 93.98 0)
@@ -1102,7 +1151,7 @@
 		)
 		(uuid "94c5ac1c-84a0-4493-a64b-d47cb22b6c26")
 	)
-	(text_box "88 ~ 132VAC / 176 ~ 264VAC selected by switch"
+	(text_box "88 gnd 132VAC / 176 gnd 264VAC selected by switch"
 		(exclude_from_sim no)
 		(at 370.84 182.88 0)
 		(size 36.83 7.62)
@@ -1309,6 +1358,31 @@
 		)
 		(uuid "b25023e5-acfa-4102-bb80-efad95c74d40")
 	)
+	(text_box "Page 9"
+		(exclude_from_sim no)
+		(at 300.99 88.9 0)
+		(size 17.78 5.08)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#9")
+		)
+		(uuid "bccd8584-c513-4dcf-b4ac-c9e6b17ef1dd")
+	)
 	(text_box "USB 3.0"
 		(exclude_from_sim no)
 		(at 267.97 124.46 0)
@@ -1331,6 +1405,56 @@
 			)
 		)
 		(uuid "c2c0d0c9-0dec-46a5-9473-b81815342d7b")
+	)
+	(text_box "Page 11"
+		(exclude_from_sim no)
+		(at 300.99 96.52 0)
+		(size 17.78 5.08)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#11")
+		)
+		(uuid "cb4fcd95-ceca-4558-aada-13f5f0a5ed73")
+	)
+	(text_box "Page 10"
+		(exclude_from_sim no)
+		(at 300.99 92.71 0)
+		(size 17.78 5.08)
+		(margins 1.7144 1.7144 1.7144 1.7144)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#10")
+		)
+		(uuid "cd146ece-b74b-48e2-9cc5-4489ecfd9711")
 	)
 	(text_box ""
 		(exclude_from_sim no)
