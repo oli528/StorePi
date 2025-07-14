@@ -51,4 +51,6 @@
   (lib (name "RC0603JR-070RL")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/RC0603JR-070RL")(options "")(descr ""))
   (lib (name "EEE0JA152UAP")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/EEE0JA152UAP")(options "")(descr ""))
   (lib (name "DM3AT-SF-PEJM5")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/DM3AT-SF-PEJM5")(options "")(descr ""))
+  (lib (name "logo1.dxf")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/logo1.dxf.pretty")(options "")(descr ""))
+  (lib (name "M.2 M Key socket")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/M.2 M Key socket")(options "")(descr ""))
 )

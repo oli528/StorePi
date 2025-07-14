@@ -6789,7 +6789,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 33.02) (xy 40.64 33.02)
+			(xy 33.02 33.02) (xy 40.64 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6969,7 +6969,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 50.8) (xy 34.29 50.8)
+			(xy 40.64 50.8) (xy 33.02 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7029,7 +7029,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 104.14) (xy 106.68 104.14)
+			(xy 101.6 104.14) (xy 109.22 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7049,7 +7049,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 121.92) (xy 106.68 121.92)
+			(xy 101.6 121.92) (xy 109.22 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7149,7 +7149,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 119.38) (xy 106.68 119.38)
+			(xy 101.6 119.38) (xy 109.22 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7289,7 +7289,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 60.96) (xy 40.64 60.96)
+			(xy 33.02 60.96) (xy 40.64 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7309,7 +7309,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 45.72) (xy 40.64 45.72)
+			(xy 33.02 45.72) (xy 40.64 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7409,7 +7409,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 58.42) (xy 40.64 58.42)
+			(xy 33.02 58.42) (xy 40.64 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7439,7 +7439,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 53.34) (xy 34.29 53.34)
+			(xy 40.64 53.34) (xy 33.02 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7449,7 +7449,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 106.68) (xy 106.68 106.68)
+			(xy 101.6 106.68) (xy 109.22 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7739,7 +7739,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 43.18) (xy 40.64 43.18)
+			(xy 33.02 43.18) (xy 40.64 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7779,7 +7779,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 35.56) (xy 40.64 35.56)
+			(xy 33.02 35.56) (xy 40.64 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7929,7 +7929,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 38.1) (xy 40.64 38.1)
+			(xy 33.02 38.1) (xy 40.64 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8880,7 +8880,7 @@
 	)
 	(hierarchical_label "USB3-1-RX_P"
 		(shape input)
-		(at 106.68 106.68 0)
+		(at 109.22 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8902,7 +8902,7 @@
 	)
 	(hierarchical_label "PCIE_CLK_N"
 		(shape output)
-		(at 34.29 45.72 180)
+		(at 33.02 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8935,7 +8935,7 @@
 	)
 	(hierarchical_label "PCIE_TX_N"
 		(shape output)
-		(at 34.29 60.96 180)
+		(at 33.02 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8946,7 +8946,7 @@
 	)
 	(hierarchical_label "PCIE_PWR_EN"
 		(shape output)
-		(at 34.29 38.1 180)
+		(at 33.02 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8968,7 +8968,7 @@
 	)
 	(hierarchical_label "USB3-1-TX_P"
 		(shape output)
-		(at 106.68 121.92 0)
+		(at 109.22 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9012,7 +9012,7 @@
 	)
 	(hierarchical_label "PCIE_RX_N"
 		(shape input)
-		(at 34.29 53.34 180)
+		(at 33.02 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9023,7 +9023,7 @@
 	)
 	(hierarchical_label "USB3-1-TX_N"
 		(shape output)
-		(at 106.68 119.38 0)
+		(at 109.22 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9056,7 +9056,7 @@
 	)
 	(hierarchical_label "PCIE_RX_P"
 		(shape input)
-		(at 34.29 50.8 180)
+		(at 33.02 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9100,7 +9100,7 @@
 	)
 	(hierarchical_label "PCIE_nWAKE"
 		(shape bidirectional)
-		(at 34.29 35.56 180)
+		(at 33.02 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9133,7 +9133,7 @@
 	)
 	(hierarchical_label "USB3-1-RX_N"
 		(shape input)
-		(at 106.68 104.14 0)
+		(at 109.22 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9144,7 +9144,7 @@
 	)
 	(hierarchical_label "PCIE_nCLKREQ"
 		(shape bidirectional)
-		(at 34.29 33.02 180)
+		(at 33.02 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9166,7 +9166,7 @@
 	)
 	(hierarchical_label "PCIE_TX_P"
 		(shape output)
-		(at 34.29 58.42 180)
+		(at 33.02 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9188,7 +9188,7 @@
 	)
 	(hierarchical_label "PCIE_CLK_P"
 		(shape output)
-		(at 34.29 43.18 180)
+		(at 33.02 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9196,6 +9196,246 @@
 			(justify right)
 		)
 		(uuid "fa64e73a-ac69-4440-b7fb-e98339189e34")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 36.83 41.91) (xy 36.83 63.5) (xy 34.29 63.5) (xy 34.29 41.91)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 0bef17d4-b67a-43ee-b21f-4322f35fbdec)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 36.83 64.77) (xy 36.83 85.09) (xy 34.29 85.09) (xy 34.29 64.77)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 2a71bbb8-f591-4b98-97e9-8fabc57e97e4)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 107.95 102.87) (xy 107.95 123.19) (xy 105.41 123.19) (xy 105.41 102.87)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 46315790-591e-4f65-8781-1120e4397756)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 118.11 34.29) (xy 118.11 39.37) (xy 102.87 39.37) (xy 102.87 34.29)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 5ae508eb-b1fb-4846-ae25-551c7dadb768)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 34.29 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10314f18-e6d7-4729-aa9b-2f60556f49d4")
+		(property "Netclass" "USB DIF"
+			(at 23.114 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -133.35 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 35.56 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "184278da-6933-4e06-9151-206fbdf76057")
+		(property "Netclass" "PCIE DIF"
+			(at 26.035 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -87.63 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 107.95 113.03 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94f81e2b-c4d5-414a-b43f-8b7ad6bfbd2b")
+		(property "Netclass" "USB DIF"
+			(at 111.252 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -52.07 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 118.11 36.83 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b05e908-5031-40f8-be9a-e625d4f76851")
+		(property "Netclass" "USB DIF"
+			(at 121.158 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -21.59 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 228.6 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b073bcac-c494-489f-9fe2-12055af9feb2")
+		(property "Netclass" "PWR RAIL"
+			(at 228.092 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 107.95 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 256.54 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcdf716c-e955-4ee0-82f9-03b36488bc07")
+		(property "Netclass" "PWR RAIL"
+			(at 256.032 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 135.89 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:Earth")
