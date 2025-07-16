@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.1,
-          "width": 0.3
+          "height": 0.25,
+          "width": 0.85
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -719,6 +719,12 @@
         "USB DIF"
       ],
       "/Project Architecture/GND": [
+        "PWR RAIL"
+      ],
+      "/Project Architecture/Input/+12V": [
+        "PWR RAIL"
+      ],
+      "/Project Architecture/Input/+5V": [
         "PWR RAIL"
       ],
       "/Project Architecture/M.2 Drives/EN": [
