@@ -2548,7 +2548,7 @@
 		(uuid "8069f673-78b1-43c1-9c41-8c074d0f1d5b")
 	)
 	(hierarchical_label "PCIE_CLK_N"
-		(shape input)
+		(shape output)
 		(at 165.1 88.9 180)
 		(effects
 			(font
@@ -2757,7 +2757,7 @@
 		(uuid "bb55c715-f481-4882-8c3e-e4f17ea856cd")
 	)
 	(hierarchical_label "PCIE_CLK_P"
-		(shape input)
+		(shape output)
 		(at 165.1 86.36 180)
 		(effects
 			(font
@@ -3056,51 +3056,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 167.64 100.33) (xy 175.26 100.33) (xy 175.26 107.95) (xy 167.64 107.95)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 6efcb6ca-9f98-4a2f-9157-9724a01acb22)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 281.94 149.86) (xy 271.78 149.86) (xy 271.78 110.49) (xy 281.94 110.49)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 8b1deff9-4efb-47c4-a072-e2c4d3f7772c)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 167.64 138.43) (xy 175.26 138.43) (xy 175.26 179.07) (xy 167.64 179.07)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 8c7d8ef7-7b55-4523-b1d5-9d7d0b77de89)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 105.41 119.38) (xy 105.41 129.54) (xy 111.76 129.54) (xy 111.76 119.38)
 			)
 			(stroke
@@ -3110,7 +3065,7 @@
 			(fill
 				(type none)
 			)
-			(uuid caf52372-3e63-485d-a836-1153e0dc6d7a)
+			(uuid 1c8acb4c-29fb-4c89-95d9-a62806327257)
 		)
 	)
 	(rule_area
@@ -3125,7 +3080,52 @@
 			(fill
 				(type none)
 			)
-			(uuid d2b0c92d-ca80-402e-a4f0-32d2417f0b00)
+			(uuid 52acf0d4-42f9-4ae9-87b6-a1db2373c828)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 281.94 149.86) (xy 271.78 149.86) (xy 271.78 110.49) (xy 281.94 110.49)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 550d6221-d5d1-42fb-ace8-52f77ebf6092)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 167.64 100.33) (xy 175.26 100.33) (xy 175.26 107.95) (xy 167.64 107.95)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a845f798-884a-4cff-a168-b436d000c8a5)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 167.64 138.43) (xy 175.26 138.43) (xy 175.26 179.07) (xy 167.64 179.07)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid bea9f42a-f4bc-4fa0-8522-2c76b9cdde8d)
 		)
 	)
 	(netclass_flag ""

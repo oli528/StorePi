@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.25,
-          "width": 0.85
+          "height": 3.5,
+          "width": 3.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -727,6 +727,12 @@
       "/Project Architecture/Input/+5V": [
         "PWR RAIL"
       ],
+      "/Project Architecture/M.2 Drives/+3V3 M.2": [
+        "PWR RAIL"
+      ],
+      "/Project Architecture/M.2 Drives/+5V S1": [
+        "PWR RAIL"
+      ],
       "/Project Architecture/M.2 Drives/EN": [
         "PWR RAIL"
       ],
@@ -840,6 +846,9 @@
       ],
       "/Project Architecture/PCIE_TX_P": [
         "PCIE"
+      ],
+      "/Project Architecture/Power/SUP": [
+        "PWR RAIL"
       ],
       "/Project Architecture/SCL0": [
         "I2C"

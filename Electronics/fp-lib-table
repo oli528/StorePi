@@ -54,4 +54,6 @@
   (lib (name "logo1.dxf")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/logo1.dxf.pretty")(options "")(descr ""))
   (lib (name "M.2 M Key socket")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/M.2 M Key socket")(options "")(descr ""))
   (lib (name "87713-1001")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/87713-1001")(options "")(descr ""))
+  (lib (name "10029364001LF")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/10029364001LF")(options "")(descr ""))
+  (lib (name "QR1")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/QR1.pretty")(options "")(descr ""))
 )

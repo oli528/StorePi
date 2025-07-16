@@ -2969,22 +2969,10 @@
 		(uuid "9e8218ae-1995-464b-a4b0-7164b3652e32")
 	)
 	(junction
-		(at 27.94 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0f7d29d-9055-4a1c-9a7a-c4a1b453821b")
-	)
-	(junction
 		(at 203.2 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a35a5857-e2db-49bd-b070-9882d012232b")
-	)
-	(junction
-		(at 35.56 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "acb1143c-9080-4653-bc21-a9e61b2fab07")
 	)
 	(junction
 		(at 77.47 39.37)
@@ -4007,7 +3995,7 @@
 			(xy 264.16 97.79) (xy 265.43 97.79)
 		)
 		(stroke
-			(width 0)
+			(width 0.5)
 			(type default)
 		)
 		(uuid "571c10c0-0dd2-491a-9ba5-a44b9231daff")
@@ -4197,7 +4185,7 @@
 			(xy 256.54 97.79) (xy 264.16 97.79)
 		)
 		(stroke
-			(width 0)
+			(width 0.5)
 			(type default)
 		)
 		(uuid "6a1ea1a9-f070-43e6-a2be-f70732b8f143")
@@ -4241,6 +4229,16 @@
 			(type default)
 		)
 		(uuid "70462e8c-e331-4422-81dc-cf530942d705")
+	)
+	(wire
+		(pts
+			(xy 246.38 95.25) (xy 246.38 97.79)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "70f0b4f1-9f2d-4b5f-9adc-6b35c1d20731")
 	)
 	(wire
 		(pts
@@ -4594,16 +4592,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 36.83) (xy 34.29 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a81fa8b-1c1d-4de6-97b5-7f813b262c9e")
-	)
-	(wire
-		(pts
 			(xy 165.1 66.04) (xy 166.37 66.04)
 		)
 		(stroke
@@ -4627,7 +4615,7 @@
 			(xy 241.3 95.25) (xy 246.38 95.25)
 		)
 		(stroke
-			(width 0)
+			(width 0.5)
 			(type default)
 		)
 		(uuid "9c7c93e8-0e66-4694-97f8-12f2c57b7b1c")
@@ -5417,7 +5405,7 @@
 			(xy 246.38 97.79) (xy 256.54 97.79)
 		)
 		(stroke
-			(width 0)
+			(width 0.5)
 			(type default)
 		)
 		(uuid "e6de4559-5cb8-46ee-ac98-9b9c0612ba2c")
@@ -5511,16 +5499,6 @@
 			(type default)
 		)
 		(uuid "f1ece2a1-2fbf-44df-80cd-9bdddc9edb72")
-	)
-	(wire
-		(pts
-			(xy 27.94 36.83) (xy 29.21 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2bdb35b-6456-401d-9429-cc388d8963ff")
 	)
 	(wire
 		(pts
@@ -6007,6 +5985,37 @@
 		)
 		(uuid "f80a9f65-44a8-4ad7-962f-403f2b80638c")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 256.54 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6104cfd-f228-4f5a-9cf1-2fe274ef5f71")
+		(property "Netclass" "PWR RAIL"
+			(at 257.2385 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -13.97 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 165.1 62.23 90)
@@ -6085,7 +6094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04ae1a38-a707-4e38-a2bd-30fa8b5edd98")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR033"
 			(at 35.56 43.18 0)
 			(effects
 				(font
@@ -6136,7 +6145,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR0169")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6286,7 +6295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11743e77-7fa3-4bce-9bda-9516fe233c86")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 68.58 120.65 0)
 			(effects
 				(font
@@ -6337,7 +6346,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6490,7 +6499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19d1509d-6ae4-45aa-9a63-c81e3ee4e2da")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 77.47 54.61 0)
 			(effects
 				(font
@@ -6541,7 +6550,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7097,7 +7106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 195.58 118.11 0)
 			(effects
 				(font
@@ -7286,7 +7295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32015dcb-9724-4adc-949a-97712815c701")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 219.71 74.93 0)
 			(effects
 				(font
@@ -7337,7 +7346,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7834,7 +7843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 165.1 83.82 0)
 			(effects
 				(font
@@ -7956,7 +7965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b7b201d-1874-498e-9f77-503309d39ea6")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 127 53.34 0)
 			(effects
 				(font
@@ -8007,7 +8016,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8023,7 +8032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c04c2a6-8cd6-49a9-9ca0-68ebf6b5d044")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 41.91 63.5 0)
 			(effects
 				(font
@@ -8074,7 +8083,7 @@
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -8578,7 +8587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 29.21 93.98 0)
 			(effects
 				(font
@@ -8646,7 +8655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 252.73 114.3 0)
 			(effects
 				(font
@@ -8699,7 +8708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52eda32d-58af-4261-9fa1-1d334a979d77")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 152.4 50.8 0)
 			(effects
 				(font
@@ -8750,7 +8759,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8765,7 +8774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58a95c60-94ff-4a50-aa56-5febc8518fb2")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -8816,7 +8825,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -9039,7 +9048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 259.08 111.76 0)
 			(effects
 				(font
@@ -9226,7 +9235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a1ed8bd-1101-4a24-9f30-e1e1457fa2a6")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 251.46 109.22 0)
 			(effects
 				(font
@@ -9277,7 +9286,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9433,7 +9442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fe9e1d6-24c1-4f12-b818-efa9d1df6089")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 99.06 107.95 0)
 			(effects
 				(font
@@ -9484,7 +9493,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9568,7 +9577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7735fa78-98d1-477a-982c-33241423ae45")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 165.1 30.48 0)
 			(effects
 				(font
@@ -9619,7 +9628,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10025,7 +10034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88b5e234-e3ca-40ed-a8f2-10fde7607c8e")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 226.06 128.27 0)
 			(effects
 				(font
@@ -10076,7 +10085,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -10109,7 +10118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 165.1 96.52 0)
 			(effects
 				(font
@@ -10245,7 +10254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.43 111.76 0)
 			(effects
 				(font
@@ -11050,7 +11059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b04451db-7266-4146-ba73-6233e67a6777")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 29.21 104.14 0)
 			(effects
 				(font
@@ -11101,7 +11110,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11117,7 +11126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b10a2d58-078f-4ca0-aaf9-877804e92a4b")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 152.4 86.36 0)
 			(effects
 				(font
@@ -11168,7 +11177,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -11874,7 +11883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cccaf67c-9ca1-456b-a380-2f9883e19c5e")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 165.1 106.68 0)
 			(effects
 				(font
@@ -11925,7 +11934,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -12204,73 +12213,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 31.75 36.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7d35380-62eb-4c5b-b700-98eb131b4000")
-		(property "Reference" "C28"
-			(at 31.7437 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22u"
-			(at 31.7437 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 31.75 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 31.75 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9853c778-3823-49a8-a030-b0668c7621a6")
-		)
-		(pin "2"
-			(uuid "58a14aac-74a4-4ed8-9aec-1aa996080022")
-		)
-		(instances
-			(project "CM5 Nas"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 120.65 104.14 90)
 		(mirror x)
 		(unit 1)
@@ -12364,7 +12306,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 99.06 0)
 			(effects
 				(font
@@ -12416,7 +12358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e32afb7e-4a3b-46c7-b9a5-f9653798d26a")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR032"
 			(at 20.32 43.18 0)
 			(effects
 				(font
@@ -12467,7 +12409,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR0168")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12483,7 +12425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea5493df-b667-462f-968d-6310b96bbe48")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 41.91 85.09 0)
 			(effects
 				(font
@@ -12534,7 +12476,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/588cd356-21c7-4636-b12c-e09ccb478c44"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12771,7 +12713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 29.21 81.28 0)
 			(effects
 				(font

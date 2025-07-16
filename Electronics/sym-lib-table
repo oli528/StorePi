@@ -23,4 +23,5 @@
   (lib (name "XT60PW-M")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/XT60PW-M.kicad_sym")(options "")(descr ""))
   (lib (name "4DB-P108-03")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/4DB-P108-03.kicad_sym")(options "")(descr ""))
   (lib (name "10029364-001LF")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/10029364-001LF.kicad_sym")(options "")(descr ""))
+  (lib (name "0877131001")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0877131001.kicad_sym")(options "")(descr ""))
 )
