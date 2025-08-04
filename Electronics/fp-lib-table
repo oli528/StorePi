@@ -56,4 +56,8 @@
   (lib (name "87713-1001")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/87713-1001")(options "")(descr ""))
   (lib (name "10029364001LF")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/10029364001LF")(options "")(descr ""))
   (lib (name "QR1")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/QR1.pretty")(options "")(descr ""))
+  (lib (name "W25X20CLUXIG_TR")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/W25X20CLUXIG_TR")(options "")(descr ""))
+  (lib (name "Sot23_SAO")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/Sot23_SAO")(options "")(descr ""))
+  (lib (name "G45A19071083HR")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/G45A19071083HR")(options "")(descr ""))
+  (lib (name "482040001")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/482040001")(options "")(descr ""))
 )

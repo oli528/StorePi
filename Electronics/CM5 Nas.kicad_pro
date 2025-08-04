@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.5,
-          "width": 3.5
+          "height": 1.3,
+          "width": 0.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -125,11 +125,11 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.2,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.25,
+        "min_connection": 0.15,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.254,
-        "min_hole_to_hole": 0.2,
+        "min_hole_clearance": 0.26,
+        "min_hole_to_hole": 0.26,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
@@ -139,7 +139,7 @@
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.55,
+        "min_via_diameter": 0.65,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -193,11 +193,10 @@
         0.0,
         0.15,
         0.2,
-        0.25,
         0.3,
-        0.35,
-        0.4,
-        0.5
+        0.3493,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -231,19 +230,15 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.55,
+          "diameter": 0.65,
           "drill": 0.25
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
         },
         {
           "diameter": 0.7,
           "drill": 0.3
         },
         {
-          "diameter": 0.8,
+          "diameter": 0.9,
           "drill": 0.4
         }
       ],
@@ -524,54 +519,52 @@
       },
       {
         "name": "ETHERNET",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "pcb_color": "rgb(151, 0, 145)",
+        "priority": 3,
         "schematic_color": "rgb(151, 0, 145)"
       },
       {
+        "name": "GND",
+        "pcb_color": "rgb(137, 137, 137)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "name": "I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "pcb_color": "rgb(255, 152, 31)",
+        "priority": 5,
         "schematic_color": "rgb(255, 152, 31)"
       },
       {
         "name": "PCIE",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "pcb_color": "rgb(20, 150, 16)",
+        "priority": 2,
         "schematic_color": "rgb(20, 150, 16)"
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgb(252, 17, 0)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25
+        "priority": 7,
+        "schematic_color": "rgb(252, 17, 0)"
       },
       {
         "name": "PWR RAIL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(180, 5, 0)"
       },
       {
         "name": "SPI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "pcb_color": "rgb(211, 220, 31)",
+        "priority": 4,
         "schematic_color": "rgb(205, 187, 0)"
       },
       {
         "name": "USB DIF",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "pcb_color": "rgb(0, 103, 189)",
+        "priority": 1,
         "schematic_color": "rgb(0, 103, 189)"
       }
     ],
@@ -580,6 +573,27 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+12V": [
+        "PWR RAIL"
+      ],
+      "+1V2": [
+        "PWR RAIL"
+      ],
+      "+1V2A": [
+        "PWR RAIL"
+      ],
+      "+3V3": [
+        "PWR RAIL"
+      ],
+      "+3V3A": [
+        "PWR RAIL"
+      ],
+      "+5V": [
+        "PWR RAIL"
+      ],
+      "+5V S2": [
+        "PWR RAIL"
+      ],
       "/Project Architecture/+12V": [
         "PWR RAIL"
       ],
@@ -688,6 +702,24 @@
       "/Project Architecture/CM5_High Speed IO/PCIE_TX_P": [
         "PCIE DIF"
       ],
+      "/Project Architecture/CM5_High Speed IO/PCIe_CLK_N": [
+        "PCIE DIF"
+      ],
+      "/Project Architecture/CM5_High Speed IO/PCIe_CLK_P": [
+        "PCIE DIF"
+      ],
+      "/Project Architecture/CM5_High Speed IO/PCIe_RX_N": [
+        "PCIE DIF"
+      ],
+      "/Project Architecture/CM5_High Speed IO/PCIe_RX_P": [
+        "PCIE DIF"
+      ],
+      "/Project Architecture/CM5_High Speed IO/PCIe_TX_N": [
+        "PCIE DIF"
+      ],
+      "/Project Architecture/CM5_High Speed IO/PCIe_TX_P": [
+        "PCIE DIF"
+      ],
       "/Project Architecture/CM5_High Speed IO/USB2_N": [
         "USB DIF"
       ],
@@ -757,6 +789,9 @@
       "/Project Architecture/M.2 Drives/PCIE_TX_P": [
         "PCIE"
       ],
+      "/Project Architecture/M.2 Drives/PCIe_CLK_N": [
+        "PCIE"
+      ],
       "/Project Architecture/M.2 Drives/PCIe_CLK_N_1": [
         "PCIE"
       ],
@@ -767,6 +802,9 @@
         "PCIE"
       ],
       "/Project Architecture/M.2 Drives/PCIe_CLK_N_4": [
+        "PCIE"
+      ],
+      "/Project Architecture/M.2 Drives/PCIe_CLK_P": [
         "PCIE"
       ],
       "/Project Architecture/M.2 Drives/PCIe_CLK_P_1": [
@@ -781,6 +819,9 @@
       "/Project Architecture/M.2 Drives/PCIe_CLK_P_4": [
         "PCIE"
       ],
+      "/Project Architecture/M.2 Drives/PCIe_RX_N": [
+        "PCIE"
+      ],
       "/Project Architecture/M.2 Drives/PCIe_RX_N_1": [
         "PCIE"
       ],
@@ -791,6 +832,9 @@
         "PCIE"
       ],
       "/Project Architecture/M.2 Drives/PCIe_RX_N_4": [
+        "PCIE"
+      ],
+      "/Project Architecture/M.2 Drives/PCIe_RX_P": [
         "PCIE"
       ],
       "/Project Architecture/M.2 Drives/PCIe_RX_P_1": [
@@ -805,6 +849,9 @@
       "/Project Architecture/M.2 Drives/PCIe_RX_P_4": [
         "PCIE"
       ],
+      "/Project Architecture/M.2 Drives/PCIe_TX_N": [
+        "PCIE"
+      ],
       "/Project Architecture/M.2 Drives/PCIe_TX_N_1": [
         "PCIE"
       ],
@@ -815,6 +862,9 @@
         "PCIE"
       ],
       "/Project Architecture/M.2 Drives/PCIe_TX_N_4": [
+        "PCIE"
+      ],
+      "/Project Architecture/M.2 Drives/PCIe_TX_P": [
         "PCIE"
       ],
       "/Project Architecture/M.2 Drives/PCIe_TX_P_1": [
@@ -918,6 +968,12 @@
       ],
       "/Project Architecture/Usb Switch/+5V S1": [
         "PWR RAIL"
+      ],
+      "/Project Architecture/Usb Switch/USB2_N": [
+        "USB DIF"
+      ],
+      "/Project Architecture/Usb Switch/USB2_P": [
+        "USB DIF"
       ]
     },
     "netclass_patterns": [
@@ -926,7 +982,7 @@
         "pattern": "+*"
       },
       {
-        "netclass": "PWR RAIL",
+        "netclass": "GND",
         "pattern": "gnd"
       },
       {

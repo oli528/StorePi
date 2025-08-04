@@ -15584,7 +15584,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 306.07 137.16) (xy 308.61 137.16) (xy 308.61 142.24) (xy 306.07 142.24)
+				(xy 306.07 110.49) (xy 306.07 123.19) (xy 308.61 123.19) (xy 308.61 110.49)
 			)
 			(stroke
 				(width 0)
@@ -15593,7 +15593,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 858a82a7-7fc2-41c3-8afa-de259dd0b0c8)
+			(uuid 28fa770d-881e-4400-8ec6-7805762617f7)
 		)
 	)
 	(rule_area
@@ -15608,22 +15608,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 86c5bed2-c347-4a52-9ef1-e1ee1d54fc71)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 306.07 110.49) (xy 306.07 123.19) (xy 308.61 123.19) (xy 308.61 110.49)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid d0ae15f3-8c40-4652-8959-82617ae3bd4d)
+			(uuid 4787483d-06d1-48a7-ac1f-fb433fc9fb83)
 		)
 	)
 	(rule_area
@@ -15638,7 +15623,22 @@
 			(fill
 				(type none)
 			)
-			(uuid f48421ef-24b1-4f88-9cd6-e49fd98771a5)
+			(uuid 529c126c-bcb0-431e-9ab1-79d391c254c7)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 306.07 137.16) (xy 308.61 137.16) (xy 308.61 142.24) (xy 306.07 142.24)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid df0d5af1-1716-470e-959c-ba47a006227d)
 		)
 	)
 	(netclass_flag ""
@@ -19584,8 +19584,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
-			(at 39.878 183.896 0)
+		(property "Value" "BSS84AKW115"
+			(at 48.26 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
