@@ -4438,6 +4438,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:Earth"
 			(power)
 			(pin_numbers
@@ -6445,16 +6570,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 21.59) (xy 41.91 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08ed5c91-241a-4311-8a22-a8b5541e9fc1")
-	)
-	(wire
-		(pts
 			(xy 87.63 81.28) (xy 104.14 81.28)
 		)
 		(stroke
@@ -6582,16 +6697,6 @@
 			(type default)
 		)
 		(uuid "120c848d-23f9-4049-8ab6-e1fdf35d28f3")
-	)
-	(wire
-		(pts
-			(xy 25.4 21.59) (xy 25.4 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12651c43-d582-4b95-b823-f09289a5fec9")
 	)
 	(wire
 		(pts
@@ -9085,16 +9190,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 21.59) (xy 41.91 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90b370ff-5220-4e0d-87e2-6dd65967956e")
-	)
-	(wire
-		(pts
 			(xy 137.16 67.31) (xy 168.91 67.31)
 		)
 		(stroke
@@ -9102,6 +9197,16 @@
 			(type default)
 		)
 		(uuid "9109ca9c-8f7a-4f12-89e4-795137d42c91")
+	)
+	(wire
+		(pts
+			(xy 214.63 85.09) (xy 214.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917b894b-5a7e-4ca9-869a-ae3e89b04839")
 	)
 	(wire
 		(pts
@@ -9342,6 +9447,16 @@
 			(type default)
 		)
 		(uuid "a0fa9a3a-323d-4b36-8703-57b71767794a")
+	)
+	(wire
+		(pts
+			(xy 214.63 86.36) (xy 223.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2061501-c01a-4fd4-ae23-55bef3b7d786")
 	)
 	(wire
 		(pts
@@ -10002,16 +10117,6 @@
 			(type default)
 		)
 		(uuid "c4a7d8e9-7db0-40f9-b1dd-096bcbd06773")
-	)
-	(wire
-		(pts
-			(xy 20.32 21.59) (xy 25.4 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c55084df-eebc-4c54-a02c-20e233348313")
 	)
 	(wire
 		(pts
@@ -10782,16 +10887,6 @@
 			(type default)
 		)
 		(uuid "ed3e96ff-afc5-4397-8612-4c920c4804a8")
-	)
-	(wire
-		(pts
-			(xy 218.44 86.36) (xy 223.52 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed5dd509-3497-4da6-85e3-c24e843b8fcc")
 	)
 	(wire
 		(pts
@@ -11986,17 +12081,6 @@
 		)
 		(uuid "185d4a7d-19cf-4f92-9c6a-5aebad07b11f")
 	)
-	(hierarchical_label "+3V3A"
-		(shape input)
-		(at 38.1 21.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "19e92676-a4f6-4d10-a406-790d7e81184d")
-	)
 	(hierarchical_label "PCIE_nCLKREQ"
 		(shape bidirectional)
 		(at 322.58 144.78 180)
@@ -12052,17 +12136,6 @@
 		)
 		(uuid "68bfb085-5169-404a-8293-34a3e80b06ba")
 	)
-	(hierarchical_label "+5V S1"
-		(shape input)
-		(at 313.69 87.63 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7fc62146-3feb-4551-ad4c-bceb68a6c89b")
-	)
 	(hierarchical_label "PCIE_nWAKE"
 		(shape bidirectional)
 		(at 228.6 148.59 180)
@@ -12073,17 +12146,6 @@
 			(justify right)
 		)
 		(uuid "80322131-87dc-41bd-a2cf-d7876f71a873")
-	)
-	(hierarchical_label "+5V S1"
-		(shape input)
-		(at 218.44 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a177b1e5-e3de-440b-aeb0-5c5b99332280")
 	)
 	(hierarchical_label "PCIE_nWAKE"
 		(shape bidirectional)
@@ -12162,17 +12224,6 @@
 		)
 		(uuid "fc1ca571-77e8-42f3-b02d-099ee2966650")
 	)
-	(hierarchical_label "+1V2D"
-		(shape input)
-		(at 20.32 21.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ff770f3c-6d93-433e-a47a-6054fd76d50f")
-	)
 	(rule_area
 		(polyline
 			(pts
@@ -12185,7 +12236,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 87a3aef9-fb8f-4b5c-8ea5-138c24c4a0b4)
+			(uuid 61cff791-cafa-4c2a-8c7e-0055c145314c)
 		)
 	)
 	(netclass_flag ""
@@ -13718,6 +13769,72 @@
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
 					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 214.63 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f716c23-914f-43c8-8357-96955f2ace77")
+		(property "Reference" "#PWR051"
+			(at 214.63 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V S1"
+			(at 214.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 214.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c02dc0f0-6830-41e7-8789-a24ca7b53764")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -15532,70 +15649,6 @@
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V2")
-		(at 25.4 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4033a6d8-d4a4-43aa-b969-5a7343d87e14")
-		(property "Reference" "#PWR051"
-			(at 25.4 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V2"
-			(at 25.146 17.018 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 25.4 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5d10a03d-9e4e-40b5-b02e-e766614eecc4")
-		)
-		(instances
-			(project "CM5 Nas"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -18788,6 +18841,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 313.69 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b24ccd9b-b5c6-465b-88fc-d73aac7d1d88")
+		(property "Reference" "#PWR052"
+			(at 313.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V S1"
+			(at 313.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 313.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 313.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd8ee34b-9351-44e1-9e6c-1248831a4f50")
+		)
+		(instances
+			(project "CM5 Nas"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 246.38 90.17 90)
 		(unit 1)
@@ -21207,70 +21326,6 @@
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 41.91 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f55ef88c-8286-4cd2-99f8-ce452745e8fb")
-		(property "Reference" "#PWR052"
-			(at 41.91 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3A"
-			(at 42.164 16.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e24a502d-eee0-4b25-95e2-ba9b1c524eaa")
-		)
-		(instances
-			(project "CM5 Nas"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3838f96b-aabd-4e80-8b25-6301712882d2"
-					(reference "#PWR052")
 					(unit 1)
 				)
 			)
