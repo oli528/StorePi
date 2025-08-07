@@ -527,7 +527,7 @@
         "name": "GND",
         "pcb_color": "rgb(137, 137, 137)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgb(164, 168, 169)"
       },
       {
         "name": "I2C",
@@ -589,6 +589,9 @@
         "PWR RAIL"
       ],
       "+5V": [
+        "PWR RAIL"
+      ],
+      "+5V S1": [
         "PWR RAIL"
       ],
       "+5V S2": [
@@ -726,6 +729,12 @@
       "/Project Architecture/CM5_High Speed IO/USB2_P": [
         "USB DIF"
       ],
+      "/Project Architecture/CM5_High Speed IO/USB3-0-D_N": [
+        "USB DIF"
+      ],
+      "/Project Architecture/CM5_High Speed IO/USB3-0-D_P": [
+        "USB DIF"
+      ],
       "/Project Architecture/CM5_High Speed IO/USB3-0-RX_N": [
         "USB DIF"
       ],
@@ -736,6 +745,12 @@
         "USB DIF"
       ],
       "/Project Architecture/CM5_High Speed IO/USB3-0-TX_P": [
+        "USB DIF"
+      ],
+      "/Project Architecture/CM5_High Speed IO/USB3-1-D_N": [
+        "USB DIF"
+      ],
+      "/Project Architecture/CM5_High Speed IO/USB3-1-D_P": [
         "USB DIF"
       ],
       "/Project Architecture/CM5_High Speed IO/USB3-1-RX_N": [
@@ -756,7 +771,13 @@
       "/Project Architecture/Input/+12V": [
         "PWR RAIL"
       ],
+      "/Project Architecture/Input/+12V NF": [
+        "PWR RAIL"
+      ],
       "/Project Architecture/Input/+5V": [
+        "PWR RAIL"
+      ],
+      "/Project Architecture/Input/+5V NF": [
         "PWR RAIL"
       ],
       "/Project Architecture/M.2 Drives/+3V3 M.2": [
@@ -900,7 +921,13 @@
       "/Project Architecture/Power/SUP": [
         "PWR RAIL"
       ],
+      "/Project Architecture/SCL USBH": [
+        "I2C"
+      ],
       "/Project Architecture/SCL0": [
+        "I2C"
+      ],
+      "/Project Architecture/SDA USBH": [
         "I2C"
       ],
       "/Project Architecture/SDA0": [
@@ -936,6 +963,12 @@
       "/Project Architecture/USB2_P": [
         "USB DIF"
       ],
+      "/Project Architecture/USB3-0-D_N": [
+        "USB DIF"
+      ],
+      "/Project Architecture/USB3-0-D_P": [
+        "USB DIF"
+      ],
       "/Project Architecture/USB3-0-RX_N": [
         "USB DIF"
       ],
@@ -946,6 +979,12 @@
         "USB DIF"
       ],
       "/Project Architecture/USB3-0-TX_P": [
+        "USB DIF"
+      ],
+      "/Project Architecture/USB3-1-D_N": [
+        "USB DIF"
+      ],
+      "/Project Architecture/USB3-1-D_P": [
         "USB DIF"
       ],
       "/Project Architecture/USB3-1-RX_N": [
