@@ -13396,7 +13396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a65e3e8-cf19-4027-8ef1-f6cf50e32edf")
-		(property "Reference" "U?"
+		(property "Reference" "U12"
 			(at 111.76 157.48 0)
 			(effects
 				(font
@@ -13550,7 +13550,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/39c281b2-2608-4942-ba08-2308e06d446a"
-					(reference "U?")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -17030,7 +17030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edd8d5ae-5a0d-443a-afc3-4103be5fc631")
-		(property "Reference" "JP?"
+		(property "Reference" "JP6"
 			(at 84.582 171.45 0)
 			(effects
 				(font
@@ -17087,7 +17087,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/39c281b2-2608-4942-ba08-2308e06d446a"
-					(reference "JP?")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -17168,7 +17168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f202f57d-bd64-4348-bfe7-9c41293d7eb6")
-		(property "Reference" "R?"
+		(property "Reference" "R85"
 			(at 82.55 161.2899 0)
 			(effects
 				(font
@@ -17222,7 +17222,7 @@
 		(instances
 			(project "CM5 Nas"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/39c281b2-2608-4942-ba08-2308e06d446a"
-					(reference "R?")
+					(reference "R85")
 					(unit 1)
 				)
 			)

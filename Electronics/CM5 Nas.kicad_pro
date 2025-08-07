@@ -771,7 +771,13 @@
       "/Project Architecture/Input/+12V": [
         "PWR RAIL"
       ],
+      "/Project Architecture/Input/+12V NF": [
+        "PWR RAIL"
+      ],
       "/Project Architecture/Input/+5V": [
+        "PWR RAIL"
+      ],
+      "/Project Architecture/Input/+5V NF": [
         "PWR RAIL"
       ],
       "/Project Architecture/M.2 Drives/+3V3 M.2": [

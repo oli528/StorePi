@@ -11703,7 +11703,7 @@
 		)
 		(uuid "3e7976bb-5a3c-40d5-aa44-5a3184991c76")
 	)
-	(text "Change two 3 pin"
+	(text "Change two 0470531000\nadd tacho\n"
 		(exclude_from_sim no)
 		(at 86.995 191.77 0)
 		(effects
@@ -16181,7 +16181,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 306.07 110.49) (xy 306.07 123.19) (xy 308.61 123.19) (xy 308.61 110.49)
+				(xy 267.97 48.26) (xy 275.59 48.26) (xy 276.86 49.53) (xy 276.86 80.01) (xy 267.97 80.01)
 			)
 			(stroke
 				(width 0)
@@ -16190,22 +16190,7 @@
 			(fill
 				(type none)
 			)
-			(uuid cf3e0575-21a2-4d6c-95b3-ec6b659a6ef5)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 306.07 138.43) (xy 308.61 138.43) (xy 308.61 142.24) (xy 306.07 142.24)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid d55fb64b-833f-4f1b-b847-914d88e1d031)
+			(uuid 363a1f74-8104-44be-9436-ab196c78f5fe)
 		)
 	)
 	(rule_area
@@ -16220,13 +16205,13 @@
 			(fill
 				(type none)
 			)
-			(uuid e02b2e59-b341-4302-9a55-84da11fc1a40)
+			(uuid 6a1f8064-46ba-49ac-a4e9-2be9a54c1ab1)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 267.97 48.26) (xy 275.59 48.26) (xy 276.86 49.53) (xy 276.86 80.01) (xy 267.97 80.01)
+				(xy 306.07 110.49) (xy 306.07 123.19) (xy 308.61 123.19) (xy 308.61 110.49)
 			)
 			(stroke
 				(width 0)
@@ -16235,7 +16220,22 @@
 			(fill
 				(type none)
 			)
-			(uuid f155febb-daa2-4261-8fcf-a0d63f638ff5)
+			(uuid bac60da1-85be-4c3d-93e8-15dfd59908dd)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 306.07 138.43) (xy 308.61 138.43) (xy 308.61 142.24) (xy 306.07 142.24)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid f050b7dc-d9cf-4a5c-8646-dbc91744a7b3)
 		)
 	)
 	(netclass_flag ""
